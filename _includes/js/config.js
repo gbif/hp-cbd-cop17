@@ -1,0 +1,1 @@
+// No content needed for static site (build pipeline will load this file, so don't delete it)
