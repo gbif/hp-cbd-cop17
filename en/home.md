@@ -1,28 +1,18 @@
 ---
 lang-ref: home
 layout: home
-title: My headline
-description: Lorem markdownum spatium limes indefessus neque *at* orat aestuat
+title: COP17 Data to Action Pavilion | Connecting science and knowledge systems for biodiversity
+description: Convened at the CBD COP17 in Yerevan by GEO, GEO BON, GBIF and the Smithsonian Institution, the Data to Action Pavilion is a collaborative initiative bringing together organizations from across the biodiversity knowledge system to demonstrate how integrated science and information systems can accelerate implementation of the Kunming-Montreal Global Biodiversity Framework.
 background: /assets/images/placeholders/templates/w1600h800.png
 imageLicense: None for this image
 height: 70vh
 cta:
-  - text: Occurrences
-    href: /occurrence/search
-    isPrimary: true # this will break as it is illegal yaml
-  - text: Datasets
-    href: /dataset/search
+  - text: What's on
+    href: /calendar
+    isPrimary: true
+  - text: About the Pavilion
+    href: /about
 permalink: /
 ---
 
-Edit `/home.md` to change the text.
-
-Lorem markdownum spatium limes indefessus neque *at* orat aestuat, quicquam ne
-flavusque omnibus, virginis socerque sparsos vidimus eundem. Sustinet **ramo
-pontum ut** avus quamquam de trabes vestemque cruorem tremor.
-
-Viscera mercibus isdem hebetarat undas! Iubet ora ire unum telis adicit, si
-Telephus *valent*, instructo refers. Ille **est resque**, sic ruris erit ante
-profana detegeret. Et cogor tractus arboribus prensurum praesens memorantur
-neque inplet iussus temeraria merui **fas ecce** aethera dixit fieretque [plura
-tollebat altius](http://virgineusque.net/est.html).
+The Data to Action Pavilion is a collaborative initiative that brings together organizations working across the biodiversity knowledge system, from monitoring and Earth observations to data infrastructure, scientific collections and research, decision-support tools, capacity development,and policy support to demonstrate how integrated science and information systems can accelerate implementation of the Kunming-Montreal Global Biodiversity Framework (KMGBF).
