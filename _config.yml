@@ -19,17 +19,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Template_site # the title of your site should go here
-email: your-email@example.com
-description: >- # this means to ignore newlines (until baseurl:)
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: COP17 Data to Action Pavilion
+email: info@cop17pavilion.org
+description:  Convened by GEO, GEO BON, GBIF and the Smithsonian Institution for CBD COP17 in Yerevan, the Data to Action Pavilion is a collaborative initiative bringing together organizations from across the biodiversity knowledge system to demonstrate how integrated science and information systems can accelerate implementation of the Kunming-Montreal Global Biodiversity Framework.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cbd-cop17.hp.gbif.org/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # SOCIAL PROFILES that will show in the footer
-email: info@gbif.org                                      # Social icon in footer
+email: info@cop17pavilion.org                                      # Social icon in footer
 twitter_username: yourname # if you have an account you want to link to. Else comment this line out
 github_username:  yourname # if you have an account you want to link to. Else comment this line out
 bluesky_username: yourname.org                            # Social icon in footer
@@ -50,7 +47,7 @@ remote_theme: gbif/jekyll-hp-base-theme
 
 algae:
   rootLang: en
-  # latestPostLimit: 2
+  # latestPostLimit: 3
   # logo: /assets/images/fungi.svg  # Logo in navbar, will be displayed with 28px height
   # logoAndTitle: false           # include the title next to the logo
   archive_permalink: /news/       # Permalink of page using archive.html layout, required when using post categories
