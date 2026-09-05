@@ -3,7 +3,7 @@ lang-ref: home
 layout: home
 title: COP17 Data to Action Pavilion
 description: Connecting science and knowledge systems for biodiversity
-background: /assets/images/placeholders/templates/w1600h800.png
+background: /assets/images/pavilion-main.png
 imageLicense: None for this image
 height: 70vh
 cta:
