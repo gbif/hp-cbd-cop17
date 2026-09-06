@@ -1,5 +1,6 @@
 ---
 layout: compose
+klass: compositionBlocks
 title: Partners
 description: The theme lets you stitch blocks together from the frontmatter. Below is examples of how. See [`pages/compose.md`](https://github.com/gbif/jekyll-hp-base-theme/blob/master/pages/layout/compose.md) for the raw Markdown of this page.
 background: 
@@ -12,31 +13,25 @@ composition:
 ---
 
 title: "Conveners"
-description: |
-  See [`_data/compose/features.yml`](https://github.com/gbif/jekyll-theme-algae/blob/master/_data/compose/features.yml) for the content structure.
+description: Pavilion leadership, governance and coordination
 features:
   - title: "GEO"
-    description: |      # required
-      Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
-    # img required
+    description: Group on Earth Observations
     background: /assets/img/Haeckel_Caulerpa_racemosa.jpeg
     href: https://earthobservations.org/index.php
   - title: "GEO BON"
-    description: |      # required
-      Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
-    # img required
+    description: Group on Earth Observations Biodiversity Observation Network
     background: /assets/img/Haeckel_Caulerpa_racemosa.jpeg
     href: https://geobon.org
   - title: "GBIF"
-    description: |      # required
-      Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
-    # img required
+    description: Global Biodiversity Information Facility
     background: /assets/img/Haeckel_Caulerpa_racemosa.jpeg
     href: https://www.gbif.org/
   - title: Smithsonian Institution
-    description: |      # required
-      Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
-    # img required
+    description: Smithsonian Institution
     background: /assets/img/Haeckel_Caulerpa_racemosa.jpeg
     href: https://www.si.edu
-    
+  - title: UZH: University of Zurich
+    description: University of Zurich  
+    background: /assets/img/Haeckel_Caulerpa_racemosa.jpeg
+    href: https://www.uzh.ch/en
