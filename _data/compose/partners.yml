@@ -1,0 +1,23 @@
+title: Conveners
+description: Pavilion leadership, governance and coordination
+features:
+  - title: "GEO"
+    description: Group on Earth Observations
+    background: /assets/img/Haeckel_Caulerpa_racemosa.jpeg
+    href: https://earthobservations.org/index.php
+  - title: "GEO BON"
+    description: Group on Earth Observations Biodiversity Observation Network
+    background: /assets/img/Haeckel_Caulerpa_racemosa.jpeg
+    href: https://geobon.org
+  - title: "GBIF"
+    description: Global Biodiversity Information Facility
+    background: /assets/img/Haeckel_Caulerpa_racemosa.jpeg
+    href: https://www.gbif.org/
+  - title: Smithsonian Institution
+    description: Smithsonian Institution
+    background: /assets/img/Haeckel_Caulerpa_racemosa.jpeg
+    href: https://www.si.edu
+  - title: UZH: University of Zurich
+    description: University of Zurich  
+    background: /assets/img/Haeckel_Caulerpa_racemosa.jpeg
+    href: https://www.uzh.ch/en
