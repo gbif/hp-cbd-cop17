@@ -14,6 +14,8 @@ composition:
 
 ### Conveners
 
+_Pavilion leadership, governance and coordination_
+
 composition:
 - type: features
   data: compose.partners
