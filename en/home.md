@@ -11,7 +11,7 @@ cta:
     href: /calendar
     isPrimary: true
   - text: Who's who
-    href: /partners
+    href: /collaborators
 permalink: /
 ---
 
