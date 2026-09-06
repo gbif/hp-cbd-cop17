@@ -3,6 +3,8 @@ lang-ref: page
 layout: page
 title: Calendar of events
 description: What's on at the COP17 Data to Action Pavilion
+background: /assets/images/stromatolites-dhobern.jpg
+imageLicence: Stromatolites, Hamelin Pool, Western Australia. [Photo](https://flic.kr/p/EduP2R) 2018 Donald Hobern licensed under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/deed.en) 
 permalink: /calendar/
 ---
 
