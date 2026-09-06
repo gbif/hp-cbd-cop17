@@ -9,7 +9,7 @@ hasTextShadow: true
 permalink: /collaborators/
 composition:
 - type: features
-  data: compose.partners
+  data: compose.conveners
 - type: features
   data: compose.partners
 - type: features
