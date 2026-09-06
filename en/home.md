@@ -4,7 +4,7 @@ layout: home
 title: COP17 Data to Action Pavilion
 description: _Connecting science and knowledge systems for biodiversity_
 background: assets/images/Tulipa biflora-iNat-utaland-crop.jpg
-imageLicense: CC BY-NC 4.0
+imageLicense: _Tulipa biflora_ observed in Armenia. Photo 2024 utaland via [iNaturalist](https://www.gbif.org/occurrence/5936012400) licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
 height: 70vh
 cta:
   - text: What's on
