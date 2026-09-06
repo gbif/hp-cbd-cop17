@@ -9,7 +9,7 @@ hasTextShadow: true
 permalink: /partners/
 composition:
 - type: features
-  data: compose.conveners
+  data: compose.partners
 ---
 
 ### Conveners
