@@ -12,3 +12,7 @@ composition:
   data: compose.conveners
 ---
 
+composition:
+- type: features
+  data: compose.partners
+  
