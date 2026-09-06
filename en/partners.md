@@ -2,7 +2,7 @@
 layout: compose
 klass: compositionBlocks
 title: Partners
-description: The theme lets you stitch blocks together from the frontmatter. Below is examples of how. See [`pages/compose.md`](https://github.com/gbif/jekyll-hp-base-theme/blob/master/pages/layout/compose.md) for the raw Markdown of this page.
+description: The organization collaborating on the Data to Action Pavilion span the full spectrum of the biodiversity data value chain, from monitoring and Earth observations to data infrastructure, scientific collections and research, decision-support tools, capacity development and policy support.
 background: 
 imageLicense: caption
 hasTextShadow: true
