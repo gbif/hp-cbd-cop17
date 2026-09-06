@@ -10,8 +10,8 @@ cta:
   - text: What's on
     href: /calendar
     isPrimary: true
-  - text: About the Pavilion
-    href: /about
+  - text: Who's who
+    href: /partners
 permalink: /
 ---
 
