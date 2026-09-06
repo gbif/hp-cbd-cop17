@@ -3,7 +3,7 @@ lang-ref: home
 layout: home
 title: COP17 Data to Action Pavilion
 description: Connecting science and knowledge systems for biodiversity
-background: /assets/images/pavilion-main.png
+background: assets/images/Tulipa biflora-iNat-utaland-crop.jpg
 imageLicense: CC BY-NC 4.0
 height: 70vh
 cta:
