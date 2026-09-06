@@ -12,7 +12,20 @@ composition:
   data: compose.conveners
 ---
 
+### Conveners
+
 composition:
 - type: features
   data: compose.partners
   
+### Partners: 
+
+_Program design and delivery_
+
+### Contributors
+
+_Content delivery_
+
+### Sponsors
+
+_Financial and in-kind support_
