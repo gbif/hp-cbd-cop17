@@ -1,5 +1,6 @@
 title: Conveners
 description: _Pavilion leadership, governance and coordination_
+klass: no-double-features
 features:
   - title: "GBIF"
     description: Global Biodiversity Information Facility
@@ -21,8 +22,4 @@ features:
     description: University of Zurich  
     background: /assets/img/Haeckel_Caulerpa_racemosa.jpeg
     href: https://www.uzh.ch/en
-  - title: 
-    description: 
-    background: 
-    href: 
     

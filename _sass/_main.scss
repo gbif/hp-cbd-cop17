@@ -3,3 +3,22 @@
 
 // You can add additional styling here
 @import "_example"; // either as inline css or as a separate file as in this case
+
+.no-double-features {
+  .feature-cards .feature,
+  .feature-cards .feature:nth-child(odd):last-of-type:not(:nth-child(3n)),
+  .feature-cards .feature:last-of-type:nth-child(3n),
+  .feature-cards .feature:last-of-type:nth-child(5n) {
+    display: block;
+    flex: 0 0 360px;
+
+    .feature-img {
+      max-height: none;
+      height: 0;
+      padding-bottom: 60%;
+      border-right: none;
+      border-bottom: 1px solid #0000001a;
+    }
+    > div { flex: none; }
+  }
+}
