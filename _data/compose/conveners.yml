@@ -15,6 +15,6 @@ features:
     background: assets/images/smithsonian-mark.png
     href: https://www.si.edu
   - title: "UZH: University of Zurich"
-    background: /assets/img/uzh-logo.svg
+    background: assets/images/uzh-logo.svg
     href: https://www.uzh.ch/en
     
