@@ -3,7 +3,7 @@ description: _Programme design and delivery_
 klass: no-double-features
 features:
   - title: "ESA"
-    background: /assets/img/Haeckel_Caulerpa_racemosa.jpeg
+    background: /assets/images/ESA_Logo_BK.png
     href: https://www.esa.int
   - title: "Esri"
     background: /assets/img/Haeckel_Caulerpa_racemosa.jpeg
