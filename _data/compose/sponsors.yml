@@ -3,7 +3,6 @@ description: _Financial and in-kind support_
 klass: no-double-features
 features:
   - title: "NOMIS Foundation"
-    description: Every discovery begins with a spark
     background: /assets/img/Haeckel_Caulerpa_racemosa.jpeg
     href: https://nomisfoundation.ch
   - title: "QCBS"
