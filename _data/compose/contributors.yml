@@ -3,5 +3,5 @@ description: _Content delivery_
 klass: no-double-features
 features:
   - title: "Ai2"
-    background: /assets/img/Haeckel_Caulerpa_racemosa.jpeg
+    background: assets/images/ai2.png
     href: https://allenai.org
