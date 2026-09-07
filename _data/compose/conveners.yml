@@ -3,23 +3,18 @@ description: _Pavilion leadership, governance and coordination_
 klass: no-double-features
 features:
   - title: "GBIF"
-    description: Global Biodiversity Information Facility
     background: assets/images/gbif-mark.png
     href: https://www.gbif.org/
   - title: "GEO"
-    description: Group on Earth Observations
     background: assets/images/geo-mark.png
     href: https://earthobservations.org/index.php
   - title: "GEO BON"
-    description: Group on Earth Observations Biodiversity Observation Network
     background: assets/images/geobon-mark.png
     href: https://geobon.org
   - title: Smithsonian Institution
-    description: Smithsonian Institution
     background: /assets/img/smithsonian.png
     href: https://www.si.edu
   - title: "UZH: University of Zurich"
-    description: University of Zurich  
     background: /assets/img/uzh-logo.svg
     href: https://www.uzh.ch/en
     
