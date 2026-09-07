@@ -12,7 +12,7 @@ features:
     background: assets/images/geobon-mark.png
     href: https://geobon.org
   - title: Smithsonian Institution
-    background: /assets/img/smithsonian.png
+    background: assets/images/smithsonian-mark.png
     href: https://www.si.edu
   - title: "UZH: University of Zurich"
     background: /assets/img/uzh-logo.svg
