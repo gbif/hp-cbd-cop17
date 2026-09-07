@@ -1,5 +1,6 @@
 title: Partners
 description: _Programme design and delivery_
+klass: no-double-features
 features:
   - title: "ESA"
     description: European Space Agency
@@ -8,9 +9,4 @@ features:
   - title: "Esri"
     description: 
     background: /assets/img/Haeckel_Caulerpa_racemosa.jpeg
-    href: https://www.esri.com
-  - title: 
-    description: 
-    background: 
-    href: 
-    
+    href: https://www.esri.com    
