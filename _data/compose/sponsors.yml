@@ -5,8 +5,7 @@ features:
   - title: "NOMIS Foundation"
     background: /assets/img/Haeckel_Caulerpa_racemosa.jpeg
     href: https://nomisfoundation.ch
-  - title: "QCBS"
-    description: Quebec Centre for Biodiversity Science 
+  - title: "Quebec Centre for Biodiversity Science"
     background: /assets/img/Haeckel_Caulerpa_racemosa.jpeg
     href: https://qcbs.ca
     
