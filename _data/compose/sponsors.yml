@@ -3,9 +3,8 @@ description: _Financial and in-kind support_
 klass: no-double-features
 features:
   - title: "NOMIS Foundation"
-    background: /assets/img/Haeckel_Caulerpa_racemosa.jpeg
+    background: /assets/images/nomis-fdn.png
     href: https://nomisfoundation.ch
   - title: "Quebec Centre for Biodiversity Science"
-    background: /assets/img/Haeckel_Caulerpa_racemosa.jpeg
+    background: /assets/images/qcbs.png
     href: https://qcbs.ca
-    
