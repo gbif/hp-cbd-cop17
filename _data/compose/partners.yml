@@ -2,6 +2,9 @@ title: Partners
 description: _Working across the full spectrum of biodiversity data, information and knowledge_
 klass: no-double-features
 features:
+  - title: "Ai2"
+    background: assets/images/ai2.png
+    href: https://allenai.org
   - title: "ESA"
     background: /assets/images/ESA_Logo_BK.png
     href: https://www.esa.int
