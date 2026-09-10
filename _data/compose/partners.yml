@@ -1,5 +1,5 @@
 title: Partners
-description: _Programme design and delivery_
+description: _Working across the full spectrum of biodiversity data, information and knowledge_
 klass: no-double-features
 features:
   - title: "ESA"
@@ -8,3 +8,18 @@ features:
   - title: "Esri"
     background: /assets/images/esri.png
     href: https://www.esri.com    
+  - title: "GBIF"
+    background: assets/images/gbif-mark.png
+    href: https://www.gbif.org/
+  - title: "GEO"
+    background: assets/images/geo-mark.png
+    href: https://earthobservations.org/index.php
+  - title: "GEO BON"
+    background: assets/images/geobon-mark.png
+    href: https://geobon.org
+  - title: Smithsonian Institution
+    background: assets/images/smithsonian-mark.png
+    href: https://www.si.edu
+  - title: "UZH: University of Zurich"
+    background: assets/images/uzh-logo-black.png
+    href: https://www.uzh.ch/en
