@@ -26,7 +26,7 @@ remote_theme: gbif/jekyll-hp-base-theme
 
 algae:
   rootLang: en
-  # latestPostLimit: 3
+  # latestPostLimit: 0
   # logo: /assets/images/fungi.svg  # Logo in navbar, will be displayed with 28px height
   # logoAndTitle: false           # include the title next to the logo
   archive_permalink: /news/       # Permalink of page using archive.html layout, required when using post categories
@@ -41,7 +41,7 @@ algae:
     # color: "tomato"             # What color should the navbar be?
     # hasWhiteText: true          # Should the text color be white?
     # floating: true
-  algae.hideHelper: true
+  hideHelper: true
 
 useSharedLibrary: true # Use the new component library
 updateTranslationMenuOnWidgetEvents: true # Notice that this feature requires urls for widgets to be the same across languages (except for a language prefix)
