@@ -20,7 +20,12 @@ features:
   - title: "GEO BON"
     background: assets/images/geobon-mark.png
     href: https://geobon.org
-  - title: Smithsonian Institution
+  - title: "NOMIS Foundation"
+    background: /assets/images/nomis-fdn.png
+    href: https://nomisfoundation.ch
+  - title: "Quebec Centre for Biodiversity Science"
+    background: /assets/images/qcbs.png
+    href: https://qcbs.ca  - title: Smithsonian Institution
     background: assets/images/smithsonian-mark.png
     href: https://www.si.edu
   - title: "UZH: University of Zurich"
