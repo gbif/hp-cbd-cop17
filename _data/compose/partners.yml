@@ -25,7 +25,8 @@ features:
     href: https://nomisfoundation.ch
   - title: "Quebec Centre for Biodiversity Science"
     background: /assets/images/qcbs.png
-    href: https://qcbs.ca  - title: Smithsonian Institution
+    href: https://qcbs.ca  
+  - title: Smithsonian Institution
     background: assets/images/smithsonian-mark.png
     href: https://www.si.edu
   - title: "UZH: University of Zurich"
