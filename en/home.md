@@ -1,7 +1,7 @@
 ---
 lang-ref: home
 layout: home
-title: COP17 Data to Action Pavilion
+title: Data to Action Pavilion
 description: _Connecting science and knowledge systems for biodiversity_
 background: assets/images/Tulipa biflora-iNat-utaland-crop.jpg
 imageLicense: _Tulipa biflora_ observed in Armenia. Photo 2024 utaland via [iNaturalist](https://www.gbif.org/occurrence/5936012400) licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
@@ -15,8 +15,8 @@ cta:
 permalink: /
 ---
 
-## CBD COP17 – Yerevan, Armenia
+## The Data to Action Pavilion @ CBD COP17 {style=text-align:center}
 
-### 19-30 October 2026
+### Yerevan, Armenia | 19-30 October 2026 {style=text-align:center}
 
 The _Data to Action Pavilion_ is a collaborative initiative convened by GBIF, GEO, GEO BON, the Smithsonian Institution and the University of Zurich to bring together data-driven organizations at CBD COP17 and demonstrate how integrated scientific information and knowledge systems can accelerate implementation of the [Kunming-Montreal Global Biodiversity Framework](https://cbd.int/gbf).
