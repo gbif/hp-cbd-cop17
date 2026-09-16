@@ -15,4 +15,8 @@ cta:
 permalink: /
 ---
 
-The Data to Action Pavilion is a collaborative initiative convened at CBD COP17 by GBIF, GEO, GEO BON, the Smithsonian Institution and the University of Zurich to bring together data-driven organizations and demonstrate how integrated scientific information and knowledge systems can accelerate implementation of the Kunming-Montreal Global Biodiversity Framework.
+## CBD COP17 – Yerevan, Armenia
+
+### 19-30 October 2026
+
+The _Data to Action Pavilion_ is a collaborative initiative convened by GBIF, GEO, GEO BON, the Smithsonian Institution and the University of Zurich to bring together data-driven organizations at CBD COP17 and demonstrate how integrated scientific information and knowledge systems can accelerate implementation of the [Kunming-Montreal Global Biodiversity Framework](https://cbd.int/gbf).
