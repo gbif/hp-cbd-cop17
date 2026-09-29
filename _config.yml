@@ -2,7 +2,7 @@ title: COP17 Data to Action Pavilion
 email: info@cop17pavilion.org
 description:  Convened by GEO, GEO BON, GBIF and the Smithsonian Institution for CBD COP17 in Yerevan, the Data to Action Pavilion is a collaborative initiative bringing together organizations from across the biodiversity knowledge system to demonstrate how integrated science and information systems can accelerate implementation of the Kunming-Montreal Global Biodiversity Framework.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://cbd-cop17.hp.gbif.org/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://cop17pavilion.org/"
 
 # SOCIAL PROFILES that will show in the footer
 email: info@cop17pavilion.org                                      # Social icon in footer
