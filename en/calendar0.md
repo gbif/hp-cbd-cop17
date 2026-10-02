@@ -3,9 +3,9 @@ lang-ref: page
 layout: page
 title: Test Calendar
 description: Testing calendar options
-background: assets/images/cabra.jpg
-imageLicence: "[_Polyommatus icarus_ (von Rottemburg, 1775)](https://www.gbif.org/occurrence/5828883558) observed in Armenia by Axel Gosseries [(licensed under CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)"
-height: 50vh
+# background: assets/images/cabra.jpg
+# imageLicence: "[_Polyommatus icarus_ (von Rottemburg, 1775)](https://www.gbif.org/occurrence/5828883558) observed in Armenia by Axel Gosseries [(licensed under CC BY-** NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)"
+# height: 50vh
 permalink: /calendar0/
 ---
 
