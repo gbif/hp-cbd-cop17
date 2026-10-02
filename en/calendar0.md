@@ -1,43 +1,50 @@
 ---
 lang-ref: page
 layout: page
-title: Calendar of events
-description: What's on at the COP17 Data to Action Pavilion
-background: assets/images/mariposa-opt.jpg
+title: Test Calendar
+description: Testing calendar options
+background: assets/images/cabra.jpg
 imageLicence: "[_Polyommatus icarus_ (von Rottemburg, 1775)](https://www.gbif.org/occurrence/5828883558) observed in Armenia by Axel Gosseries [(licensed under CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)"
 height: 70vh
-permalink: /calendar/
+permalink: /calendar0/
 ---
 
-## Themes
+<link href='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.css' rel='stylesheet' />
+<script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js'></script>
 
-### From Data to Decisions
+<div id="calendar" style="margin-top: 2rem;"></div>
 
-- Data to decisions / biodiversity data in practice
-- Monitoring progress towards the Global Biodiversity Framework
-- Indicators, assessments and reporting
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const calendarEl = document.getElementById('calendar');
+  const rawEvents = {{ site.data.events | jsonify }};
 
-### Monitoring, Technology and Innovation
-- Terrestrial biodiversity monitoring: frameworks, innovations and technologies
-- Ocean biodiversity monitoring: frameworks, innovations and technologies)
-- Measurement and monitoring, for both business and One Health: connecting the where, what, how often, and for whom
-- Emerging technologies and innovative approaches for biodiversity observation and monitoring
+  const events = rawEvents.map(row => ({
+    title: row['Event Title'] || row['Title'],
+    start: row['Start Date'] || row['Date'],
+    end: row['End Date'],
+    extendedProps: { row }
+  })).filter(e => e.start);
 
-### Data Gaps and Governance
+  const calendar = new FullCalendar.Calendar(calendarEl, {
+    initialView: 'dayGridMonth',
+    headerToolbar: {
+      left: 'prev,next today',
+      center: 'title',
+      right: 'dayGridMonth,timeGridWeek,listWeek'
+    },
+    events: events,
+    eventClick: function(info) {
+      const row = info.event.extendedProps.row;
+      let details = `<h3>${info.event.title}</h3>`;
+      for (const [key, val] of Object.entries(row)) {
+        if (val) details += `<p><strong>${key}:</strong> ${val}</p>`;
+      }
 
-- Data governance, standards and interoperability
-- Understanding and addressing biodiversity data and knowledge gaps
-- Improving the availability, accessibility and usability of biodiversity data
-
-### Connecting Knowledge Systems and People
-
-- Connecting knowledge systems
-- Empowering people through biodiversity data (Target 21)
-- Participation in decision-making and access to justice (Target 22)
-
-### Building Capacity for Biodiversity Action
-
-- Capacity-building and development (Target 20)
-- Training and knowledge exchange
-- Strengthening networks and institutional capacity
--
+      // Output to modal or panel
+      console.log(details);
+    }
+  });
+  calendar.render();
+});
+</script>
