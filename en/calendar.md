@@ -4,7 +4,8 @@ layout: page
 title: Calendar of events
 description: What's on at the COP17 Data to Action Pavilion
 background: assets/images/mariposa-opt.jpg
-imageLicence: "[_Polyommatus icarus_ (von Rottemburg, 1775)](https://www.gbif.org/occurrence/5828883558) observed in Armenia by Axel Gosseries [(licensed under CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)" 
+imageLicence: "[_Polyommatus icarus_ (von Rottemburg, 1775)](https://www.gbif.org/occurrence/5828883558) observed in Armenia by Axel Gosseries [(licensed under CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)"
+height: 70vh
 permalink: /calendar/
 ---
 
