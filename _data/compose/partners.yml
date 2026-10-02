@@ -6,29 +6,32 @@ features:
     background: assets/images/ai2.png
     href: https://allenai.org
   - title: "ESA"
-    background: /assets/images/ESA_Logo_BK.png
+    background: assets/images/esa.png
     href: https://www.esa.int
   - title: "Esri"
     background: /assets/images/esri.png
-    href: https://www.esri.com    
+    href: https://www.esri.com
   - title: "GBIF"
-    background: assets/images/gbif-mark.png
+    background: assets/images/gbif.png
     href: https://www.gbif.org/
   - title: "GEO"
-    background: assets/images/geo-mark.png
+    background: assets/images/geobon-group.png
     href: https://earthobservations.org/index.php
   - title: "GEO BON"
-    background: assets/images/geobon-mark.png
+    background: assets/images/geobon.png
     href: https://geobon.org
   - title: "NOMIS Foundation"
-    background: /assets/images/nomis-fdn.png
+    background: assets/images/nomis.png
     href: https://nomisfoundation.ch
   - title: "Quebec Centre for Biodiversity Science"
-    background: /assets/images/qcbs.png
-    href: https://qcbs.ca  
-  - title: Smithsonian Institution
-    background: assets/images/smithsonian-mark.png
-    href: https://www.si.edu
+    background: assets/images/csbq.png
+    href: https://qcbs.ca
+  - title: Smithsonian Science
+    background: assets/images/smithsonian.png
+    href: https://science.si.edu/
   - title: "UZH: University of Zurich"
-    background: assets/images/uzh-logo-black.png
+    background: assets/images/zurich.png
     href: https://www.uzh.ch/en
+  - title: "Genes from space"
+    background: assets/images/genes.png
+    href: https://genesfromspace.org/  
