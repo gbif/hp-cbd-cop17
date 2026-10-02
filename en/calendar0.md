@@ -1,19 +1,21 @@
 ---
 lang-ref: page
-layout: text
+layout: page
 title: Test Calendar
 description: Testing calendar options
 permalink: /calendar0/
 ---
 
 <style>
-  /* Forcefully remove all top spacing and hidden banners */
-  body, main, .page-content, .wrapper, .content-container {
-    margin-top: 0 !important;
-    padding-top: 0 !important;
+  /* Collapse only the hero banner area so content sits closer to the top */
+  .hero-banner, .site-header--hero {
+    min-height: 120px !important;
+    height: auto !important;
+    padding: 2rem 0 !important;
   }
-  .hero-banner, .page-header, .site-header--hero, .banner, .site-title {
-    display: none !important;
+  .hero-banner .container {
+    background: transparent !important;
+    box-shadow: none !important;
   }
 </style>
 
