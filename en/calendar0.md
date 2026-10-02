@@ -1,11 +1,12 @@
 ---
 lang-ref: page
-layout: page
+layout: compose
+klass: compositionBlocks
 title: Test Calendar
 description: Testing calendar options
 background: assets/images/cabra.jpg
 imageLicence: "[_Polyommatus icarus_ (von Rottemburg, 1775)](https://www.gbif.org/occurrence/5828883558) observed in Armenia by Axel Gosseries [(licensed under CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)"
-height: 70vh
+height: 30vh
 permalink: /calendar0/
 ---
 
@@ -26,7 +27,6 @@ document.addEventListener('DOMContentLoaded', function() {
   const calendarEl = document.getElementById('calendar');
   const rawEvents = {{ site.data.events | jsonify }};
 
-  // Helper to turn "Mon, 19 Oct" and "13:15" into ISO timestamps for October 2026
   function parseDateTime(dateStr, timeStr) {
     if (!dateStr || !timeStr) return null;
 
@@ -42,7 +42,6 @@ document.addEventListener('DOMContentLoaded', function() {
     return `2026-10-${day}T${hours}:${minutes}:00`;
   }
 
-  // Map and filter raw JSON entries into FullCalendar format
   const events = rawEvents
     .filter(row => row['Event title'] && row['Date'] && row['Start'] && row['Start'].trim() !== '')
     .map(row => ({
@@ -55,6 +54,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
   const calendar = new FullCalendar.Calendar(calendarEl, {
     initialView: 'dayGridMonth',
+    initialDate: '2026-10-18',     // Opens the calendar starting on Oct 18, 2026
+    validRange: {
+      start: '2026-10-18',
+      end: '2026-11-01'          // Restricts navigation strictly to October 2026 (end is exclusive)
+    },
     headerToolbar: {
       left: 'prev,next today',
       center: 'title',
