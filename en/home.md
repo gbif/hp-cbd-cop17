@@ -2,6 +2,8 @@
 lang-ref: home
 layout: home
 title: Data to Action Pavilion
+logo: assets/images/logo-data-to-action.svg  # Logo in navbar, will be displayed with 28px height
+logoAndTitle: true             # include the title next to the logo
 description: _Connecting science and knowledge systems for biodiversity_
 background: assets/images/https---www.gbif.org-occurrence-6353065929-bg.jpg
 imageLicense: "[_Lacerta strigata_ Eichwald, 1831](https://www.gbif.org/occurrence/6353065929) observed in Armenia by Leonid A. Neymark licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/legalcode)"
