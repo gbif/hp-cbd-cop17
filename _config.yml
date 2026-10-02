@@ -27,15 +27,15 @@ remote_theme: gbif/jekyll-hp-base-theme
 algae:
   rootLang: en
   # latestPostLimit: 0
-  # logo: /assets/images/fungi.svg  # Logo in navbar, will be displayed with 28px height
-  # logoAndTitle: false           # include the title next to the logo
+  logo: assets/images/logo-data-to-action.svg  # Logo in navbar, will be displayed with 28px height
+  logoAndTitle: true           # include the title next to the logo
   archive_permalink: /news/       # Permalink of page using archive.html layout, required when using post categories
   style:
     # square: false               # Should corners be square or rounded
     colors:
       primary: "#fa5e97"          # Primary color of your brand. Use HEX code. Used for buttons and links
-      # links: "#fa5e97"          # What color should links have. Use a HEX code. DEfault is primary color. 
-    coloredHeadlineLinks: false   # If a headline is a link, then use the link color. Default is true. 
+      # links: "#fa5e97"          # What color should links have. Use a HEX code. DEfault is primary color.
+    coloredHeadlineLinks: false   # If a headline is a link, then use the link color. Default is true.
   navbar:                         # RELATED TO NAVIGATION BAR
     # brandBackground: yellow     # Define a custom background for the logo/title in the top navigation bar
     # color: "tomato"             # What color should the navbar be?
@@ -77,7 +77,7 @@ defaults:
     values:
       layout: "post"
       permalink: "/post/:year/:slug/"   # Use /post/yyyy/{filename}/ as permalink for all posts
-  
+
   - scope:
       path: "es/" # For anything in the "es" folder the default is to set the lang frontMatter property to "es" . this should be deleted or adapted to your site if you support other languages
     values:
@@ -88,7 +88,7 @@ defaults:
       layout: "post"
       permalink: "/es/post/:year/:slug/"   # Use /es/post/yyyy/{filename}/ as permalink for all posts
       lang: es # And have the default language in that folder be spanish
-  
+
   - scope:
       path: "fr/"
     values:
@@ -110,7 +110,7 @@ defaults:
       layout: "post"
       permalink: "/ar/post/:year/:slug/"
       lang: ar
-  
+
   - scope:
       path: "ja/"
     values:
@@ -144,7 +144,7 @@ defaults:
       permalink: "/zh/post/:year/:slug/"
       lang: zh
 
-      
+
   - scope:
       path: "zh-tw/"
     values:
