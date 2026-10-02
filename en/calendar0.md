@@ -3,24 +3,11 @@ lang-ref: page
 layout: page
 title: Test Calendar
 description: Testing calendar options
-background: assets/images/cabra.jpg
-imageLicence: "[_Polyommatus icarus_ (von Rottemburg, 1775)](https://www.gbif.org/occurrence/5828883558) observed in Armenia by Axel Gosseries [(licensed under CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)"
-height: 50vh
+# background: assets/images/cabra.jpg
+# imageLicence: "[_Polyommatus icarus_ (von Rottemburg, 1775)](https://www.gbif.org/occurrence/5828883558) observed in Armenia by Axel Gosseries [(licensed under CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)"
+# height: 50vh
 permalink: /calendar0/
 ---
-
-<style>
-  /* Removes the solid background box behind the title on the hero image */
-  .hero-banner .container,
-  .page-heading,
-  .site-heading,
-  .hero__content {
-    background: transparent !important;
-    background-color: transparent !important;
-    box-shadow: none !important;
-    border: none !important;
-  }
-</style>
 
 <link href='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.css' rel='stylesheet' />
 <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js'></script>
