@@ -28,11 +28,15 @@ max-height: 3em;
 padding-right: 2em;
 }
 
-.feature-content {
+.boxHero {
+  @extend .floatingHero;
+  justify-content: flex-end;
+  .feature-content {
     background: white;
     width: 45rem;
     margin: 0 auto;
     padding: 1.5rem;
     border: 0px;
     border-bottom: none;
+  }
 }
