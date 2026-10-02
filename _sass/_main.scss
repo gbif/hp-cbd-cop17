@@ -52,3 +52,16 @@ padding-right: 2em;
     margin: 0 12px;
     > * {
       max-width: 100%; } } }
+
+      .boxHero {
+        @extend .floatingHero;
+        justify-content: flex-end;
+        .feature-content {
+          background: white;
+          width: 60rem;
+          margin: 0 auto;
+          padding: 1.5rem;
+          border: 0px;
+          border-bottom: none;
+        }
+      }
