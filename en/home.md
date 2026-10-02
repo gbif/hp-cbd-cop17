@@ -4,7 +4,7 @@ layout: home
 title: Data to Action Pavilion
 description: _Connecting science and knowledge systems for biodiversity_
 background: assets/images/https---www.gbif.org-occurrence-6353065929-bg.jpg
-imageLicense: [_Lacerta strigata_ Eichwald, 1831](https://www.gbif.org/occurrence/6353065929) observed in Armenia by Leonid A. Neymark licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
+imageLicense: "[_Lacerta strigata_ Eichwald, 1831](https://www.gbif.org/occurrence/6353065929) observed in Armenia by Leonid A. Neymark licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/legalcode)"
 height: 70vh
 cta:
   - text: What's on
