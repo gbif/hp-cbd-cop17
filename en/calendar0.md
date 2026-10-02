@@ -1,14 +1,25 @@
 ---
 lang-ref: page
-layout: compose
-klass: compositionBlocks
+layout: page
 title: Test Calendar
 description: Testing calendar options
 background: assets/images/cabra.jpg
 imageLicence: "[_Polyommatus icarus_ (von Rottemburg, 1775)](https://www.gbif.org/occurrence/5828883558) observed in Armenia by Axel Gosseries [(licensed under CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)"
-height: 30vh
+height: 50vh
 permalink: /calendar0/
 ---
+
+<style>
+  /* Removes the solid background box/rectangle behind the title over the hero image */
+  .hero-banner .container,
+  .page-heading,
+  .site-heading {
+    background: transparent !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+</style>
 
 <link href='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.css' rel='stylesheet' />
 <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js'></script>
@@ -54,10 +65,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
   const calendar = new FullCalendar.Calendar(calendarEl, {
     initialView: 'dayGridMonth',
-    initialDate: '2026-10-18',     // Opens the calendar starting on Oct 18, 2026
+    initialDate: '2026-10-18',
     validRange: {
       start: '2026-10-18',
-      end: '2026-11-01'          // Restricts navigation strictly to October 2026 (end is exclusive)
+      end: '2026-11-01'
     },
     headerToolbar: {
       left: 'prev,next today',
