@@ -1,26 +1,15 @@
 ---
 lang-ref: page
-layout: page
+layout: text
 title: Test Calendar
 description: Testing calendar options
 permalink: /calendar0/
 ---
 
-<style>
-  /* Hide the empty hero header container and reduce top padding */
-  .hero-banner, .page-header, .site-header--hero, .banner {
-    display: none !important;
-  }
-  .page-content, main {
-    padding-top: 1rem !important;
-    margin-top: 1rem !important;
-  }
-</style>
-
 <link href='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.css' rel='stylesheet' />
 <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js'></script>
 
-<div id="calendar" style="margin-top: 1rem;"></div>
+<div id="calendar" style="margin-top: 2rem;"></div>
 
 <!-- Modal container for event details -->
 <div id="event-modal" style="display:none; position:fixed; top:20%; left:50%; transform:translate(-50%, -20%); background:#fff; padding:2rem; box-shadow:0 4px 12px rgba(0,0,0,0.15); z-index:1000; max-width:600px; width:100%; border-radius:8px; color:#333;">
