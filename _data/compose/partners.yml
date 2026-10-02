@@ -20,6 +20,9 @@ features:
   - title: "GEO BON"
     background: assets/images/geobon.png
     href: https://geobon.org
+  - title: "Genes from space"
+    background: assets/images/genes.png
+    href: https://genesfromspace.org/
   - title: "NOMIS Foundation"
     background: assets/images/nomis.png
     href: https://nomisfoundation.ch
@@ -32,6 +35,3 @@ features:
   - title: "UZH: University of Zurich"
     background: assets/images/zurich.png
     href: https://www.uzh.ch/en
-  - title: "Genes from space"
-    background: assets/images/genes.png
-    href: https://genesfromspace.org/  
