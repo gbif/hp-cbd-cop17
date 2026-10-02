@@ -9,22 +9,6 @@ description: Testing calendar options
 permalink: /calendar0/
 ---
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  // Target potential GBIF hosted portal hero title containers
-  const selectors = ['.page-heading', '.hero-banner .container', '.site-heading', '.hero__content'];
-  selectors.forEach(selector => {
-    document.querySelectorAll(selector).forEach(el => {
-      el.style.background = 'transparent';
-      el.style.backgroundColor = 'transparent';
-      el.style.boxShadow = 'none';
-      el.style.border = 'none';
-      el.style.backdropFilter = 'none';
-    });
-  });
-});
-</script>
-
 <link href='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.css' rel='stylesheet' />
 <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js'></script>
 
