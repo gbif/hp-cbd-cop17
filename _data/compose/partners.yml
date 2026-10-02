@@ -9,7 +9,7 @@ features:
     background: assets/images/esa.png
     href: https://www.esa.int
   - title: "Esri"
-    background: /assets/images/esri.png
+    background: assets/images/esri.png
     href: https://www.esri.com
   - title: "GBIF"
     background: assets/images/gbif.png
