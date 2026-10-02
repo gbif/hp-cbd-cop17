@@ -8,11 +8,14 @@ permalink: /calendar0/
 ---
 
 <style>
-  /* Ensure zero padding/margins for collapsed banner elements */
+  /* Collapse zero-height banner and widen the page container to 60rem */
   .hero-banner, .site-header--hero, .page-header {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
     margin-bottom: 1rem !important;
+  }
+  .container, .page-content {
+    max-width: 60rem !important;
   }
 </style>
 
