@@ -1,6 +1,6 @@
 ---
 lang-ref: page
-layout: page
+layout: compose
 title: Calendar of events
 description: What's on at the COP17 Data to Action Pavilion
 background: assets/images/mariposa-opt.jpg
