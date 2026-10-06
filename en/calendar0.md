@@ -50,7 +50,7 @@ permalink: /calendar0/
     border-radius: 12px;
     color: #333;
     font-family: inherit;
-    border-top: 6px solid #2e7d32; /* GBIF-friendly green accent */
+    border-top: 6px solid #2e7d32;
   }
 
   .modal-meta-item {
@@ -116,6 +116,14 @@ document.addEventListener('DOMContentLoaded', function() {
   const calendarEl = document.getElementById('calendar');
   const rawEvents = {{ site.data.events | jsonify }};
 
+  // Color mapping based on Primary theme
+  const themeColors = {
+    "Building Capacity for Biodiversity Action": { background: "#2e7d32", text: "#ffffff" },
+    "From Data to Decisions": { background: "#1976d2", text: "#ffffff" },
+    "Data Gaps & Governance": { background: "#e65100", text: "#ffffff" },
+    "Monitoring, Technology & Innovation": { background: "#7b1fa2", text: "#ffffff" }
+  };
+
   function parseDateTime(dateStr, timeStr) {
     if (!dateStr || !timeStr) return null;
 
@@ -133,12 +141,20 @@ document.addEventListener('DOMContentLoaded', function() {
 
   const events = rawEvents
     .filter(row => row['Event title'] && row['Date'] && row['Start'] && row['Start'].trim() !== '')
-    .map(row => ({
-      title: row['Event title'],
-      start: parseDateTime(row['Date'], row['Start']),
-      end: parseDateTime(row['Date'], row['End']),
-      extendedProps: { row }
-    }))
+    .map(row => {
+      const theme = row['Primary theme'] || '';
+      const colors = themeColors[theme] || { background: "#455a64", text: "#ffffff" };
+
+      return {
+        title: row['Event title'],
+        start: parseDateTime(row['Date'], row['Start']),
+        end: parseDateTime(row['Date'], row['End']),
+        backgroundColor: colors.background,
+        borderColor: colors.background,
+        textColor: colors.text,
+        extendedProps: { row }
+      };
+    })
     .filter(e => e.start !== null);
 
   const calendar = new FullCalendar.Calendar(calendarEl, {
@@ -156,11 +172,9 @@ document.addEventListener('DOMContentLoaded', function() {
     events: events,
     eventClick: function(info) {
       const row = info.event.extendedProps.row;
-      document.getElementById('modal-titleinnerText' in document.getElementById('modal-title') ? 'modal-title' : 'modal-title').innerText = info.event.title;
+      document.getElementById('modal-title').innerText = info.event.title;
 
-      // Curated and cleanly formatted fields for the modal body
       let html = '';
-
       if (row['Lead organization']) {
         html += `<div class="modal-meta-item"><strong>Lead Organization:</strong> ${row['Lead organization']}</div>`;
       }
