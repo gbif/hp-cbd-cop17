@@ -62,7 +62,7 @@ permalink: /calendar0/
     z-index: 999;
   }
 
-  /* Modern event modal box */
+  /* Modern event modal box (border-top removed) */
   #event-modal {
     display: none;
     position: fixed;
@@ -77,7 +77,6 @@ permalink: /calendar0/
     border-radius: 12px;
     color: #333;
     font-family: inherit;
-    border-top: 6px solid #307b98;
   }
 
   .modal-meta-item {
@@ -92,21 +91,10 @@ permalink: /calendar0/
     width: 140px;
   }
 
-  .badge-theme {
-    display: inline-block;
-    background: #f0f4f8;
-    color: #307b98;
-    padding: 0.25rem 0.75rem;
-    border-radius: 20px;
-    font-size: 0.85rem;
-    font-weight: 600;
-    margin-top: 0.25rem;
-  }
-
   .modal-close-btn {
     margin-top: 1.5rem;
     padding: 0.6rem 1.5rem;
-    background: #307b98;
+    background: #333;
     color: #fff;
     border: none;
     border-radius: 6px;
@@ -116,7 +104,7 @@ permalink: /calendar0/
   }
 
   .modal-close-btn:hover {
-    background: #245f77;
+    background: #111;
   }
 </style>
 
@@ -151,7 +139,6 @@ document.addEventListener('DOMContentLoaded', function() {
   const calendarEl = document.getElementById('calendar');
   const rawEvents = {{ site.data.events | jsonify }};
 
-  // Custom color mapping based on primary themes
   const themeColors = {
     "Building Capacity for Biodiversity Action": { background: "#669941", text: "#ffffff" },
     "From Data to Decisions": { background: "#307b98", text: "#ffffff" },
@@ -188,7 +175,7 @@ document.addEventListener('DOMContentLoaded', function() {
         backgroundColor: colors.background,
         borderColor: colors.background,
         textColor: colors.text,
-        extendedProps: { row }
+        extendedProps: { row, colors }
       };
     })
     .filter(e => e.start !== null);
@@ -208,6 +195,7 @@ document.addEventListener('DOMContentLoaded', function() {
     events: events,
     eventClick: function(info) {
       const row = info.event.extendedProps.row;
+      const colors = info.event.extendedProps.colors;
       document.getElementById('modal-title').innerText = info.event.title;
 
       let html = '';
@@ -218,7 +206,7 @@ document.addEventListener('DOMContentLoaded', function() {
         html += `<div class="modal-meta-item"><strong>Date & Time:</strong> ${row['Date']} | ${row['Start']} - ${row['End']}</div>`;
       }
       if (row['Primary theme']) {
-        html += `<div class="modal-meta-item"><strong>Primary Theme:</strong><br><span class="badge-theme">${row['Primary theme']}</span></div>`;
+        html += `<div class="modal-meta-item"><strong>Primary Theme:</strong><br><span style="display: inline-block; background: ${colors.background}; color: ${colors.text}; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.85rem; font-weight: 600; margin-top: 0.25rem;">${row['Primary theme']}</span></div>`;
       }
       if (row['Paired thematic focus']) {
         html += `<div class="modal-meta-item" style="margin-top: 1rem;"><strong>Thematic Focus:</strong> ${row['Paired thematic focus']}</div>`;
