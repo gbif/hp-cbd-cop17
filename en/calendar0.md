@@ -52,7 +52,7 @@ permalink: /calendar0/
     border-radius: 12px;
     color: #333;
     font-family: inherit;
-    border-top: 6px solid #2e7d32;
+    border-top: 6px solid #307b98;
   }
 
   .modal-meta-item {
@@ -69,8 +69,8 @@ permalink: /calendar0/
 
   .badge-theme {
     display: inline-block;
-    background: #e8f5e9;
-    color: #2e7d32;
+    background: #f0f4f8;
+    color: #307b98;
     padding: 0.25rem 0.75rem;
     border-radius: 20px;
     font-size: 0.85rem;
@@ -81,7 +81,7 @@ permalink: /calendar0/
   .modal-close-btn {
     margin-top: 1.5rem;
     padding: 0.6rem 1.5rem;
-    background: #2e7d32;
+    background: #307b98;
     color: #fff;
     border: none;
     border-radius: 6px;
@@ -91,7 +91,7 @@ permalink: /calendar0/
   }
 
   .modal-close-btn:hover {
-    background: #1b5e20;
+    background: #245f77;
   }
 </style>
 
@@ -118,13 +118,14 @@ document.addEventListener('DOMContentLoaded', function() {
   const calendarEl = document.getElementById('calendar');
   const rawEvents = {{ site.data.events | jsonify }};
 
-  // Color mapping based on Primary theme
+  // Custom color mapping based on primary themes
   const themeColors = {
-    "Building Capacity for Biodiversity Action": { background: "#2e7d32", text: "#ffffff" },
-    "From Data to Decisions": { background: "#1976d2", text: "#ffffff" },
-    "Data Gaps & Governance": { background: "#e65100", text: "#ffffff" },
-    "Monitoring, Technology & Innovation": { background: "#7b1fa2", text: "#ffffff" }
+    "Building Capacity for Biodiversity Action": { background: "#669941", text: "#ffffff" },
+    "From Data to Decisions": { background: "#307b98", text: "#ffffff" },
+    "Monitoring, Technology & Innovation": { background: "#f6aa3c", text: "#111111" },
+    "Data Gaps & Governance": { background: "#d46833", text: "#ffffff" }
   };
+  const defaultColor = { background: "#6d6e71", text: "#ffffff" };
 
   function parseDateTime(dateStr, timeStr) {
     if (!dateStr || !timeStr) return null;
@@ -145,7 +146,7 @@ document.addEventListener('DOMContentLoaded', function() {
     .filter(row => row['Event title'] && row['Date'] && row['Start'] && row['Start'].trim() !== '')
     .map(row => {
       const theme = row['Primary theme'] || '';
-      const colors = themeColors[theme] || { background: "#455a64", text: "#ffffff" };
+      const colors = themeColors[theme] || defaultColor;
 
       return {
         title: row['Event title'],
