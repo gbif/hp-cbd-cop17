@@ -8,14 +8,88 @@ permalink: /calendar0/
 ---
 
 <style>
-  /* Collapse zero-height banner and widen the page container to 60rem */
+  /* Collapse zero-height banner */
   .hero-banner, .site-header--hero, .page-header {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
     margin-bottom: 1rem !important;
   }
-  .container, .page-content {
+
+  /* Forcefully expand theme containers to 60rem */
+  .container,
+  .wrapper,
+  .page-content,
+  .site-content,
+  main {
     max-width: 60rem !important;
+    width: 100% !important;
+  }
+
+  /* Modal styling overlay */
+  #modal-backdrop {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(2px);
+    z-index: 999;
+  }
+
+  /* Modern event modal box */
+  #event-modal {
+    display: none;
+    position: fixed;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 2.5rem;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    z-index: 1000;
+    max-width: 600px;
+    width: 90%;
+    border-radius: 12px;
+    color: #333;
+    font-family: inherit;
+    border-top: 6px solid #2e7d32; /* GBIF-friendly green accent */
+  }
+
+  .modal-meta-item {
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  .modal-meta-item strong {
+    color: #444;
+    display: inline-block;
+    width: 140px;
+  }
+
+  .badge-theme {
+    display: inline-block;
+    background: #e8f5e9;
+    color: #2e7d32;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-top: 0.25rem;
+  }
+
+  .modal-close-btn {
+    margin-top: 1.5rem;
+    padding: 0.6rem 1.5rem;
+    background: #2e7d32;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.2s;
+  }
+
+  .modal-close-btn:hover {
+    background: #1b5e20;
   }
 </style>
 
@@ -24,14 +98,20 @@ permalink: /calendar0/
 
 <div id="calendar" style="margin-top: 1rem;"></div>
 
-<!-- Modal container for event details -->
-<div id="event-modal" style="display:none; position:fixed; top:20%; left:50%; transform:translate(-50%, -20%); background:#fff; padding:2rem; box-shadow:0 4px 12px rgba(0,0,0,0.15); z-index:1000; max-width:600px; width:100%; border-radius:8px; color:#333;">
-  <h3 id="modal-title" style="margin-top:0;"></h3>
-  <div id="modal-body" style="max-height:60vh; overflow-y:auto;"></div>
-  <button onclick="document.getElementById('event-modal').style.display='none'" style="margin-top:1rem; padding:0.5rem 1rem; background:#0066cc; color:#fff; border:none; border-radius:4px; cursor:pointer;">Close</button>
+<!-- Modal Backdrop and Container -->
+<div id="modal-backdrop" onclick="closeModal()"></div>
+<div id="event-modal">
+  <h2 id="modal-title" style="margin-top:0; margin-bottom: 1.5rem; font-size: 1.4rem; color: #111;"></h2>
+  <div id="modal-body" style="max-height:50vh; overflow-y:auto; border-top: 1px solid #eee; border-bottom: 1px solid #eee; padding: 1rem 0;"></div>
+  <button class="modal-close-btn" onclick="closeModal()">Close</button>
 </div>
 
 <script>
+function closeModal() {
+  document.getElementById('event-modal').style.display = 'none';
+  document.getElementById('modal-backdrop').style.display = 'none';
+}
+
 document.addEventListener('DOMContentLoaded', function() {
   const calendarEl = document.getElementById('calendar');
   const rawEvents = {{ site.data.events | jsonify }};
@@ -76,17 +156,30 @@ document.addEventListener('DOMContentLoaded', function() {
     events: events,
     eventClick: function(info) {
       const row = info.event.extendedProps.row;
-      document.getElementById('modal-title').innerText = info.event.title;
+      document.getElementById('modal-titleinnerText' in document.getElementById('modal-title') ? 'modal-title' : 'modal-title').innerText = info.event.title;
 
+      // Curated and cleanly formatted fields for the modal body
       let html = '';
-      for (const [key, val] of Object.entries(row)) {
-        if (val && key.trim() !== '') {
-          html += `<p><strong>${key}:</strong> ${val}</p>`;
-        }
+
+      if (row['Lead organization']) {
+        html += `<div class="modal-meta-item"><strong>Lead Organization:</strong> ${row['Lead organization']}</div>`;
+      }
+      if (row['Date'] && row['Start']) {
+        html += `<div class="modal-meta-item"><strong>Date & Time:</strong> ${row['Date']} | ${row['Start']} - ${row['End']}</div>`;
+      }
+      if (row['Primary theme']) {
+        html += `<div class="modal-meta-item"><strong>Primary Theme:</strong><br><span class="badge-theme">${row['Primary theme']}</span></div>`;
+      }
+      if (row['Paired thematic focus']) {
+        html += `<div class="modal-meta-item" style="margin-top: 1rem;"><strong>Thematic Focus:</strong> ${row['Paired thematic focus']}</div>`;
+      }
+      if (row['Catering?'] && row['Catering?'].toLowerCase() !== 'no') {
+        html += `<div class="modal-meta-item" style="margin-top: 1rem;"><strong>Catering:</strong> ☕ ${row['Catering?']}</div>`;
       }
 
       document.getElementById('modal-body').innerHTML = html;
       document.getElementById('event-modal').style.display = 'block';
+      document.getElementById('modal-backdrop').style.display = 'block';
     }
   });
 
