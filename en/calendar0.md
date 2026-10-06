@@ -15,7 +15,7 @@ permalink: /calendar0/
     margin-bottom: 1rem !important;
   }
 
-  /* Forcefully expand theme containers to 60rem */
+  /* Forcefully expand and center theme containers to 60rem */
   .container,
   .wrapper,
   .page-content,
@@ -23,6 +23,8 @@ permalink: /calendar0/
   main {
     max-width: 60rem !important;
     width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 
   /* Modal styling overlay */
@@ -186,9 +188,6 @@ document.addEventListener('DOMContentLoaded', function() {
       }
       if (row['Paired thematic focus']) {
         html += `<div class="modal-meta-item" style="margin-top: 1rem;"><strong>Thematic Focus:</strong> ${row['Paired thematic focus']}</div>`;
-      }
-      if (row['Catering?'] && row['Catering?'].toLowerCase() !== 'no') {
-        html += `<div class="modal-meta-item" style="margin-top: 1rem;"><strong>Catering:</strong> ☕ ${row['Catering?']}</div>`;
       }
 
       document.getElementById('modal-body').innerHTML = html;
