@@ -27,6 +27,31 @@ permalink: /calendar0/
     margin-right: auto !important;
   }
 
+  /* Color legend styling */
+  #calendar-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+    color: #555;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .legend-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
   /* Modal styling overlay */
   #modal-backdrop {
     display: none;
@@ -99,6 +124,14 @@ permalink: /calendar0/
 <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js'></script>
 
 <div id="calendar" style="margin-top: 1rem;"></div>
+
+<!-- Color Legend -->
+<div id="calendar-legend">
+  <div class="legend-item"><span class="legend-dot" style="background: #669941;"></span> Building Capacity for Biodiversity Action</div>
+  <div class="legend-item"><span class="legend-dot" style="background: #307b98;"></span> From Data to Decisions</div>
+  <div class="legend-item"><span class="legend-dot" style="background: #f6aa3c;"></span> Monitoring, Technology & Innovation</div>
+  <div class="legend-item"><span class="legend-dot" style="background: #d46833;"></span> Data Gaps & Governance</div>
+</div>
 
 <!-- Modal Backdrop and Container -->
 <div id="modal-backdrop" onclick="closeModal()"></div>
