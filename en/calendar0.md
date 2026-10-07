@@ -27,27 +27,31 @@ permalink: /calendar0/
     margin-right: auto !important;
   }
 
-  /* Color legend styling */
+  /* Outline Pill Legend styling */
   #calendar-legend {
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: 0.75rem;
     justify-content: center;
     margin-top: 1.5rem;
     margin-bottom: 2rem;
-    font-size: 0.9rem;
-    color: #555;
   }
 
-  .legend-item {
+  .legend-pill {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.6rem;
+    padding: 0.4rem 1rem;
+    border-radius: 50px;
+    border: 2px solid;
+    background: #fff;
+    font-size: 0.85rem;
+    font-weight: 500;
   }
 
   .legend-dot {
-    width: 12px;
-    height: 12px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
     display: inline-block;
   }
@@ -62,7 +66,7 @@ permalink: /calendar0/
     z-index: 999;
   }
 
-  /* Modern event modal box (border-top removed) */
+  /* Modern event modal box */
   #event-modal {
     display: none;
     position: fixed;
@@ -113,12 +117,20 @@ permalink: /calendar0/
 
 <div id="calendar" style="margin-top: 1rem;"></div>
 
-<!-- Color Legend -->
+<!-- Outline Pill Legend -->
 <div id="calendar-legend">
-  <div class="legend-item"><span class="legend-dot" style="background: #669941;"></span> Building Capacity for Biodiversity Action</div>
-  <div class="legend-item"><span class="legend-dot" style="background: #307b98;"></span> From Data to Decisions</div>
-  <div class="legend-item"><span class="legend-dot" style="background: #f6aa3c;"></span> Monitoring, Technology & Innovation</div>
-  <div class="legend-item"><span class="legend-dot" style="background: #d46833;"></span> Data Gaps & Governance</div>
+  <div class="legend-pill" style="border-color: #669941; color: #669941;">
+    <span class="legend-dot" style="background: #669941;"></span> Building Capacity for Biodiversity Action
+  </div>
+  <div class="legend-pill" style="border-color: #307b98; color: #307b98;">
+    <span class="legend-dot" style="background: #307b98;"></span> From Data to Decisions
+  </div>
+  <div class="legend-pill" style="border-color: #f6aa3c; color: #b87410;">
+    <span class="legend-dot" style="background: #f6aa3c;"></span> Monitoring, Technology & Innovation
+  </div>
+  <div class="legend-pill" style="border-color: #d46833; color: #d46833;">
+    <span class="legend-dot" style="background: #d46833;"></span> Data Gaps & Governance
+  </div>
 </div>
 
 <!-- Modal Backdrop and Container -->
@@ -206,7 +218,7 @@ document.addEventListener('DOMContentLoaded', function() {
         html += `<div class="modal-meta-item"><strong>Date & Time:</strong> ${row['Date']} | ${row['Start']} - ${row['End']}</div>`;
       }
       if (row['Primary theme']) {
-        html += `<div class="modal-meta-item"><strong>Primary Theme:</strong><br><span style="display: inline-block; background: ${colors.background}; color: ${colors.text}; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.85rem; font-weight: 600; margin-top: 0.25rem;">${row['Primary theme']}</span></div>`;
+        html += `<div class="modal-meta-item"><strong>Primary Theme:</strong><br><span style="display: inline-flex; align-items: center; gap: 0.5rem; background: #fff; border: 2px solid ${colors.background}; color: ${colors.background === '#f6aa3c' ? '#b87410' : colors.background}; padding: 0.3rem 0.8rem; border-radius: 50px; font-size: 0.85rem; font-weight: 500; margin-top: 0.25rem;"><span style="width: 8px; height: 8px; border-radius: 50%; background: ${colors.background}; display: inline-block;"></span>${row['Primary theme']}</span></div>`;
       }
       if (row['Paired thematic focus']) {
         html += `<div class="modal-meta-item" style="margin-top: 1rem;"><strong>Thematic Focus:</strong> ${row['Paired thematic focus']}</div>`;
