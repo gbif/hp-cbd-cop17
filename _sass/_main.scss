@@ -66,21 +66,16 @@ padding-right: 2em;
         }
       }
 
-      /* Right-align desktop navigation (supports Bootstrap & custom portal themes) */
+      /* Right-align navigation for GBIF HP base theme */
       @media (min-width: 769px) {
-        .site-header .navbar-collapse,
-        .site-header .collapse,
-        .site-header nav {
+        .site-header .wrapper,
+        .site-header__inner {
           display: flex !important;
-          justify-content: flex-end !important;
-          width: 100% !important;
+          justify-content: space-between !important;
+          align-items: center !important;
         }
 
-        .site-header .navbar-nav,
-        .site-header .site-nav,
-        .site-header .trigger {
+        .site-nav {
           margin-left: auto !important;
-          margin-right: 0 !important;
-          display: flex !important;
         }
       }
