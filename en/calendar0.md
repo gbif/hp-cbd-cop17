@@ -253,10 +253,21 @@ document.addEventListener('DOMContentLoaded', function() {
         html += `<div class="modal-meta-item"><strong>Lead Organization:</strong> ${row['Lead organization']}</div>`;
       }
       if (row['Date'] && row['Start']) {
-        html += `<div class="modal-meta-item"><strong>Date & Time:</strong> ${row['Date']} | ${row['Start']} -${row['End']}</div>`;
+        html += `<div class="modal-meta-item"><strong>Date & Time:</strong> ${row['Date']} | ${row['Start']} - ${row['End']}</div>`;
       }
       if (row['Primary theme']) {
-        html += `<div class="modal-meta-item"><strong>Primary Theme:</strong><br><span style="display: inline-flex; align-items: center; gap: 0.5rem; background: #fff; border: 2px solid ${colors.background}; color:${colors.background === '#f6aa3c' ? '#b87410' : colors.background}; padding: 0.3rem 0.8rem; border-radius: 50px; font-size: 0.85rem; font-weight: 500; margin-top: 0.25rem;"><span style="width: 8px; height: 8px; border-radius: 50%; background: ${colors.background}; display: inline-block;"></span>${row['Primary theme']}</span></div>`;
+        html += `<div class="modal-meta-item"><strong>Primary Theme:</strong><br><span style="display: inline-flex; align-items: center; gap: 0.5rem; background: #fff; border: 2px solid ${colors.background}; color: ${colors.background === '#f6aa3c' ? '#b87410' : colors.background}; padding: 0.3rem 0.8rem; border-radius: 50px; font-size: 0.85rem; font-weight: 500; margin-top: 0.25rem;"><span style="width: 8px; height: 8px; border-radius: 50%; background: ${colors.background}; display: inline-block;"></span>${row['Primary theme']}</span></div>`;
       }
       if (row['Paired thematic focus']) {
-        html += `<div class="modal-meta-item" style="margin-top: 1rem;"><strong>
+        html += `<div class="modal-meta-item" style="margin-top: 1rem;"><strong>Thematic Focus:</strong> ${row['Paired thematic focus']}</div>`;
+      }
+
+      document.getElementById('modal-body').innerHTML = html;
+      document.getElementById('event-modal').style.display = 'block';
+      document.getElementById('modal-backdrop').style.display = 'block';
+    }
+  });
+
+  calendar.render();
+});
+</script>
