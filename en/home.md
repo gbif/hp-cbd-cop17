@@ -15,6 +15,13 @@ cta:
 permalink: /
 ---
 
+<style>
+  /* Restrict home page content width to 45rem */
+  .wrapper, .page-content, .container {
+    max-width: 45rem !important;
+  }
+</style>
+
 ## The Data to Action Pavilion @ CBD COP17
 
 ### Yerevan, Armenia | 19-30 October 2026
