@@ -66,24 +66,29 @@ padding-right: 2em;
         }
       }
 
-      /* Move navigation menu to the right on desktop */
-@media (min-width: 769px) {
-  /* If the header is a flex container, push the nav wrapper using margin-left: auto */
-  .site-header nav,
-  .site-nav,
-  .navbar-nav,
-  .site-header__menu,
-  header nav {
-    margin-left: auto !important;
-  }
+      /* Right-align desktop navigation */
+      @media (min-width: 769px) {
+        .site-header {
+          display: flex !important;
+          flex-wrap: wrap !important;
+          align-items: center !important;
+        }
 
-  /* Ensure the parent flex container allows space-between or auto-pushing */
-  .site-header .container,
-  .site-header__inner,
-  .navbar {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: space-between !important;
-    width: 100% !important;
-  }
-}
+        .site-header .wrapper,
+        .site-header .container,
+        .site-header__inner {
+          display: flex !important;
+          justify-content: space-between !important;
+          align-items: center !important;
+          width: 100% !important;
+        }
+
+        .site-nav,
+        .trigger,
+        .site-header__menu,
+        .navbar-nav {
+          margin-left: auto !important;
+          float: right !important;
+          text-align: right !important;
+        }
+      }
