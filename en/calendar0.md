@@ -63,8 +63,12 @@ permalink: /calendar0/
     display: inline-block;
   }
 
-  /* Mobile responsiveness for FullCalendar controls */
+  /* Mobile responsiveness: hide month/week buttons and stack controls */
   @media (max-width: 768px) {
+    .fc-dayGridMonth-button,
+    .fc-timeGridWeek-button {
+      display: none !important;
+    }
     .fc .fc-toolbar {
       flex-direction: column;
       align-items: stretch;
@@ -242,7 +246,7 @@ document.addEventListener('DOMContentLoaded', function() {
     headerToolbar: {
       left: 'prev,next today',
       center: 'title',
-      right: ''
+      right: 'dayGridMonth,timeGridWeek,listWeek'
     },
     events: events,
     eventClick: function(info) {
