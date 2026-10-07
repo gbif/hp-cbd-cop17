@@ -63,10 +63,9 @@ permalink: /calendar0/
     display: inline-block;
   }
 
-  /* Mobile responsiveness: hide month/week buttons and stack controls */
+  /* Mobile responsiveness: hide view switcher chunk entirely and stack controls */
   @media (max-width: 768px) {
-    .fc-dayGridMonth-button,
-    .fc-timeGridWeek-button {
+    .fc .fc-toolbar-chunk:last-child {
       display: none !important;
     }
     .fc .fc-toolbar {
