@@ -65,3 +65,19 @@ padding-right: 2em;
           border-bottom: none;
         }
       }
+
+      /* Move navigation to the right on desktop */
+      @media (min-width: 769px) {
+        .site-header .container,
+        .site-header__inner,
+        .navbar,
+        .site-nav {
+          justify-content: flex-end !important;
+        }
+
+        .site-nav,
+        .navbar-nav,
+        .site-header__menu {
+          margin-left: auto !important;
+        }
+      }
