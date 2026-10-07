@@ -30,6 +30,14 @@ The pavilion’s programme centers around four core pillars supporting the Kunmi
 *   **Monitoring, Technology & Innovation:** Showcasing new tools, earth observations, and digital architectures for biodiversity tracking.
 *   **Data Gaps & Governance:** Addressing data equity, standardisation, and legal or institutional frameworks required for robust monitoring.
 
+## Location & Venue
+
+The Data to Action Pavilion is located at the Karen Demirchyan Sports and Concert Complex in Yerevan, Armenia.
+
+<div style="margin: 1.5rem 0; text-align: center;">
+  <img src="https://www.cop17yerevangreenzone.com/fileadmin/_processed_/1/1/csm_sport-concert-complex-after-karen-demirtchian-2_df1d69f8f1.webp" alt="Karen Demirchyan Sports and Concert Complex" style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #e5e7eb;">
+</div>
+
 ## Engaging at the Pavilion
 
 *   **Daily Sessions:** Browse the complete schedule of panel discussions and side events from October 19–30 via the [Sessions](/calendar0/) page.
