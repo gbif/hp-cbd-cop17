@@ -66,8 +66,10 @@ padding-right: 2em;
         }
       }
 
-.navbar-menu {
-    margin-left: auto;
-    flex-grow: unset;
-    padding-right: 32px;
-}
+      @media (min-width: 769px) {
+        .navbar-menu {
+          margin-left: auto;
+          flex-grow: unset;
+          padding-right: 32px;
+        }
+      }
