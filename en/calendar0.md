@@ -1,8 +1,6 @@
 ---
 lang-ref: page
 layout: page
-title: Test Calendar
-description: Testing calendar options
 height: 0vh
 permalink: /calendar0/
 ---
@@ -54,6 +52,38 @@ permalink: /calendar0/
     height: 10px;
     border-radius: 50%;
     display: inline-block;
+  }
+
+  /* Mobile responsiveness for FullCalendar controls */
+  @media (max-width: 768px) {
+    .fc .fc-toolbar {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0.75rem;
+    }
+    .fc .fc-toolbar-chunk {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 0.3rem;
+    }
+    .fc .fc-button {
+      padding: 0.4rem 0.6rem !important;
+      font-size: 0.85rem !important;
+      line-height: 1.2 !important;
+    }
+    .fc .fc-toolbar-title {
+      font-size: 1.15rem !important;
+      text-align: center;
+    }
+    #calendar-legend {
+      flex-direction: column;
+      align-items: stretch;
+      padding: 0 1rem;
+    }
+    .legend-pill {
+      justify-content: center;
+    }
   }
 
   /* Modal styling overlay */
