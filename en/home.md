@@ -8,7 +8,7 @@ imageLicense: "[_Lacerta strigata_ Eichwald, 1831](https://www.gbif.org/occurren
 height: 70vh
 cta:
   - text: Sessions
-    href: /calendar
+    href: /calendar0
     isPrimary: true
   - text: Partners
     href: /collaborators
