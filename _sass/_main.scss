@@ -66,16 +66,29 @@ padding-right: 2em;
         }
       }
 
-      /* Right-align navigation for GBIF HP base theme */
+      /* Force right-alignment of navigation in GBIF HP Base Theme */
       @media (min-width: 769px) {
+        header.site-header,
+        .site-header,
         .site-header .wrapper,
-        .site-header__inner {
+        .site-header__inner,
+        .navbar {
           display: flex !important;
+          flex-direction: row !important;
           justify-content: space-between !important;
           align-items: center !important;
+          width: 100% !important;
         }
 
-        .site-nav {
+        .site-header nav,
+        .site-header .site-nav,
+        .site-header .trigger,
+        .site-header .navbar-nav,
+        .site-header__menu,
+        nav.site-nav {
           margin-left: auto !important;
+          margin-right: 0 !important;
+          display: flex !important;
+          align-items: center !important;
         }
       }
