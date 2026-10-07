@@ -34,6 +34,23 @@ permalink: /calendar0/
     margin-top: -1.5rem !important;
   }
 
+  /* Right-align site navigation */
+  .site-header nav,
+  .site-nav,
+  .navbar-nav,
+  .site-header__menu {
+    margin-left: auto !important;
+    justify-content: flex-end !important;
+  }
+
+  /* Hide language selector on this page */
+  .language-selector,
+  .site-header__languages,
+  .navbar-languages,
+  .lang-switcher {
+    display: none !important;
+  }
+
   /* Outline Pill Legend styling (Left-aligned) */
   #calendar-legend {
     display: flex;
