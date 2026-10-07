@@ -6,14 +6,16 @@ permalink: /calendar0/
 ---
 
 <style>
-  /* Collapse zero-height banner */
-  .hero-banner, .site-header--hero, .page-header {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-    margin-bottom: 1rem !important;
+  /* Aggressively remove top spacing and hide empty headers/banners */
+  .hero-banner, .site-header--hero, .page-header, .page-banner {
+    padding: 0 !important;
+    margin: 0 !important;
+    min-height: 0 !important;
+    height: 0 !important;
+    display: none !important;
   }
 
-  /* Forcefully expand and center theme containers to 60rem */
+  /* Pull content container right up to the navigation bar */
   .container,
   .wrapper,
   .page-content,
@@ -23,6 +25,12 @@ permalink: /calendar0/
     width: 100% !important;
     margin-left: auto !important;
     margin-right: auto !important;
+    padding-top: 0.5rem !important;
+    margin-top: 0 !important;
+  }
+
+  #calendar {
+    margin-top: 0 !important;
   }
 
   /* Outline Pill Legend styling */
@@ -145,7 +153,7 @@ permalink: /calendar0/
 <link href='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.css' rel='stylesheet' />
 <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js'></script>
 
-<div id="calendar" style="margin-top: 1rem;"></div>
+<div id="calendar"></div>
 
 <!-- Outline Pill Legend -->
 <div id="calendar-legend">
@@ -245,21 +253,10 @@ document.addEventListener('DOMContentLoaded', function() {
         html += `<div class="modal-meta-item"><strong>Lead Organization:</strong> ${row['Lead organization']}</div>`;
       }
       if (row['Date'] && row['Start']) {
-        html += `<div class="modal-meta-item"><strong>Date & Time:</strong> ${row['Date']} | ${row['Start']} - ${row['End']}</div>`;
+        html += `<div class="modal-meta-item"><strong>Date & Time:</strong> ${row['Date']} | ${row['Start']} -${row['End']}</div>`;
       }
       if (row['Primary theme']) {
-        html += `<div class="modal-meta-item"><strong>Primary Theme:</strong><br><span style="display: inline-flex; align-items: center; gap: 0.5rem; background: #fff; border: 2px solid ${colors.background}; color: ${colors.background === '#f6aa3c' ? '#b87410' : colors.background}; padding: 0.3rem 0.8rem; border-radius: 50px; font-size: 0.85rem; font-weight: 500; margin-top: 0.25rem;"><span style="width: 8px; height: 8px; border-radius: 50%; background: ${colors.background}; display: inline-block;"></span>${row['Primary theme']}</span></div>`;
+        html += `<div class="modal-meta-item"><strong>Primary Theme:</strong><br><span style="display: inline-flex; align-items: center; gap: 0.5rem; background: #fff; border: 2px solid ${colors.background}; color:${colors.background === '#f6aa3c' ? '#b87410' : colors.background}; padding: 0.3rem 0.8rem; border-radius: 50px; font-size: 0.85rem; font-weight: 500; margin-top: 0.25rem;"><span style="width: 8px; height: 8px; border-radius: 50%; background: ${colors.background}; display: inline-block;"></span>${row['Primary theme']}</span></div>`;
       }
       if (row['Paired thematic focus']) {
-        html += `<div class="modal-meta-item" style="margin-top: 1rem;"><strong>Thematic Focus:</strong> ${row['Paired thematic focus']}</div>`;
-      }
-
-      document.getElementById('modal-body').innerHTML = html;
-      document.getElementById('event-modal').style.display = 'block';
-      document.getElementById('modal-backdrop').style.display = 'block';
-    }
-  });
-
-  calendar.render();
-});
-</script>
+        html += `<div class="modal-meta-item" style="margin-top: 1rem;"><strong>
