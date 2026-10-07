@@ -37,17 +37,17 @@ The pavilion’s programme centers around four core pillars supporting the Kunmi
 ## Participating Organizations
 
 <div class="partners-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 2rem; align-items: center; justify-items: center; margin: 2rem auto; max-width: 45rem;">
-  <a href="https://www.allenai.org" target="_blank"><img src="{{ 'assets/images/ai2.png' | relative_url }}" alt="AI2" style="max-height: 50px;"></a>
-  <a href="https://www.esri.com" target="_blank"><img src="{{ 'assets/images/esri.png' | relative_url }}" alt="ESRI" style="max-height: 50px;"></a>
-  <a href="https://www.esa.int" target="_blank"><img src="{{ 'assets/images/esa.png' | relative_url }}" alt="European Space Agency" style="max-height: 50px;"></a>
-  <a href="https://www.gbif.org" target="_blank"><img src="{{ 'assets/images/gbif.png' | relative_url }}" alt="GBIF" style="max-height: 50px;"></a>
-  <a href="https://earthobservations.org" target="_blank"><img src="{{ 'assets/images/geobon-group.png' | relative_url }}" alt="GEO" style="max-height: 50px;"></a>
-  <a href="https://geobon.org" target="_blank"><img src="{{ 'assets/images/geobon.png' | relative_url }}" alt="GEO BON" style="max-height: 50px;"></a>
-  <a href="https://genesfromspace.org" target="_blank"><img src="{{ 'assets/images/genes.png' | relative_url }}" alt="Genes from space" style="max-height: 50px;"></a>
-  <a href="https://nomisfoundation.ch" target="_blank"><img src="{{ 'assets/images/nomis.png' | relative_url }}" alt="NOMIS Foundation" style="max-height: 50px;"></a>
-  <a href="https://qcbs.ca" target="_blank"><img src="{{ 'assets/images/csbq.png' | relative_url }}" alt="Quebec Centre for Biodiversity Science" style="max-height: 50px;"></a>
-  <a href="https://www.si.edu" target="_blank"><img src="{{ 'assets/images/smithsonian.png' | relative_url }}" alt="Smithsonian Institution" style="max-height: 50px;"></a>
-  <a href="https://www.uzh.ch" target="_blank"><img src="{{ 'assets/images/zurich.png' | relative_url }}" alt="University of Zurich" style="max-height: 50px;"></a>
+  <a href="https://www.allenai.org" target="_blank"><img src="{{ 'assets/images/ai2.png' | relative_url }}" alt="AI2" style="max-height: 80px;"></a>
+  <a href="https://www.esri.com" target="_blank"><img src="{{ 'assets/images/esri.png' | relative_url }}" alt="ESRI" style="max-height: 80px;"></a>
+  <a href="https://www.esa.int" target="_blank"><img src="{{ 'assets/images/esa.png' | relative_url }}" alt="European Space Agency" style="max-height: 80px;"></a>
+  <a href="https://www.gbif.org" target="_blank"><img src="{{ 'assets/images/gbif.png' | relative_url }}" alt="GBIF" style="max-height: 80px;"></a>
+  <a href="https://earthobservations.org" target="_blank"><img src="{{ 'assets/images/geobon-group.png' | relative_url }}" alt="GEO" style="max-height: 80px;"></a>
+  <a href="https://geobon.org" target="_blank"><img src="{{ 'assets/images/geobon.png' | relative_url }}" alt="GEO BON" style="max-height: 80px;"></a>
+  <a href="https://genesfromspace.org" target="_blank"><img src="{{ 'assets/images/genes.png' | relative_url }}" alt="Genes from space" style="max-height: 80px;"></a>
+  <a href="https://nomisfoundation.ch" target="_blank"><img src="{{ 'assets/images/nomis.png' | relative_url }}" alt="NOMIS Foundation" style="max-height: 80px;"></a>
+  <a href="https://qcbs.ca" target="_blank"><img src="{{ 'assets/images/csbq.png' | relative_url }}" alt="Quebec Centre for Biodiversity Science" style="max-height: 80px;"></a>
+  <a href="https://www.si.edu" target="_blank"><img src="{{ 'assets/images/smithsonian.png' | relative_url }}" alt="Smithsonian Institution" style="max-height: 80px;"></a>
+  <a href="https://www.uzh.ch" target="_blank"><img src="{{ 'assets/images/zurich.png' | relative_url }}" alt="University of Zurich" style="max-height: 80px;"></a>
 </div>
 
 *Explore the full network of participating organizations on the [Partners](/partners) page.*
