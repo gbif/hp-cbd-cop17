@@ -6,7 +6,7 @@ permalink: /calendar0/
 ---
 
 <style>
-  /* Aggressively remove top spacing and hide empty headers/banners */
+  /* Collapse theme banner and layout headers completely */
   .hero-banner, .site-header--hero, .page-header, .page-banner {
     padding: 0 !important;
     margin: 0 !important;
@@ -15,7 +15,7 @@ permalink: /calendar0/
     display: none !important;
   }
 
-  /* Pull content container right up to the navigation bar */
+  /* Pull content container right up and remove theme padding */
   .container,
   .wrapper,
   .page-content,
@@ -25,20 +25,21 @@ permalink: /calendar0/
     width: 100% !important;
     margin-left: auto !important;
     margin-right: auto !important;
-    padding-top: 0.5rem !important;
+    padding-top: 0 !important;
     margin-top: 0 !important;
   }
 
+  /* Pull the calendar up to eliminate remaining gap */
   #calendar {
-    margin-top: 0 !important;
+    margin-top: -1.5rem !important;
   }
 
-  /* Outline Pill Legend styling */
+  /* Outline Pill Legend styling (Left-aligned) */
   #calendar-legend {
     display: flex;
     flex-wrap: wrap;
     gap: 0.75rem;
-    justify-content: center;
+    justify-content: flex-start;
     margin-top: 1.5rem;
     margin-bottom: 2rem;
   }
@@ -62,7 +63,7 @@ permalink: /calendar0/
     display: inline-block;
   }
 
-  /* Mobile responsiveness for FullCalendar controls */
+  /* Mobile responsiveness for FullCalendar controls & left-aligned pills */
   @media (max-width: 768px) {
     .fc .fc-toolbar {
       flex-direction: column;
@@ -86,11 +87,12 @@ permalink: /calendar0/
     }
     #calendar-legend {
       flex-direction: column;
-      align-items: stretch;
-      padding: 0 1rem;
+      align-items: flex-start;
+      padding: 0 0.5rem;
     }
     .legend-pill {
-      justify-content: center;
+      justify-content: flex-start;
+      width: auto;
     }
   }
 
