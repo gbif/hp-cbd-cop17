@@ -263,7 +263,7 @@ function closeModal() {
 function downloadIcs(title, description, location, startStr, endStr) {
   function formatIcsDate(isoStr) {
     if (!isoStr) return '';
-    return isoStr.replace(/[-:]/g, '').split('.')[0] + 'Z';
+    return isoStr.replace(/[-:]/g, '').split('.')[0];
   }
 
   const start = formatIcsDate(startStr);
@@ -386,7 +386,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       document.getElementById('modal-body').innerHTML = html;
 
-      // Wire up the Add to Calendar button
+      // Wire up the Add to Calendar button using floating time
       const icsBtn = document.getElementById('modal-ics-button');
       icsBtn.onclick = function() {
         downloadIcs(info.event.title, description, 'Karen Demirchyan Sports and Concert Complex, Yerevan, Armenia', startIso, endIso);
