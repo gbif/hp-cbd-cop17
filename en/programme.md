@@ -42,7 +42,7 @@ permalink: /programme/
     display: none !important;
   }
 
-  /* Outline Pill Legend styling (Left-aligned) */
+  /* Outline Pill Legend styling (Left-aligned & Interactive) */
   #calendar-legend {
     display: flex;
     flex-wrap: wrap;
@@ -53,15 +53,22 @@ permalink: /programme/
   }
 
   .legend-pill {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: 0.6rem;
     padding: 0.4rem 1rem;
     border-radius: 50px;
     border: 2px solid;
     background: #fff;
-    font-size: 0.85rem;
-    font-weight: 500;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: opacity 0.2s, transform 0.1s;
+    user-select: none;
+  }
+
+  .legend-pill:hover {
+    transform: translateY(-1px);
   }
 
   .legend-dot {
@@ -168,18 +175,18 @@ permalink: /programme/
 
 <div id="calendar"></div>
 
-<!-- Outline Pill Legend -->
+<!-- Interactive Outline Pill Legend / Filters -->
 <div id="calendar-legend">
-  <div class="legend-pill" style="border-color: #669941; color: #669941;">
+  <div class="legend-pill" data-theme="Building Capacity for Biodiversity Action" style="border-color: #669941; color: #669941;">
     <span class="legend-dot" style="background: #669941;"></span> Building Capacity for Biodiversity Action
   </div>
-  <div class="legend-pill" style="border-color: #307b98; color: #307b98;">
+  <div class="legend-pill" data-theme="From Data to Decisions" style="border-color: #307b98; color: #307b98;">
     <span class="legend-dot" style="background: #307b98;"></span> From Data to Decisions
   </div>
-  <div class="legend-pill" style="border-color: #f6aa3c; color: #b87410;">
+  <div class="legend-pill" data-theme="Monitoring, Technology & Innovation" style="border-color: #f6aa3c; color: #b87410;">
     <span class="legend-dot" style="background: #f6aa3c;"></span> Monitoring, Technology & Innovation
   </div>
-  <div class="legend-pill" style="border-color: #d46833; color: #d46833;">
+  <div class="legend-pill" data-theme="Data Gaps & Governance" style="border-color: #d46833; color: #d46833;">
     <span class="legend-dot" style="background: #d46833;"></span> Data Gaps & Governance
   </div>
 </div>
@@ -190,28 +197,28 @@ permalink: /programme/
 
 <div style="display: flex; flex-direction: column; gap: 1.5rem; margin-top: 1.5rem; margin-bottom: 2rem;">
   <div style="display: flex; flex-direction: column; gap: 0.5rem; align-items: flex-start;">
-    <div class="legend-pill" style="border-color: #669941; color: #669941;">
+    <div class="legend-pill" style="border-color: #669941; color: #669941; cursor: default;">
       <span class="legend-dot" style="background: #669941;"></span> Building Capacity for Biodiversity Action
     </div>
     <p style="margin: 0; padding-left: 0.25rem; color: #444; font-size: 0.95rem; line-height: 1.5;">Strengthening regional and institutional readiness to manage and apply biodiversity data.</p>
   </div>
 
   <div style="display: flex; flex-direction: column; gap: 0.5rem; align-items: flex-start;">
-    <div class="legend-pill" style="border-color: #307b98; color: #307b98;">
+    <div class="legend-pill" style="border-color: #307b98; color: #307b98; cursor: default;">
       <span class="legend-dot" style="background: #307b98;"></span> From Data to Decisions
     </div>
     <p style="margin: 0; padding-left: 0.25rem; color: #444; font-size: 0.95rem; line-height: 1.5;">Translating monitoring data into actionable policy, reporting, and management outcomes.</p>
   </div>
 
   <div style="display: flex; flex-direction: column; gap: 0.5rem; align-items: flex-start;">
-    <div class="legend-pill" style="border-color: #f6aa3c; color: #b87410;">
+    <div class="legend-pill" style="border-color: #f6aa3c; color: #b87410; cursor: default;">
       <span class="legend-dot" style="background: #f6aa3c;"></span> Monitoring, Technology & Innovation
     </div>
     <p style="margin: 0; padding-left: 0.25rem; color: #444; font-size: 0.95rem; line-height: 1.5;">Showcasing new tools, earth observations, and digital architectures for biodiversity tracking.</p>
   </div>
 
   <div style="display: flex; flex-direction: column; gap: 0.5rem; align-items: flex-start;">
-    <div class="legend-pill" style="border-color: #d46833; color: #d46833;">
+    <div class="legend-pill" style="border-color: #d46833; color: #d46833; cursor: default;">
       <span class="legend-dot" style="background: #d46833;"></span> Data Gaps & Governance
     </div>
     <p style="margin: 0; padding-left: 0.25rem; color: #444; font-size: 0.95rem; line-height: 1.5;">Addressing data equity, standardisation, and legal or institutional frameworks required for robust monitoring.</p>
@@ -259,7 +266,7 @@ document.addEventListener('DOMContentLoaded', function() {
     return `2026-10-${day}T${hours}:${minutes}:00`;
   }
 
-  const events = rawEvents
+  const allEvents = rawEvents
     .filter(row => row['Event title'] && row['Date'] && row['Start'] && row['Start'].trim() !== '')
     .map(row => {
       const theme = row['Primary theme'] || '';
@@ -272,7 +279,7 @@ document.addEventListener('DOMContentLoaded', function() {
         backgroundColor: colors.background,
         borderColor: colors.background,
         textColor: colors.text,
-        extendedProps: { row, colors }
+        extendedProps: { row, colors, theme }
       };
     })
     .filter(e => e.start !== null);
@@ -289,7 +296,7 @@ document.addEventListener('DOMContentLoaded', function() {
       center: 'title',
       right: 'dayGridMonth,timeGridWeek,listWeek'
     },
-    events: events,
+    events: allEvents,
     eventClick: function(info) {
       const row = info.event.extendedProps.row;
       const colors = info.event.extendedProps.colors;
@@ -316,5 +323,39 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   calendar.render();
+
+  // Filter functionality for calendar legend pills
+  const activeThemes = new Set(Object.keys(themeColors));
+  const filterPills = document.querySelectorAll('#calendar-legend .legend-pill');
+
+  filterPills.forEach(pill => {
+    pill.addEventListener('click', function() {
+      const theme = this.getAttribute('data-theme');
+
+      if (activeThemes.has(theme)) {
+        activeThemes.delete(theme);
+        this.style.opacity = '0.35';
+        this.style.background = '#f3f4f6';
+      } else {
+        activeThemes.add(theme);
+        this.style.opacity = '1';
+        this.style.background = '#fff';
+      }
+
+      // If all are deselected, reset and select all again
+      if (activeThemes.size === 0) {
+        filterPills.forEach(p => {
+          const t = p.getAttribute('data-theme');
+          activeThemes.add(t);
+          p.style.opacity = '1';
+          p.style.background = '#fff';
+        });
+      }
+
+      // Filter and update calendar events
+      const filteredEvents = allEvents.filter(event => activeThemes.has(event.extendedProps.theme));
+      calendar.setOption('events', filteredEvents);
+    });
+  });
 });
 </script>
