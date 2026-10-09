@@ -184,6 +184,16 @@ permalink: /programme/
   </div>
 </div>
 
+The pavilion’s programme centers around four core pillars supporting the Kunming-Montreal Global Biodiversity Framework:
+
+<ul style="list-style-type: none; padding-left: 0; margin-top: 1rem;">
+  <li style="margin-bottom: 1rem;"><span style="color: #669941; font-size: 1.2rem; margin-right: 0.5rem; line-height: 1;">&bull;</span><strong style="color: #669941;">Building Capacity for Biodiversity Action:</strong> Strengthening regional and institutional readiness to manage and apply biodiversity data.</li>
+  <li style="margin-bottom: 1rem;"><span style="color: #307b98; font-size: 1.2rem; margin-right: 0.5rem; line-height: 1;">&bull;</span><strong style="color: #307b98;">From Data to Decisions:</strong> Translating monitoring data into actionable policy, reporting, and management outcomes.</li>
+  <li style="margin-bottom: 1rem;"><span style="color: #d46833; font-size: 1.2rem; margin-right: 0.5rem; line-height: 1;">&bull;</span><strong style="color: #d46833;">Monitoring, Technology & Innovation:</strong> Showcasing new tools, earth observations, and digital architectures for biodiversity tracking.</li>
+  <li style="margin-bottom: 1rem;"><span style="color: #f6aa3c; font-size: 1.2rem; margin-right: 0.5rem; line-height: 1;">&bull;</span><strong style="color: #f6aa3c;">Data Gaps & Governance:</strong> Addressing data equity, standardisation, and legal or institutional frameworks required for robust monitoring.</li>
+</ul>
+
+
 <!-- Modal Backdrop and Container -->
 <div id="modal-backdrop" onclick="closeModal()"></div>
 <div id="event-modal">
