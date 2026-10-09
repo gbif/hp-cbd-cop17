@@ -188,7 +188,7 @@ permalink: /programme/
 
 <p>The pavilion’s programme centers around four core pillars supporting the Kunming-Montreal Global Biodiversity Framework:</p>
 
-<div style="display: flex; flex-direction: column; gap: 1.25rem; margin-top: 1.5rem; margin-bottom: 2rem;">
+<div style="display: flex; flex-direction: column; gap: 1.5rem; margin-top: 1.5rem; margin-bottom: 2rem;">
   <div style="display: flex; flex-direction: column; gap: 0.5rem; align-items: flex-start;">
     <div class="legend-pill" style="border-color: #669941; color: #669941;">
       <span class="legend-dot" style="background: #669941;"></span> Building Capacity for Biodiversity Action
@@ -217,7 +217,6 @@ permalink: /programme/
     <p style="margin: 0; padding-left: 0.25rem; color: #444; font-size: 0.95rem; line-height: 1.5;">Addressing data equity, standardisation, and legal or institutional frameworks required for robust monitoring.</p>
   </div>
 </div>
-
 
 <!-- Modal Backdrop and Container -->
 <div id="modal-backdrop" onclick="closeModal()"></div>
