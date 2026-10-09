@@ -162,7 +162,7 @@ permalink: /programme/
   }
 
   .modal-meta-item {
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
     font-size: 0.95rem;
     line-height: 1.5;
   }
@@ -173,16 +173,34 @@ permalink: /programme/
     width: 140px;
   }
 
-  .modal-close-btn {
+  .modal-actions {
+    display: flex;
+    gap: 1rem;
     margin-top: 1.5rem;
-    padding: 0.6rem 1.5rem;
-    background: #333;
-    color: #fff;
+  }
+
+  .modal-btn {
+    padding: 0.6rem 1.2rem;
     border: none;
     border-radius: 6px;
     cursor: pointer;
     font-weight: 600;
+    font-size: 0.9rem;
     transition: background 0.2s;
+  }
+
+  .modal-ics-btn {
+    background: #307b98;
+    color: #fff;
+  }
+
+  .modal-ics-btn:hover {
+    background: #256177;
+  }
+
+  .modal-close-btn {
+    background: #333;
+    color: #fff;
   }
 
   .modal-close-btn:hover {
@@ -228,15 +246,50 @@ permalink: /programme/
 <!-- Modal Backdrop and Container -->
 <div id="modal-backdrop" onclick="closeModal()"></div>
 <div id="event-modal">
-  <h2 id="modal-title" style="margin-top:0; margin-bottom: 1.5rem; font-size: 1.4rem; color: #111;"></h2>
+  <h2 id="modal-title" style="margin-top:0; margin-bottom: 1.25rem; font-size: 1.4rem; color: #111;"></h2>
   <div id="modal-body" style="max-height:50vh; overflow-y:auto; border-top: 1px solid #eee; border-bottom: 1px solid #eee; padding: 1rem 0;"></div>
-  <button class="modal-close-btn" onclick="closeModal()">Close</button>
+  <div class="modal-actions">
+    <button class="modal-btn modal-ics-btn" id="modal-ics-button">Add to Calendar</button>
+    <button class="modal-btn modal-close-btn" onclick="closeModal()">Close</button>
+  </div>
 </div>
 
 <script>
 function closeModal() {
   document.getElementById('event-modal').style.display = 'none';
   document.getElementById('modal-backdrop').style.display = 'none';
+}
+
+function downloadIcs(title, description, location, startStr, endStr) {
+  function formatIcsDate(isoStr) {
+    if (!isoStr) return '';
+    return isoStr.replace(/[-:]/g, '').split('.')[0] + 'Z';
+  }
+
+  const start = formatIcsDate(startStr);
+  const end = formatIcsDate(endStr || startStr);
+
+  const icsLines = [
+    'BEGIN:VCALENDAR',
+    'VERSION:2.0',
+    'PRODID:-//Data to Action Pavilion//CBD COP17//EN',
+    'BEGIN:VEVENT',
+    `SUMMARY:${title || 'Session'}`,
+    `DESCRIPTION:${(description || '').replace(/\n/g, '\\n')}`,
+    `LOCATION:${location || 'Karen Demirchyan Sports and Concert Complex, Yerevan, Armenia'}`,
+    `DTSTART:${start}`,
+    `DTEND:${end}`,
+    'END:VEVENT',
+    'END:VCALENDAR'
+  ];
+
+  const blob = new Blob([icsLines.join('\r\n')], { type: 'text/calendar;charset=utf-8' });
+  const link = document.createElement('a');
+  link.href = window.URL.createObjectURL(blob);
+  link.setAttribute('download', `${(title || 'session').replace(/[^a-z0-9]/gi, '_').toLowerCase()}.ics`);
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
 }
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -271,15 +324,17 @@ document.addEventListener('DOMContentLoaded', function() {
     .map(row => {
       const theme = row['Primary theme'] || '';
       const colors = themeColors[theme] || defaultColor;
+      const startDateTime = parseDateTime(row['Date'], row['Start']);
+      const endDateTime = parseDateTime(row['Date'], row['End']);
 
       return {
         title: row['Event title'],
-        start: parseDateTime(row['Date'], row['Start']),
-        end: parseDateTime(row['Date'], row['End']),
+        start: startDateTime,
+        end: endDateTime,
         backgroundColor: colors.background,
         borderColor: colors.background,
         textColor: colors.text,
-        extendedProps: { row, colors, theme }
+        extendedProps: { row, colors, theme, startDateTime, endDateTime }
       };
     })
     .filter(e => e.start !== null);
@@ -300,11 +355,20 @@ document.addEventListener('DOMContentLoaded', function() {
     eventClick: function(info) {
       const row = info.event.extendedProps.row;
       const colors = info.event.extendedProps.colors;
+      const startIso = info.event.extendedProps.startDateTime;
+      const endIso = info.event.extendedProps.endDateTime;
+
       document.getElementById('modal-title').innerText = info.event.title;
 
       let html = '';
+      if (row['Event type'] || row['Type']) {
+        html += `<div class="modal-meta-item"><strong>Event Type:</strong> ${row['Event type'] || row['Type']}</div>`;
+      }
       if (row['Lead organization']) {
         html += `<div class="modal-meta-item"><strong>Lead Organization:</strong> ${row['Lead organization']}</div>`;
+      }
+      if (row['Speakers'] || row['Speaker(s)'] || row['Speaker']) {
+        html += `<div class="modal-meta-item"><strong>Speakers:</strong> ${row['Speakers'] || row['Speaker(s)'] || row['Speaker']}</div>`;
       }
       if (row['Date'] && row['Start']) {
         html += `<div class="modal-meta-item"><strong>Date & Time:</strong> ${row['Date']} | ${row['Start']} - ${row['End']}</div>`;
@@ -313,10 +377,21 @@ document.addEventListener('DOMContentLoaded', function() {
         html += `<div class="modal-meta-item"><strong>Primary Theme:</strong><br><span style="display: inline-flex; align-items: center; gap: 0.5rem; background: #fff; border: 2px solid ${colors.background}; color: ${colors.background === '#f6aa3c' ? '#b87410' : colors.background}; padding: 0.3rem 0.8rem; border-radius: 50px; font-size: 0.85rem; font-weight: 500; margin-top: 0.25rem;"><span style="width: 8px; height: 8px; border-radius: 50%; background: ${colors.background}; display: inline-block;"></span>${row['Primary theme']}</span></div>`;
       }
       if (row['Paired thematic focus']) {
-        html += `<div class="modal-meta-item" style="margin-top: 1rem;"><strong>Thematic Focus:</strong> ${row['Paired thematic focus']}</div>`;
+        html += `<div class="modal-meta-item" style="margin-top: 0.75rem;"><strong>Thematic Focus:</strong> ${row['Paired thematic focus']}</div>`;
+      }
+      const description = row['Description'] || row['Short description'] || row['Abstract'];
+      if (description) {
+        html += `<div class="modal-meta-item" style="margin-top: 1rem;"><strong>Description:</strong><p style="margin: 0.25rem 0 0 0; color: #555;">${description}</p></div>`;
       }
 
       document.getElementById('modal-body').innerHTML = html;
+
+      // Wire up the Add to Calendar button
+      const icsBtn = document.getElementById('modal-ics-button');
+      icsBtn.onclick = function() {
+        downloadIcs(info.event.title, description, 'Karen Demirchyan Sports and Concert Complex, Yerevan, Armenia', startIso, endIso);
+      };
+
       document.getElementById('event-modal').style.display = 'block';
       document.getElementById('modal-backdrop').style.display = 'block';
     }
