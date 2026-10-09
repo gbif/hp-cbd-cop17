@@ -184,14 +184,39 @@ permalink: /programme/
   </div>
 </div>
 
-The pavilion’s programme centers around four core pillars supporting the Kunming-Montreal Global Biodiversity Framework:
+<h2 style="margin-top: 3rem; margin-bottom: 1rem;">Thematic Focus</h2>
 
-<ul style="list-style-type: none; padding-left: 0; margin-top: 1rem;">
-  <li style="margin-bottom: 1rem;"><span style="color: #669941; font-size: 1.2rem; margin-right: 0.5rem; line-height: 1;">&bull;</span><strong style="color: #669941;">Building Capacity for Biodiversity Action:</strong> Strengthening regional and institutional readiness to manage and apply biodiversity data.</li>
-  <li style="margin-bottom: 1rem;"><span style="color: #307b98; font-size: 1.2rem; margin-right: 0.5rem; line-height: 1;">&bull;</span><strong style="color: #307b98;">From Data to Decisions:</strong> Translating monitoring data into actionable policy, reporting, and management outcomes.</li>
-  <li style="margin-bottom: 1rem;"><span style="color: #d46833; font-size: 1.2rem; margin-right: 0.5rem; line-height: 1;">&bull;</span><strong style="color: #d46833;">Monitoring, Technology & Innovation:</strong> Showcasing new tools, earth observations, and digital architectures for biodiversity tracking.</li>
-  <li style="margin-bottom: 1rem;"><span style="color: #f6aa3c; font-size: 1.2rem; margin-right: 0.5rem; line-height: 1;">&bull;</span><strong style="color: #f6aa3c;">Data Gaps & Governance:</strong> Addressing data equity, standardisation, and legal or institutional frameworks required for robust monitoring.</li>
-</ul>
+<p>The pavilion’s programme centers around four core pillars supporting the Kunming-Montreal Global Biodiversity Framework:</p>
+
+<div style="display: flex; flex-direction: column; gap: 1.25rem; margin-top: 1.5rem; margin-bottom: 2rem;">
+  <div style="display: flex; flex-direction: column; gap: 0.5rem; align-items: flex-start;">
+    <div class="legend-pill" style="border-color: #669941; color: #669941;">
+      <span class="legend-dot" style="background: #669941;"></span> Building Capacity for Biodiversity Action
+    </div>
+    <p style="margin: 0; padding-left: 0.25rem; color: #444; font-size: 0.95rem; line-height: 1.5;">Strengthening regional and institutional readiness to manage and apply biodiversity data.</p>
+  </div>
+
+  <div style="display: flex; flex-direction: column; gap: 0.5rem; align-items: flex-start;">
+    <div class="legend-pill" style="border-color: #307b98; color: #307b98;">
+      <span class="legend-dot" style="background: #307b98;"></span> From Data to Decisions
+    </div>
+    <p style="margin: 0; padding-left: 0.25rem; color: #444; font-size: 0.95rem; line-height: 1.5;">Translating monitoring data into actionable policy, reporting, and management outcomes.</p>
+  </div>
+
+  <div style="display: flex; flex-direction: column; gap: 0.5rem; align-items: flex-start;">
+    <div class="legend-pill" style="border-color: #f6aa3c; color: #b87410;">
+      <span class="legend-dot" style="background: #f6aa3c;"></span> Monitoring, Technology & Innovation
+    </div>
+    <p style="margin: 0; padding-left: 0.25rem; color: #444; font-size: 0.95rem; line-height: 1.5;">Showcasing new tools, earth observations, and digital architectures for biodiversity tracking.</p>
+  </div>
+
+  <div style="display: flex; flex-direction: column; gap: 0.5rem; align-items: flex-start;">
+    <div class="legend-pill" style="border-color: #d46833; color: #d46833;">
+      <span class="legend-dot" style="background: #d46833;"></span> Data Gaps & Governance
+    </div>
+    <p style="margin: 0; padding-left: 0.25rem; color: #444; font-size: 0.95rem; line-height: 1.5;">Addressing data equity, standardisation, and legal or institutional frameworks required for robust monitoring.</p>
+  </div>
+</div>
 
 
 <!-- Modal Backdrop and Container -->
