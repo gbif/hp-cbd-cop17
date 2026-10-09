@@ -18,7 +18,7 @@ permalink: /contact/
   }
 </style>
 
-## Location & Venue
+## Find us
 
 The Data to Action Pavilion is located at the Karen Demirchyan Sports and Concert Complex in Yerevan, Armenia.
 
