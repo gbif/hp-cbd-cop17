@@ -1,12 +1,12 @@
 ---
 layout: compose
 klass: compositionBlocks
-title: Partners
+title: Contact
 description: The organizations collaborating on the Data to Action Pavilion work across the full spectrum of the biodiversity data value chain. Join us at the 17th Conference of the Parties to the UN Convention on Biological Diversity and learn more about how we from monitoring and Earth observations to data infrastructure, scientific collections and research, decision-support tools, capacity development and policy support.
-background: 
+background:
 imageLicense: caption
 hasTextShadow: true
-permalink: /partners/
+permalink: /contact/
 composition:
 - type: features
   data: compose.partners
