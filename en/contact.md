@@ -4,7 +4,7 @@ layout: home
 title: Contact
 background: assets/images/mariposa-opt.jpg
 imageLicense: "[_Polyommatus icarus_ (von Rottemburg, 1775)](https://www.gbif.org/occurrence/5828883558) observed in Armenia by Axel Gosseries [(licensed under CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)"
-height: 50vh
+height: 60vh
 permalink: /contact/
 ---
 <style>
@@ -13,7 +13,11 @@ permalink: /contact/
     max-width: 45rem !important;
   }
   /* Hide translation widget */
-  .translation-widget, .language-switcher, .skiptranslate, .navbar-item has-dropdown js-language-dropdown, buttons language-selector {
+  .translation-widget,
+  .language-switcher,
+  .skiptranslate,
+  .navbar-item.has-dropdown.js-language-dropdown,
+  .language-selector {
     display: none !important;
   }
 </style>
