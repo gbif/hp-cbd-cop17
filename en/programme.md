@@ -15,16 +15,19 @@ permalink: /programme/
     display: none !important;
   }
 
-  /* Pull content container right up and remove theme padding */
+  /* Set container max-width without zeroing out global padding */
   .container,
   .wrapper,
-  .page-content,
   .site-content,
   main {
     max-width: 60rem !important;
     width: 100% !important;
     margin-left: auto !important;
     margin-right: auto !important;
+  }
+
+  /* Pull inner page content up */
+  .page-content {
     padding-top: 0 !important;
     margin-top: 0 !important;
   }
@@ -32,6 +35,11 @@ permalink: /programme/
   /* Pull the calendar up to eliminate remaining gap */
   #calendar {
     margin-top: -1.5rem !important;
+  }
+
+  /* Restore spacing above the footer */
+  .site-footer, footer {
+    margin-top: 3rem !important;
   }
 
   /* Hide language selector on this page */
