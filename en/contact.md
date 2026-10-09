@@ -8,9 +8,9 @@ height: 60vh
 permalink: /contact/
 ---
 <style>
-  /* Restrict only the main page content width to 45rem, leaving wrapper/footer untouched */
+  /* Set contact page content width to 60rem, protecting the footer */
   .page-content, .main-content {
-    max-width: 45rem !important;
+    max-width: 60rem !important;
     margin-left: auto !important;
     margin-right: auto !important;
   }
@@ -36,4 +36,4 @@ The Data to Action Pavilion is located at the Karen Demirchyan Sports and Concer
 
 For inquiries regarding the Data to Action Pavilion, please contact us at:
 
-* **Email:** [contact@cop17pavilion.org](mailto:contact@cop17pavilion.org)
+- **Email:** [contact@cop17pavilion.org](mailto:contact@cop17pavilion.org)
