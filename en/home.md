@@ -39,4 +39,4 @@ The pavilion’s programme centers around four core pillars supporting the Kunmi
 
 ## Engaging at the Pavilion
 
-*   **Daily Sessions:** Browse the complete schedule of panel discussions and side events from October 19–30 via the [Sessions](/calendar0/) page.
+*   **Daily Sessions:** Browse the complete schedule of panel discussions and side events from October 19–30 via the [Programme](/programme/) page.
