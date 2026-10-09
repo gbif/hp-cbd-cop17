@@ -42,28 +42,40 @@ permalink: /programme/
     display: none !important;
   }
 
-  /* Outline Pill Legend styling (Left-aligned & Interactive) */
+  /* Interactive Filter Pills container & label */
+  #calendar-legend-container {
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .filter-label {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
   #calendar-legend {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.75rem;
+    gap: 0.5rem;
     justify-content: flex-start;
-    margin-top: 1.5rem;
-    margin-bottom: 2rem;
   }
 
   .legend-pill {
     display: inline-flex;
     align-items: center;
-    gap: 0.6rem;
-    padding: 0.4rem 1rem;
+    gap: 0.4rem;
+    padding: 0.3rem 0.6rem;
     border-radius: 50px;
-    border: 2px solid;
+    border: 1.5px solid;
     background: #fff;
-    font-size: 0.9rem;
-    font-weight: 600;
+    font-size: 0.8rem;
+    font-weight: 500;
     cursor: pointer;
-    transition: opacity 0.2s, transform 0.1s;
+    transition: opacity 0.2s, transform 0.1s, background 0.2s;
     user-select: none;
   }
 
@@ -72,8 +84,8 @@ permalink: /programme/
   }
 
   .legend-dot {
-    width: 10px;
-    height: 10px;
+    width: 7px;
+    height: 7px;
     border-radius: 50%;
     display: inline-block;
   }
