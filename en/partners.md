@@ -6,7 +6,7 @@ description: The organizations collaborating on the Data to Action Pavilion work
 background:
 imageLicense: caption
 hasTextShadow: true
-permalink: /contact/
+permalink: /partners/
 composition:
 - type: features
   data: compose.partners
