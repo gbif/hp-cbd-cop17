@@ -13,7 +13,7 @@ permalink: /contact/
     max-width: 45rem !important;
   }
   /* Hide translation widget */
-  .translation-widget, .language-switcher, .skiptranslate {
+  .translation-widget, .language-switcher, .skiptranslate, .navbar-item has-dropdown js-language-dropdown {
     display: none !important;
   }
 </style>
