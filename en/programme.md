@@ -228,20 +228,32 @@ permalink: /programme/
 <div id="calendar"></div>
 
 <!-- Interactive Outline Filter Pills -->
+<!-- Interactive Outline Filter Pills -->
 <div id="calendar-legend-container">
-  <div class="filter-label">Filter schedule by theme:</div>
+  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
+    <div class="filter-label" style="margin-bottom: 0;">Filter schedule by theme (all shown by default; click to toggle):</div>
+    <button id="reset-filters-btn" style="background: none; border: none; color: #307b98; font-size: 0.8rem; font-weight: 600; cursor: pointer; text-decoration: underline; padding: 0;">Reset All</button>
+  </div>
   <div id="calendar-legend">
     <div class="legend-pill" data-theme="Building Capacity for Biodiversity Action" style="border-color: #669941; color: #669941;">
-      <span class="legend-dot" style="background: #669941;"></span> Building Capacity for Biodiversity Action
+      <span class="legend-dot" style="background: #669941;"></span>
+      <span class="legend-text">Building Capacity for Biodiversity Action</span>
+      <span class="legend-check">&#10003;</span>
     </div>
     <div class="legend-pill" data-theme="From Data to Decisions" style="border-color: #307b98; color: #307b98;">
-      <span class="legend-dot" style="background: #307b98;"></span> From Data to Decisions
+      <span class="legend-dot" style="background: #307b98;"></span>
+      <span class="legend-text">From Data to Decisions</span>
+      <span class="legend-check">&#10003;</span>
     </div>
     <div class="legend-pill" data-theme="Monitoring, Technology & Innovation" style="border-color: #f6aa3c; color: #b87410;">
-      <span class="legend-dot" style="background: #f6aa3c;"></span> Monitoring, Technology & Innovation
+      <span class="legend-dot" style="background: #f6aa3c;"></span>
+      <span class="legend-text">Monitoring, Technology & Innovation</span>
+      <span class="legend-check">&#10003;</span>
     </div>
     <div class="legend-pill" data-theme="Data Gaps & Governance" style="border-color: #d46833; color: #d46833;">
-      <span class="legend-dot" style="background: #d46833;"></span> Data Gaps & Governance
+      <span class="legend-dot" style="background: #d46833;"></span>
+      <span class="legend-text">Data Gaps & Governance</span>
+      <span class="legend-check">&#10003;</span>
     </div>
   </div>
 </div>
@@ -429,36 +441,56 @@ document.addEventListener('DOMContentLoaded', function() {
   calendar.render();
 
   // Filter functionality for calendar legend pills
-  const activeThemes = new Set(Object.keys(themeColors));
-  const filterPills = document.querySelectorAll('#calendar-legend .legend-pill');
+    const activeThemes = new Set(Object.keys(themeColors));
+    const filterPills = document.querySelectorAll('#calendar-legend .legend-pill');
+    const resetBtn = document.getElementById('reset-filters-btn');
 
-  filterPills.forEach(pill => {
-    pill.addEventListener('click', function() {
-      const theme = this.getAttribute('data-theme');
-
-      if (activeThemes.has(theme)) {
-        activeThemes.delete(theme);
-        this.style.opacity = '0.35';
-        this.style.background = '#f3f4f6';
+    function updatePillState(pill, isActive) {
+      const checkSpan = pill.querySelector('.legend-check');
+      if (isActive) {
+        pill.style.opacity = '1';
+        pill.style.background = '#fff';
+        if (checkSpan) checkSpan.style.display = 'inline';
       } else {
+        pill.style.opacity = '0.35';
+        pill.style.background = '#f3f4f6';
+        if (checkSpan) checkSpan.style.display = 'none';
+      }
+    }
+
+    filterPills.forEach(pill => {
+      pill.addEventListener('click', function() {
+        const theme = this.getAttribute('data-theme');
+
+        if (activeThemes.has(theme)) {
+          activeThemes.delete(theme);
+          updatePillState(this, false);
+        } else {
+          activeThemes.add(theme);
+          updatePillState(this, true);
+        }
+
+        // If all are deselected, reset all back on
+        if (activeThemes.size === 0) {
+          filterPills.forEach(p => {
+            activeThemes.add(p.getAttribute('data-theme'));
+            updatePillState(p, true);
+          });
+        }
+
+        const filteredEvents = allEvents.filter(event => activeThemes.has(event.extendedProps.theme));
+        calendar.setOption('events', filteredEvents);
+      });
+    });
+
+    resetBtn.addEventListener('click', function() {
+      activeThemes.clear();
+      filterPills.forEach(p => {
+        const theme = p.getAttribute('data-theme');
         activeThemes.add(theme);
-        this.style.opacity = '1';
-        this.style.background = '#fff';
-      }
-
-      // If all are deselected, reset and select all again
-      if (activeThemes.size === 0) {
-        filterPills.forEach(p => {
-          const t = p.getAttribute('data-theme');
-          activeThemes.add(t);
-          p.style.opacity = '1';
-          p.style.background = '#fff';
-        });
-      }
-
-      // Filter and update calendar events
-      const filteredEvents = allEvents.filter(event => activeThemes.has(event.extendedProps.theme));
-      calendar.setOption('events', filteredEvents);
+        updatePillState(p, true);
+      });
+      calendar.setOption('events', allEvents);
     });
   });
 });
