@@ -98,8 +98,11 @@ permalink: /programme/
     display: inline-block;
   }
 
-  /* Mobile responsiveness: compact toolbar and smaller dates/buttons */
+  /* Mobile responsiveness: hide extra gaps/headers, compact toolbar, smaller text */
   @media (max-width: 768px) {
+    .boxHero, .not-full-height, .overlay {
+      display: none !important;
+    }
     .fc .fc-toolbar-chunk:last-child {
       display: none !important;
     }
