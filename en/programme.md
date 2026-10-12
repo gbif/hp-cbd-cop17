@@ -405,7 +405,7 @@ document.addEventListener('DOMContentLoaded', function() {
         } else if (submitterEmail) {
           contactText = `<a href="mailto:${submitterEmail}" style="color: #307b98; text-decoration: underline;">${submitterEmail}</a>`;
         }
-        html += `<div class="modal-meta-item"><strong>Submitter:</strong> ${contactText}</div>`;
+        html += `<div class="modal-meta-item"><strong>Event Contact:</strong> ${contactText}</div>`;
       }
 
       const description = row['Event description '] || row['Event description'];
