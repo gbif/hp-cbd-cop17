@@ -98,7 +98,7 @@ permalink: /programme/
     display: inline-block;
   }
 
-  /* Mobile responsiveness: hide view switcher chunk entirely and stack controls */
+  /* Mobile responsiveness: compact toolbar and smaller dates/buttons */
   @media (max-width: 768px) {
     .fc .fc-toolbar-chunk:last-child {
       display: none !important;
@@ -106,22 +106,26 @@ permalink: /programme/
     .fc .fc-toolbar {
       flex-direction: column;
       align-items: stretch;
-      gap: 0.75rem;
+      gap: 0.5rem;
+      margin-bottom: 0.75rem !important;
     }
     .fc .fc-toolbar-chunk {
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
-      gap: 0.3rem;
+      gap: 0.2rem;
     }
     .fc .fc-button {
-      padding: 0.4rem 0.6rem !important;
-      font-size: 0.85rem !important;
-      line-height: 1.2 !important;
+      padding: 0.25rem 0.5rem !important;
+      font-size: 0.75rem !important;
+      line-height: 1.1 !important;
     }
     .fc .fc-toolbar-title {
-      font-size: 1.15rem !important;
+      font-size: 1rem !important;
       text-align: center;
+    }
+    .fc .fc-list-day-text, .fc .fc-list-day-side-text {
+      font-size: 0.85rem !important;
     }
     #calendar-legend {
       flex-direction: column;
