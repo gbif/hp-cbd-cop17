@@ -98,10 +98,14 @@ permalink: /programme/
     display: inline-block;
   }
 
-  /* Mobile responsiveness: compact toolbar, narrow time column, larger modal text box */
+  /* Mobile responsiveness: compact toolbar, narrow time column, 60vh calendar height, larger modal text box */
   @media (max-width: 768px) {
     .boxHero, .not-full-height, .overlay {
       display: none !important;
+    }
+    #calendar {
+      height: 60vh !important;
+      overflow-y: auto !important;
     }
     .fc .fc-toolbar-chunk:last-child {
       display: none !important;
