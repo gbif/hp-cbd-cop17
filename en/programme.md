@@ -98,7 +98,7 @@ permalink: /programme/
     display: inline-block;
   }
 
-  /* Mobile responsiveness: compact toolbar, narrow time column, smaller text */
+  /* Mobile responsiveness: compact toolbar, narrow time column, larger modal text box */
   @media (max-width: 768px) {
     .boxHero, .not-full-height, .overlay {
       display: none !important;
@@ -141,6 +141,10 @@ permalink: /programme/
     .fc .fc-list-table td.fc-list-event-title {
       padding-left: 0.4rem !important;
       padding-right: 0.4rem !important;
+    }
+    /* Make scrollable description box larger on mobile */
+    .modal-description-box {
+      max-height: 240px !important;
     }
     #calendar-legend {
       flex-direction: column;
