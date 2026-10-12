@@ -7,6 +7,7 @@ imageLicense: "[_Polyommatus icarus_ (von Rottemburg, 1775)](https://www.gbif.or
 height: 60vh
 permalink: /contact/
 ---
+
 <style>
   /* Set contact page content width to 60rem, protecting the footer */
   .page-content, .main-content {
