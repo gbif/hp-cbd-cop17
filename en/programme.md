@@ -493,5 +493,5 @@ document.addEventListener('DOMContentLoaded', function() {
       calendar.setOption('events', allEvents);
     });
   });
-});
+
 </script>
