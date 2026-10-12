@@ -144,18 +144,18 @@ permalink: /programme/
     z-index: 999;
   }
 
-  /* Modern event modal box */
+  /* Modern event modal box (Wider and Roomier) */
   #event-modal {
     display: none;
     position: fixed;
     top: 50%; left: 50%;
     transform: translate(-50%, -50%);
     background: #fff;
-    padding: 2.5rem;
+    padding: 2.25rem 2.5rem;
     box-shadow: 0 10px 25px rgba(0,0,0,0.15);
     z-index: 1000;
-    max-width: 600px;
-    width: 90%;
+    max-width: 680px;
+    width: 92%;
     border-radius: 12px;
     color: #333;
     font-family: inherit;
@@ -170,7 +170,21 @@ permalink: /programme/
   .modal-meta-item strong {
     color: #444;
     display: inline-block;
-    width: 140px;
+    width: 150px;
+  }
+
+  /* Fixed-height scrollable container for event descriptions */
+  .modal-description-box {
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 1rem;
+    max-height: 160px;
+    overflow-y: auto;
+    margin-top: 0.35rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #4b5563;
   }
 
   .modal-actions {
@@ -246,8 +260,8 @@ permalink: /programme/
 <!-- Modal Backdrop and Container -->
 <div id="modal-backdrop" onclick="closeModal()"></div>
 <div id="event-modal">
-  <h2 id="modal-title" style="margin-top:0; margin-bottom: 1.25rem; font-size: 1.4rem; color: #111;"></h2>
-  <div id="modal-body" style="max-height:50vh; overflow-y:auto; border-top: 1px solid #eee; border-bottom: 1px solid #eee; padding: 1rem 0;"></div>
+  <h2 id="modal-title" style="margin-top:0; margin-bottom: 1rem; font-size: 1.35rem; color: #111;"></h2>
+  <div id="modal-body" style="max-height:55vh; overflow-y:auto; border-top: 1px solid #eee; border-bottom: 1px solid #eee; padding: 1rem 0;"></div>
   <div class="modal-actions">
     <button class="modal-btn modal-ics-btn" id="modal-ics-button">Add to Calendar</button>
     <button class="modal-btn modal-close-btn" onclick="closeModal()">Close</button>
@@ -361,14 +375,11 @@ document.addEventListener('DOMContentLoaded', function() {
       document.getElementById('modal-title').innerText = info.event.title;
 
       let html = '';
-      if (row['Event type'] || row['Type']) {
-        html += `<div class="modal-meta-item"><strong>Event Type:</strong> ${row['Event type'] || row['Type']}</div>`;
+      if (row['Type of event']) {
+        html += `<div class="modal-meta-item"><strong>Event Type:</strong> ${row['Type of event']}</div>`;
       }
       if (row['Lead organization']) {
         html += `<div class="modal-meta-item"><strong>Lead Organization:</strong> ${row['Lead organization']}</div>`;
-      }
-      if (row['Speakers'] || row['Speaker(s)'] || row['Speaker']) {
-        html += `<div class="modal-meta-item"><strong>Speakers:</strong> ${row['Speakers'] || row['Speaker(s)'] || row['Speaker']}</div>`;
       }
       if (row['Date'] && row['Start']) {
         html += `<div class="modal-meta-item"><strong>Date & Time:</strong> ${row['Date']} | ${row['Start']} - ${row['End']}</div>`;
@@ -379,9 +390,27 @@ document.addEventListener('DOMContentLoaded', function() {
       if (row['Paired thematic focus']) {
         html += `<div class="modal-meta-item" style="margin-top: 0.75rem;"><strong>Thematic Focus:</strong> ${row['Paired thematic focus']}</div>`;
       }
-      const description = row['Description'] || row['Short description'] || row['Abstract'];
-      if (description) {
-        html += `<div class="modal-meta-item" style="margin-top: 1rem;"><strong>Description:</strong><p style="margin: 0.25rem 0 0 0; color: #555;">${description}</p></div>`;
+
+      const catering = row['Catering?'];
+      if (catering && catering.trim() !== '' && catering.toLowerCase() !== 'no') {
+        html += `<div class="modal-meta-item"><strong>Catering:</strong> ${catering}</div>`;
+      }
+
+      const submitterName = row["Submitter's name (main contact)"];
+      const submitterEmail = row["Submitter's Email Address"];
+      if (submitterName || submitterEmail) {
+        let contactText = submitterName || '';
+        if (submitterName && submitterEmail) {
+          contactText += ` (<a href="mailto:${submitterEmail}" style="color: #307b98; text-decoration: underline;">${submitterEmail}</a>)`;
+        } else if (submitterEmail) {
+          contactText = `<a href="mailto:${submitterEmail}" style="color: #307b98; text-decoration: underline;">${submitterEmail}</a>`;
+        }
+        html += `<div class="modal-meta-item"><strong>Submitter:</strong> ${contactText}</div>`;
+      }
+
+      const description = row['Event description '] || row['Event description'];
+      if (description && description.trim() !== '') {
+        html += `<div class="modal-meta-item" style="margin-top: 1rem;"><strong>Description:</strong><div class="modal-description-box">${description}</div></div>`;
       }
 
       document.getElementById('modal-body').innerHTML = html;
