@@ -98,7 +98,7 @@ permalink: /programme/
     display: inline-block;
   }
 
-  /* Mobile responsiveness: hide extra gaps/headers, compact toolbar, smaller text */
+  /* Mobile responsiveness: compact toolbar, narrow time column, smaller text */
   @media (max-width: 768px) {
     .boxHero, .not-full-height, .overlay {
       display: none !important;
@@ -129,6 +129,18 @@ permalink: /programme/
     }
     .fc .fc-list-day-text, .fc .fc-list-day-side-text {
       font-size: 0.85rem !important;
+    }
+    /* Narrow the time column to give more room to the event title */
+    .fc .fc-list-table td.fc-list-event-time {
+      width: 70px !important;
+      white-space: nowrap !important;
+      font-size: 0.75rem !important;
+      padding-left: 0.3rem !important;
+      padding-right: 0.3rem !important;
+    }
+    .fc .fc-list-table td.fc-list-event-title {
+      padding-left: 0.4rem !important;
+      padding-right: 0.4rem !important;
     }
     #calendar-legend {
       flex-direction: column;
