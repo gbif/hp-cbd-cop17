@@ -228,7 +228,6 @@ permalink: /programme/
 <div id="calendar"></div>
 
 <!-- Interactive Outline Filter Pills -->
-<!-- Interactive Outline Filter Pills -->
 <div id="calendar-legend-container">
   <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
     <div class="filter-label" style="margin-bottom: 0;">Filter schedule by theme (all shown by default; click to toggle):</div>
@@ -346,7 +345,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   const allEvents = rawEvents
-    .filter(row => row['Event title'] && row['Date'] && row['Start'] && row['Start'].trim() !== '')
+    .filter(row => row['Event title'] && row['Date'] && row['Start'] && row['Start'].trim() !== '' && row['Confirmation'] && row['Confirmation'].trim().toLowerCase() === 'confirmed')
     .map(row => {
       const theme = row['Primary theme'] || '';
       const colors = themeColors[theme] || defaultColor;
@@ -427,7 +426,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
       document.getElementById('modal-body').innerHTML = html;
 
-      // Wire up the Add to Calendar button using floating time
       const icsBtn = document.getElementById('modal-ics-button');
       icsBtn.onclick = function() {
         downloadIcs(info.event.title, description, 'Karen Demirchyan Sports and Concert Complex, Yerevan, Armenia', startIso, endIso);
@@ -440,58 +438,55 @@ document.addEventListener('DOMContentLoaded', function() {
 
   calendar.render();
 
-  // Filter functionality for calendar legend pills
-    const activeThemes = new Set(Object.keys(themeColors));
-    const filterPills = document.querySelectorAll('#calendar-legend .legend-pill');
-    const resetBtn = document.getElementById('reset-filters-btn');
+  const activeThemes = new Set(Object.keys(themeColors));
+  const filterPills = document.querySelectorAll('#calendar-legend .legend-pill');
+  const resetBtn = document.getElementById('reset-filters-btn');
 
-    function updatePillState(pill, isActive) {
-      const checkSpan = pill.querySelector('.legend-check');
-      if (isActive) {
-        pill.style.opacity = '1';
-        pill.style.background = '#fff';
-        if (checkSpan) checkSpan.style.display = 'inline';
-      } else {
-        pill.style.opacity = '0.35';
-        pill.style.background = '#f3f4f6';
-        if (checkSpan) checkSpan.style.display = 'none';
-      }
+  function updatePillState(pill, isActive) {
+    const checkSpan = pill.querySelector('.legend-check');
+    if (isActive) {
+      pill.style.opacity = '1';
+      pill.style.background = '#fff';
+      if (checkSpan) checkSpan.style.display = 'inline';
+    } else {
+      pill.style.opacity = '0.35';
+      pill.style.background = '#f3f4f6';
+      if (checkSpan) checkSpan.style.display = 'none';
     }
+  }
 
-    filterPills.forEach(pill => {
-      pill.addEventListener('click', function() {
-        const theme = this.getAttribute('data-theme');
+  filterPills.forEach(pill => {
+    pill.addEventListener('click', function() {
+      const theme = this.getAttribute('data-theme');
 
-        if (activeThemes.has(theme)) {
-          activeThemes.delete(theme);
-          updatePillState(this, false);
-        } else {
-          activeThemes.add(theme);
-          updatePillState(this, true);
-        }
-
-        // If all are deselected, reset all back on
-        if (activeThemes.size === 0) {
-          filterPills.forEach(p => {
-            activeThemes.add(p.getAttribute('data-theme'));
-            updatePillState(p, true);
-          });
-        }
-
-        const filteredEvents = allEvents.filter(event => activeThemes.has(event.extendedProps.theme));
-        calendar.setOption('events', filteredEvents);
-      });
-    });
-
-    resetBtn.addEventListener('click', function() {
-      activeThemes.clear();
-      filterPills.forEach(p => {
-        const theme = p.getAttribute('data-theme');
+      if (activeThemes.has(theme)) {
+        activeThemes.delete(theme);
+        updatePillState(this, false);
+      } else {
         activeThemes.add(theme);
-        updatePillState(p, true);
-      });
-      calendar.setOption('events', allEvents);
+        updatePillState(this, true);
+      }
+
+      if (activeThemes.size === 0) {
+        filterPills.forEach(p => {
+          activeThemes.add(p.getAttribute('data-theme'));
+          updatePillState(p, true);
+        });
+      }
+
+      const filteredEvents = allEvents.filter(event => activeThemes.has(event.extendedProps.theme));
+      calendar.setOption('events', filteredEvents);
     });
   });
 
+  resetBtn.addEventListener('click', function() {
+    activeThemes.clear();
+    filterPills.forEach(p => {
+      const theme = p.getAttribute('data-theme');
+      activeThemes.add(theme);
+      updatePillState(p, true);
+    });
+    calendar.setOption('events', allEvents);
+  });
+});
 </script>
