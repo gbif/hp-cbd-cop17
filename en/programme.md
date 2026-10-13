@@ -346,7 +346,8 @@ function downloadIcs(title, description, location, startStr, endStr) {
 
 document.addEventListener('DOMContentLoaded', function() {
   const calendarEl = document.getElementById('calendar');
-  const rawEvents = {{ site.data.events | jsonify }};
+  {% assign confirmed_events = site.data.events | where_exp: "e", "e.Confirmation == 'confirmed'" %}
+  const rawEvents = {{ confirmed_events | jsonify }};
 
   const themeColors = {
     "Building Capacity for Biodiversity Action": { background: "#669941", text: "#ffffff" },
@@ -372,7 +373,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   const allEvents = rawEvents
-    .filter(row => row['Event title'] && row['Date'] && row['Start'] && row['Start'].trim() !== '' && row['Confirmation'] && row['Confirmation'].trim().toLowerCase() === 'confirmed')
+    .filter(row => row['Event title'] && row['Date'] && row['Start'] && row['Start'].trim() !== '')
     .map(row => {
       const theme = row['Primary theme'] || '';
       const colors = themeColors[theme] || defaultColor;
