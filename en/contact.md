@@ -27,7 +27,7 @@ permalink: /contact/
 
 ## Find us
 
-The Data to Action Pavilion is located at the Karen Demirchyan Sports and Concert Complex in Yerevan, Armenia.
+The Data to Action Pavilion is in the Blue Zone at the Meridian Expo and Event Center, Yerevan, Armenia.
 
 <div style="margin: 1.5rem 0; text-align: center;">
   <img src="/assets/images/site-plan.jpg" alt="Karen Demirchyan Sports and Concert Complex" style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #e5e7eb;">
