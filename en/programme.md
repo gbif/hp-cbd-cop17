@@ -328,7 +328,7 @@ function downloadIcs(title, description, location, startStr, endStr) {
     'BEGIN:VEVENT',
     `SUMMARY:${title || 'Session'}`,
     `DESCRIPTION:${(description || '').replace(/\n/g, '\\n')}`,
-    `LOCATION:${location || 'Karen Demirchyan Sports and Concert Complex, Yerevan, Armenia'}`,
+    `LOCATION:${location || 'Data to Action Pavilion, Blue Zone, Meridian Expo and Event Center'}`,
     `DTSTART:${start}`,
     `DTEND:${end}`,
     'END:VEVENT',
@@ -455,7 +455,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       const icsBtn = document.getElementById('modal-ics-button');
       icsBtn.onclick = function() {
-        downloadIcs(info.event.title, description, 'Karen Demirchyan Sports and Concert Complex, Yerevan, Armenia', startIso, endIso);
+        downloadIcs(info.event.title, description, 'Data to Action Pavilion, Blue Zone, Meridian Expo and Event Center', startIso, endIso);
       };
 
       document.getElementById('event-modal').style.display = 'block';
