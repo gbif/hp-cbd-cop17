@@ -346,8 +346,28 @@ function downloadIcs(title, description, location, startStr, endStr) {
 
 document.addEventListener('DOMContentLoaded', function() {
   const calendarEl = document.getElementById('calendar');
-  {% assign confirmed_events = site.data.events | where_exp: "e", "e.Confirmation == 'confirmed'" %}
-  const rawEvents = {{ confirmed_events | jsonify }};
+
+  const rawEvents = [
+    {% assign confirmed_events = site.data.events | where_exp: "e", "e.Confirmation == 'confirmed'" %}
+    {% for e in confirmed_events %}
+      {% if e['Event title'] and e['Date'] and e['Start'] and e['Start'] != '' %}
+      {
+        "Event title": {{ e['Event title'] | jsonify }},
+        "Date": {{ e['Date'] | jsonify }},
+        "Start": {{ e['Start'] | jsonify }},
+        "End": {{ e['End'] | jsonify }},
+        "Primary theme": {{ e['Primary theme'] | jsonify }},
+        "Paired thematic focus": {{ e['Paired thematic focus'] | jsonify }},
+        "Type of event": {{ e['Type of event'] | jsonify }},
+        "Lead organization": {{ e['Lead organization'] | jsonify }},
+        "Catering?": {{ e['Catering?'] | jsonify }},
+        "Submitter's name (main contact)": {{ e["Submitter's name (main contact)"] | jsonify }},
+        "Submitter's Email Address": {{ e["Submitter's Email Address"] | jsonify }},
+        "Event description": {{ e['Event description '] | default: e['Event description'] | jsonify }}
+      }{% unless forloop.last %},{% endunless %}
+      {% endif %}
+    {% endfor %}
+  ];
 
   const themeColors = {
     "Building Capacity for Biodiversity Action": { background: "#669941", text: "#ffffff" },
@@ -373,7 +393,6 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   const allEvents = rawEvents
-    .filter(row => row['Event title'] && row['Date'] && row['Start'] && row['Start'].trim() !== '')
     .map(row => {
       const theme = row['Primary theme'] || '';
       const colors = themeColors[theme] || defaultColor;
@@ -447,7 +466,7 @@ document.addEventListener('DOMContentLoaded', function() {
         html += `<div class="modal-meta-item"><strong>Event Contact:</strong> ${contactText}</div>`;
       }
 
-      const description = row['Event description '] || row['Event description'];
+      const description = row['Event description'];
       if (description && description.trim() !== '') {
         html += `<div class="modal-meta-item" style="margin-top: 1rem;"><strong>Description:</strong><div class="modal-description-box">${description}</div></div>`;
       }
