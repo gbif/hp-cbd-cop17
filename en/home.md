@@ -28,7 +28,7 @@ permalink: /
 
 ### Yerevan, Armenia | 19-30 October 2026
 
-The **Data to Action Pavilion** brings together organizations working across the biodiversity knowledge system—from monitoring and Earth observations to data infrastructure, scientific collections and research, decision-support tools, capacity development, and policy support. Convened for CBD COP17, the initiative demonstrates how integrated science and information systems accelerate implementation of the [Kunming-Montreal Global Biodiversity Framework](https://cbd.int/gbf).
+The **Data to Action Pavilion** brings together organizations working across the biodiversity knowledge system—from scientific collections, monitoring and Earth observations to data infrastructure, decision-support tools, capacity development, applied research and policy support. The initiative convenes representatives from dozens of partner organizations for a dynamic programme that demonstrates [Kunming-Montreal Global Biodiversity Framework](https://cbd.int/gbf).
 
 ## Engaging at the Pavilion
 
