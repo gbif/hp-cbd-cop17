@@ -21,7 +21,7 @@
     "List any other organizations, collaborators or countries involved": "",
     "Type of event": "",
     "Event description ": "",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Mon, 19 Oct",
@@ -45,7 +45,7 @@
     "List any other organizations, collaborators or countries involved": "European Space Agency (ESA)",
     "Type of event": "Talk/presentations",
     "Event description ": "Earth Observation (EO) data holds enormous potential for biodiversity monitoring, but remains difficult to integrate directly into biodiversity workflows or indicator calculations. This session presents a collaboration between the European Space Agency (ESA) and GEO BON that addresses this gap through interoperability rather than duplication of effort.\nThe session will show how interoperability between ESA's openEO interface and GEO BON's BON in a Box combines the strengths of both platforms: cloud-based EO data processing with biodiversity workflows. Through a demonstration, presenters will show how Earth Observation data can be integrated into workflows to enhance biodiversity monitoring and indicator reporting.\nPresenters will explore how this complementarity can make EO data more usable for biodiversity monitoring, and how continued ESA–GEO BON collaboration can strengthen the pipeline from raw observations to decision-ready indicators, in support of the Kunming-Montreal Global Biodiversity Framework. Discussion will center on the capacity and skill gaps countries face in putting EO data to practical use, and how this integration, and future ones, can help address these barriers.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Mon, 19 Oct",
@@ -69,7 +69,7 @@
     "List any other organizations, collaborators or countries involved": "Toha Network / International Environmental Guardianship",
     "Type of event": "Demonstration/technical showcase",
     "Event description ": "Data sovereignty is an emerging norm for nature data, guided by frameworks like the CARE principles. As an ethical concept, it is associated with self-determination and social licence among data-sharing communities. As a practice, however, there is uncertainty about how to implement data sovereignty in the real world, especially when balancing other goods like openness, transparency, access and affordability. The East Coast Exchange (ECX) is a community-led venture that uplifts Indigenous data sovereignty by providing consent-based access to nature data for corporate reporting and disclosure. Using digital public infrastructure provided by the Toha Network, the ECX is facilitating test transactions of nature data at Te Kautuku, a Māori-owned landblock in the East Coast region of Aotearoa New Zealand. In this interactive event, representatives for Te Kautuku, ECX and Toha Network will explain the mechanisms that uplift data sovereignty, how FPIC and benefit-sharing are implemented, how community data is governed, and showcase the first bundle of nature-positive data products designed for TNFD-aligned corporate reporting and disclosure. Finally, we explore the adaptability of this data protocol for other communities and territories through global initiatives like the 8 Billion Hour Pledge.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Mon, 19 Oct",
@@ -93,7 +93,7 @@
     "List any other organizations, collaborators or countries involved": "GEF, GEF implementing partners, SCBD, TSCs, Humboldt, SANBI, RCMRD, Forest Peoples ProgrammeSupport Centres: Humboldt, SANBI, RCMRD, national governments, local and community-based monitoring initiatives (Forest Peoples Programmes), and regional and global biodiversity observing networks (from GEO BON at COP…Europe?)",
     "Type of event": "Panel discussion",
     "Event description ": "GEF-9 creates an important new opportunity to strengthen national biodiversity monitoring. But how can this investment translate into monitoring capacity that lasts beyond individual projects and supports countries in making decisions and reporting progress towards the Kunming-Montreal Global Biodiversity Framework?\nThis session will bring together actors from across the biodiversity monitoring system—from GEF financing and CBD technical support, to local and community-based monitoring, national monitoring systems, and regional and global observing networks.\nThe discussion will explore how these different parts of the biodiversity monitoring system can work together to turn biodiversity finance into sustained national capacity. Participants will consider their respective roles across this architecture: What already exists? Where are the critical connections missing? What should GEF investment support? And how can countries better connect local observations, national institutions, technical support, and regional and global networks into coherent and durable monitoring systems?\nThe session will focus on practical opportunities presented by GEF-9 and what needs to happen now to ensure that investment in monitoring strengthens lasting national infrastructure, while also contributing to regional and global understanding of biodiversity change.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Mon, 19 Oct",
@@ -117,7 +117,7 @@
     "List any other organizations, collaborators or countries involved": "Ministry of Environment (Armenia), Center for Ecological-Noosphere Studies, Institute of Botany, BCC Armenia + IOER Dresden ",
     "Type of event": "Panel discussion",
     "Event description ": "What does it take for a country to turn Earth observation and remote sensing data into evidence decision-makers can act on? As countries work to report progress against the Kunming-Montreal Global Biodiversity Framework (GBF) targets, a persistent gap remains between the data now available and its translation into actionable insights. Drawing on the experience of COP17 host country Armenia in developing its national ecosystems map, this session will give participants a shared, practical understanding of the full chain, from raw observation to policy-relevant evidence, building bridges between technical expertise and decision-making needs. The conversation will bring together technical and policy perspectives to examine what makes Earth observation data trustworthy, how data products can be converted into indicators that are comparable across countries, and how national governments use these indicators to update NBSAPs, track GBF targets, and direct resources where they are most needed.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Tue, 20 Oct",
@@ -141,7 +141,7 @@
     "List any other organizations, collaborators or countries involved": "CBD, FAO, UNSD, IUCN, The University of Melbourne",
     "Type of event": "Panel discussion",
     "Event description ": "How can countries turn national data into ecosystem indicators they can actually report against? This event will identify paths towards improving the compilation of the headline indicators related to ecosystems in the Kunming-Montreal Global Biodiversity Framework (GBF), so that by the 8th national reports, all Parties are in a position to use and report on these indicators. Consistent ecosystem indicators can provide a well-rounded picture of efforts to sustain ecosystems and the services they provide (headline indicator B.1), such as how threatened they are (A.1), how much remains (A.2), is protected (3.1) and is being restored (2.1), at national scales and for groups of ecosystems globally (e.g. coral reefs or tropical rainforests). These indicators have many common foundational data needs, providing opportunities for synergistic investment in data that will be valuable across sectors. This event will explore practical solutions, partners and funding mechanisms to help fill data and knowledge gaps for ecosystems, to support GBF reporting and implementation. Through panel discussions, short presentations and Q&A, the event will introduce the indicators, take stock of challenges faced in the 7th national reports, and set out concrete proposals for overcoming those challenges. It will close by looking at the partners and funding mechanisms that can help countries develop these indicators ahead of the 8th national reports.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Tue, 20 Oct",
@@ -165,7 +165,7 @@
     "List any other organizations, collaborators or countries involved": "",
     "Type of event": "Panel discussion",
     "Event description ": "Realizing the ambitions of the Kunming-Montreal Global Biodiversity Framework (GBF) requires more and richer data than is currently available. To track and monitor biodiversity changes over time, the GBF relies on indicators that measure progress of national biodiversity actions. To deliver the necessary evidence GBIF—the Global Biodiversity Information Facility—isenhancing its infrastructures to support richer, more complex types of biodiversity data, many\nfrom sources newly enabled through emerging and innovative technologies. GBIF is a key infrastructure working across a range of communities including DNA-derived and disease vector data, soil and freshwater data, marine, invasive alien species and agrobiodiversity. The coming improvements will support the CBD in generating, capturing, managing and applying of primary biodiversity data needed under the GBF.\nIn order to do this GBIF is creating and implementing innovative new event-based data models that extend the existing infrastructure. These changes will enable more effective incorporation of data from complex monitoring initiatives that implement diverse methods including sequencing of environmental DNA, and acoustic and camera trap surveys and address known taxonomic, geographic, and temporal gaps in data coverage. The improvements will also empower the\nCBD and wider policymaking community to escalate time-sensitive efforts, delivering enhanced evidence of biodiversity at the scale and speed required to implement the indicators that will measure progress towards the GBF’s objectives. This event will discuss needs and benefits of integrating richer data types across different infrastructures supporting these communities to help inform the development potential of data models to support capacity, pace and scale of biodiversity data evidence generation needed to meet incoming challenges.\nThis session aims to:\n● Demonstrate how innovations in the GBIF infrastructure could align with other relevant data infrastructures and networks to increase data flows to fill knowledge gaps (e.g., is there a specific example we’d like to highlight?)\n● Identify and explore technical tools and training needs Tools and case studies to support richer more complex types of biodiversity data\n● Expand the existing biodiversity research ecosystem to a welcome broader set of biodiversity data holders\n● Highlight how the new data-model makes it easier to access, use, and store more diverse types of data to provide a more complete knowledge of different forms of  biodiversity data",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Tue, 20 Oct",
@@ -189,7 +189,7 @@
     "List any other organizations, collaborators or countries involved": "TBC: likely Colombia, Mexico, South Africa.",
     "Type of event": "Presentation and discussion",
     "Event description ": "The draft Global Report on Collective Progress offers the first evidence-based assessment of implementation of the Kunming-Montreal Global Biodiversity Framework. It highlights progress underway, while identifying persistent challenges in fragmented monitoring systems, inconsistent use of indicators, limited technical and institutional capacity, and significant data gaps.\nThis side event explores how countries are addressing these challenges in practice, through the National Monitoring Support Initiative, a country and region-led effort to strengthen national capacities and data systems for monitoring, reporting and decision-making on national biodiversity actions. In addition, it will showcase two complementary tools: the Knowledge Support Service for Biodiversity, connecting countries to knowledge, guidance and resources on monitoring, and the Target Tracker, helping countries access and use indicator data for reporting. In this session, participating countries, and regional partners, including Technical and Scientific Cooperation Centres (TSCCs), will demonstrate how combining tools with direct technical support, and peer-to-peer exchanges among countries facing similar challenges can help solve challenges related to national monitoring of implementation of the KMGBF. It will be relevant to countries and TSCCs in address national monitoring needs, and global indicator data providers seeking to connect their work to national monitoring efforts.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Tue, 20 Oct",
@@ -213,7 +213,7 @@
     "List any other organizations, collaborators or countries involved": "None planned—open to pairing",
     "Type of event": "Talk/presentations",
     "Event description ": "During the first year of work guided by the GBIF Indigenous Data Governance task group, GBIF and Local Contexts have piloted a practical proof-of-concept for integrating Traditional Knowledge (TK) and Biocultural (BC) Labels and Notices metadata with associated records published via the GBIF network. The collaboration was supported by GBIF national nodes from New Zealand, France, and Ecuador, resulting in five datasets with Local Contexts Labels and Notices attached. This talk with highlight the work today and outline next steps under a renewed task group, including proposed improvements to GBIF training materials and community-based standards through TDWG. With the work of the task group having started just after COP16 in Cali, this will be the first opportunity to share the work within the CBD context.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Tue, 20 Oct",
@@ -237,7 +237,7 @@
     "List any other organizations, collaborators or countries involved": "South African National Biodiversity Institute (SANBI), Humboldt Institute, South Africa, Colombia, Cuba, Ecuador (TBC), Conservation Alliance, MEST, Ghana, Malawi University of Science and Technology, Mozambique, Sahara and Sahel Observatory (OSS), ASEAN Centre for Biodiversity (ACB), Regional Centre for Mapping of Resources for Development (RCMRD), Central African Forests Commission (COMIFAC), International Institute for Applied Systems Analysis (IIASA), IUCN, GEO BON, Marxan Solutions, Global Ecosystem Atlas, Secretariat of the Convention on Biological Diversity (CBD), United Nations Biodiversity Lab (UNBL), United Nations Development Programme (UNDP), United Nations Environment Programme (UNEP), United Nations Environment Programme World Conservation Monitoring Centre (UNEP-WCMC)",
     "Type of event": "Panel discussion",
     "Event description ": "Target 1 of the Kunming-Montreal Global Biodiversity Framework (KMGBF) calls on Parties to use participatory, integrated spatial planning to bring the loss of high-biodiversity areas to near zero. This session bridges the gap between data and decisions by showcasing how nations like Colombia, the European Union, Mozambique, and South Africa are leveraging spatial data to deliver on multiple national targets for biodiversity, climate, and land degradation. We will explore how these practical applications connect to COP17 negotiations, the draft Global Report on Collective Progress in Implementation of the KMGBF, and the IPBES Assessment on Spatial Planning and Ecological Connectivity. Crucially, the session demonstrates how a range of decision-support tools can be operationalized to overcome data gaps, fragmentation, and capacity barriers. Convened in partnership with regional Technical and Scientific Cooperation Support Centres (TSCCs), this event fosters peer-to-peer exchange on translating complex biodiversity observations into national planning, monitoring, and reporting systems. Following this peer-to-peer exchange focused on the science-policy-practice nexus, participants are encouraged to attend Part 2 for hands-on interaction and networking with the specific spatial tools and technical partners featured in these case studies.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Tue, 20 Oct",
@@ -261,7 +261,7 @@
     "List any other organizations, collaborators or countries involved": "Caucasus Nature Fund, WWF Armenia, Hydrometeorology and Monitoring Center” SNCO of Ministry of Environment of the Republic of Armenia",
     "Type of event": "Talk/presentations",
     "Event description ": "Armenia is developing its national biodiversity monitoring system to support implementation of the Kunming-Montreal GBF and the country’s updated National Biodiversity Strategy and Action Plan. Despite recent developments, biodiversity information remains fragmented across institutions and projects, collected using different methods and standards, and not always readily available or integrated into decision-making processes. Key challenges include strengthening long-term, coordinated monitoring; harmonizing datasets; improving data quality and interoperability; building technical capacity and ensuring that monitoring results inform conservation management and national reporting.\nOur session will explore how Armenia can establish consistent long-term monitoring, connect field surveys, data digitalization, protected-area monitoring and citizen science, contribute to national reporting under the CBD, and translate data into evidence for better conservation management. The event will contribute to KMGBF Targets 20 and 21.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Tue, 20 Oct",
@@ -285,7 +285,7 @@
     "List any other organizations, collaborators or countries involved": "GBIF, OBIS, GEO BON",
     "Type of event": "Panel discussion",
     "Event description ": "Marine biodiversity is being observed at unprecedented scales through environmental DNA (eDNA), autonomous platforms, satellite observations, ecological networks, fisheries surveys, natural history collections, and community-based monitoring. Despite these advances, marine biodiversity observations remain fragmented across agencies, research institutions, private organizations, and civil society, often lacking common standards and interoperable workflows. This fragmentation limits the ability to transform observations into actionable information that can effectively support conservation, management, and policy decisions. \nThis event will explore how marine biodiversity data can be transformed into trusted, interoperable, decision-ready information to support implementation of the Kunming-Montreal Global Biodiversity Framework. It will highlight the role of global and regional data infrastructures, observing networks, and monitoring programs, including OBIS, GBIF, and GOOS, in connecting observations across scales. Priorities include integrating diverse marine data streams; strengthening standards, taxonomic and genomic reference libraries, indicators, analytical tools, AI-enabled workflows; and translating biodiversity information into products that meet the needs of Parties, managers, and coastal communities. \nEmerging capabilities—including eDNA and genomics, digitized museum collections, autonomous technologies, Earth observations, and artificial intelligence—offer new opportunities to better connect observations, data infrastructures, and knowledge systems, strengthening marine biodiversity monitoring for conservation, sustainable use, restoration, and ocean management.\nOutcomes of the session could include: \nIdentify priority marine biodiversity data-to-decision pathways. Agree on 2–3 high-value use cases where better integration of observations, OBIS/GBIF-type infrastructures, and decision-support tools could directly improve implementation of the Global Biodiversity Framework—for example, protected-area planning, restoration, fisheries management, or tracking ecosystem change.  \nDefine practical interoperability needs. Produce a short list of priority gaps in standards, reference libraries, metadata, indicators, or data exchange that currently prevent marine biodiversity observations from being readily combined and used in assessments and management.  \nLaunch a follow-on collaboration. Identify a small group of willing organizations to develop a post-COP17 pilot or roadmap that links observing networks, data infrastructures, collections/genomics, and end users around one or more demonstration cases.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Wed, 21 Oct",
@@ -309,7 +309,7 @@
     "List any other organizations, collaborators or countries involved": "Government of Kenya – Ministry of Environment, Climate Change and Forestry (TBC); Government of Madagascar – Ministère de l’Environnement et du Développement (TBC); Durable; Government of Thailand (TBC); FAO OECMs Team; International Union for Conservation of Nature (IUCN) (TBC); Kenya Wildlife Conservancies Association (KWCA) (TBC); International Livestock Research Institute (ILRI)",
     "Type of event": "Panel discussion",
     "Event description ": "In OECM recognition, whose evidence counts — and who decides? Under 5% of sites in the global OECM database provide supporting evidence of any kind, and only 17 of 196 CBD Parties have reported any OECM at all. Between site assessment, national recognition and international reporting lies a question that countries are answering in different ways.\nThis session draws on a synthesis of OECM implementation in Kenya, Madagascar and Thailand, undertaken by the Wyss Academy for Nature at the University of Bern, extended by panelists' and participants' practical experiences. It brings together national governments, conservation, community and Indigenous organizations, and researchers to examine different paths towards recognition. For example, Thailand has endorsed five business-proposed sites by government committee resolution and is building the framework for international reporting. Kenya's 160-plus community conservancies show clear potential for OECM status, but recognition as OECMs hinges on a national policy framework. Madagascar's interministerial order sets the pathway for coastal and marine sites, with terrestrial recognition still to come. Speakers and participants will explore what counts as evidence — community monitoring, citizen science, academic research, official data — and what turns a community from a site assessed into a decision-maker.\nTakeaway: turning a global indicator into credible national recognition means deciding together, co-producing evidence, and co-creating real, tangible benefits to the communities who steward these landscapes.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Wed, 21 Oct",
@@ -333,7 +333,7 @@
     "List any other organizations, collaborators or countries involved": "Ai2, Esri, ESA, IUCN",
     "Type of event": "Talk/presentations",
     "Event description ": "How do diverse national datasets, satellite observations and advances in AI become trusted, decision-ready ecosystem intelligence? This session takes participants inside the technical architecture of the Global Ecosystems Atlas and the partnerships making it possible. \nThe Atlas Technical Consortium brings together Ai2, ESA, Esri, Google and IUCN with the GEO Secretariat and James Cook University, combining complementary capabilities across the full ecosystem-mapping workflow - from standards, training data and foundation models to harmonisation, cloud infrastructure, validation and open access. \nThrough a fast-paced technical deep dive, partners will demonstrate how these contributions connect: Ai2’s OlmoEarth Studio and OlmoEarth foundation models; ESA’s WEED toolbox, national mapping and cross-referencing work; Esri’s geoprocessing and data-distribution infrastructure; and IUCN’s Global Ecosystem Typology and scientific standards. \nThe session will show how this integrated workflow turns fragmented ecosystem data into an open, interoperable global resource, while inviting technical teams, mapping agencies and data partners to help shape the Global Ecosystems Atlas as it moves from ecosystem extent mapping towards monitoring change and condition.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Wed, 21 Oct",
@@ -357,7 +357,7 @@
     "List any other organizations, collaborators or countries involved": "UN Convention on Migratory Species",
     "Type of event": "Talk/presentations",
     "Event description ": "In the face of rapid anthropogenic development, many of the world’s remaining terrestrial migrations are being truncated or lost before we have adequate maps to describe the animals’ habitats, seasonal ranges, and routes. In response to this growing threat, the Global Initiative on Ungulate Migration built the first digital Atlas of Ungulate Migration: a repository for publicly available migration maps incorporating the best available science on migratory populations around the world. Implemented under the auspices of the UN Convention on Migratory Species (CMS), the Atlas now hosts 50+ migration maps and accompanying fact sheets from species as diverse as khulan in the Mongolian Gobi, guanaco in the Argentine Patagonia and the white-eared kob in South Sudan.\nIn this event, we will introduce the Atlas of Ungulate Migration as a data-driven resource for countries, decision-makers, and spatial planners aiming to maintain connectivity for migratory land mammals. Based on our extensive mapping of migration corridors, we will also present new research revealing key patterns and insights with implications for large-scale land management, conservation and connectivity initiatives. Significant opportunities exist for countries to improve the conservation of migratory wildlife through stronger management of key habitats and movement-related conflicts based on newly available derived data products.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Wed, 21 Oct",
@@ -381,7 +381,7 @@
     "List any other organizations, collaborators or countries involved": "",
     "Type of event": "",
     "Event description ": "",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Wed, 21 Oct",
@@ -405,7 +405,7 @@
     "List any other organizations, collaborators or countries involved": "BON in a Box",
     "Type of event": "Talk/presentations",
     "Event description ": "Countries are mandated to track their progress toward the Kunming-Montreal Global Biodiversity Framework using indicators that summarize biodiversity trends. Many still face fragmented monitoring efforts, technical barriers, limited access to data and tools, and gaps in capacity. BON in a Box, an open-source GEO BON platform that helps countries build the capacity to calculate their own indicators and strengthen their national reporting.\nThis session shows how BON in a Box delivers scientifically rigorous and transparent solutions to these reporting challenges. We will present recent progress that has strengthened the robustness of our mission: a choice between an online user space or a local install for complete ownership of your own data, updated biodiversity indicator workflows, AI-assisted features that support users through their analyses, ongoing collaborations with Parties, scientists, and other organizations.\nThrough short presentations and demonstrations, followed by an open discussion, the session will show how we are building lasting national capacity through reproducible workflows that connect data to decisions. We will also highlight where collaboration and investment will expand this work.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Wed, 21 Oct",
@@ -429,7 +429,7 @@
     "List any other organizations, collaborators or countries involved": "University of Zurich, SNSF, WWF Schweiz, Stiftung Lanschaftsschutz, Wilnispark Zürich, KORA, CIMMYT Mexico, Naitonal Bioresource Project Wheat, Japan",
     "Type of event": "Presentation and workshop",
     "Event description ": "This session consists of two parts:\nPart I. 16:30-17:00 (talk) Genetic diversity in crops for resilience (Kentaro Shimizu)\nGenetic diversity within a crop species is essential for protecting biodiversity and ensuring food security. This talk highlights research projects that filled a knowledge gap in shaping sustainable agriculture. We showed that underexplored wheat landraces (traditional varieties) from Asia preserved by the National BioResource Project (NBRP), Japan, are valuable sources of disease resistance and drought tolerance. These findings highlight the importance of seed stock centers (ex situ conservation) and of preserving landraces by local farmers (in situ conservation). Furthermore, a cultivar mixture could reduce herbivore damage, which can lead to reduced use of pesticides.\nPart II. 17:00-18:30 (workshop) Methodologies for equitably connecting knowledge systems to address socio-ecological problems (Sierra Deutsch)\nWhile KMGBF Target 21 mandates inclusion of traditional and local knowledge, gaps remain in equitably connecting knowledge systems. This interactive workshop introduces methods for weaving Indigenous, practitioner, and academic knowledge in parity, avoiding knowledge subordination and extractive data practices. Using adapted versions of the Three Horizons Framework and Two-Eyed Seeing, participants will work with their own field projects to co-develop assessment methods for transformative approaches to socio-ecological problems. Attendees will also learn Protocols, Practices, and Methods (PPMs) that equalize science-society collaborations and reduce epistemic bias in conservation design, leaving with a replicable toolkit to operationalize Targets 20, 21, and 22.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Wed, 21 Oct",
@@ -453,7 +453,7 @@
     "List any other organizations, collaborators or countries involved": "",
     "Type of event": "Talk/presentations",
     "Event description ": "Global environmental change has placed ecosystem integrity at the forefront of international conservation priorities, as intact ecosystems underpin long-term ecological resilience. While the Kunming–Montreal Global Biodiversity Framework (GBF) explicitly calls for ecologically representative and well-connected conservation networks, implementation remains challenging in densely populated lowland landscapes, where intense land-use competition constrains opportunities for protected area expansion. Since 2018, Taiwan has responded by extending its conservation focus beyond high-elevation ecosystems towards a spatially integrated lowland conservation network. This transition is operationalized through the Taiwan Ecological Network (TEN), a science-based, multi-scale framework that translates biodiversity data into spatial conservation priorities. Species occurrence data mobilized through TaiBIF, Taiwan's GBIF node, together with the cross-sectoral biodiversity databases, were used to model species distributions and identify biodiversity hotspots and threatened-species habitats. These data-informed spatial layers contributed to the delineation of 44 priority biodiversity areas at the landscape scale and 45 conservation corridors strengthening ecological connectivity at the regional scale, complemented by place-based governance supporting nature-positive action at the site scale. TEN further advances a whole-of-government and whole-of-society approach through OECMs, an ESG project-matching platform, and partnerships with Indigenous Peoples and Local Communities (IPLCs). Collectively, TEN demonstrates how national biodiversity data infrastructure can support the operationalization of GBF Target 3 through coordinated, multi-scale spatial planning and connectivity-focused governance, strengthening ecological resilience under ongoing environmental change.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Thu, 22 Oct",
@@ -477,7 +477,7 @@
     "List any other organizations, collaborators or countries involved": "IWGIA, AIPP, OHCHR, ICCA Consortium, Global Witness, Natural Justice, FPP, ALLIED",
     "Type of event": "Panel discussion",
     "Event description ": "Target 22 of the Kunming-Montreal Global Biodiversity Framework explicitly calls for the protection of environmental human rights defenders (EHRDs), recognizing them as central to biodiversity conservation. Yet the first global review of KM-GBF progress found EHRD protection to be the weakest-reported element of Target 22: only 13% of Parties addressed it in their national targets. This gap sits alongside a well-documented pattern of violence — OHCHR estimates nearly 6,000 defenders killed or disappeared since 2015, with environmental defenders and Indigenous communities disproportionately affected, and civil society networks recording hundreds of killings and thousands of non-lethal attacks in the last two years alone. This session brings together UN agencies, data collectors, Indigenous Peoples, local communities, women defenders and Party representatives to examine what the reporting gap reveals about national priorities, share evidence on the scale and patterns of attacks in biodiversity-rich regions, explore the links between defender protection, participation and land rights, and identify concrete steps Parties can take before COP18 — improving reporting, strengthening legal frameworks, and mainstreaming EHRD protection in NBSAPs.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Thu, 22 Oct",
@@ -501,7 +501,7 @@
     "List any other organizations, collaborators or countries involved": "IUCN Commission for Communication and Education, National Geographic, Children of Armenia Fund",
     "Type of event": "Talk/presentations",
     "Event description ": "Geographic Information Systems (GIS) is a powerful enabler of nature-based education by connecting environmental learning with real-world data, spatial thinking, and community action. International Union for Conservation of Nature (IUCN) seeks to expand access to Nature-based Education, including access to maps, data, and learning resources that help students, educators, and conservation practitioners better understand ecosystems and identify where conservation action is needed. \nAt the classroom level, National Geographic MapMaker provides an accessible entry point to spatial learning, enabling educators and students to explore environmental and cultural topics through interactive maps and curated geographic content. Beyond formal education systems, innovative programs such as the Children of Armenia Fund’s “Map the Future” initiative demonstrate how GIS can empower rural youth to address local challenges related to agriculture, disaster preparedness, and resource planning through hands-on mapping and analysis.  \nTogether, these efforts illustrate how GIS supports biodiversity action through capacity-building and development (Target 20), training and knowledge exchange, and the strengthening of networks and institutional capacity. Join us to learn how equipping students and educators’ geospatial nature-based education can build the next generation of biodiversity stewards and informed decision-makers.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Thu, 22 Oct",
@@ -525,7 +525,7 @@
     "List any other organizations, collaborators or countries involved": "UK, France, Bosnia and Herzegovina, IUCN, GEO BON, UZH, Coalition for Conservation Genetics, South Africa",
     "Type of event": "Talk/presentations",
     "Event description ": "Genetic diversity is essential for the persistence and adaptive capacity of species and populations. It is explicitly included in Goal A and Target 4 of the KMGBF, and with several indicators. As Parties move forward with their monitoring and reporting, a key question is how available biodiversity information can be translated into practical genetic diversity indicators and then into conservation decisions.\nThis interactive session will bring together Parties and the conservation genetics community to share practical experience with implementing the KMGBF genetic diversity indicators. \nFirst, a short introduction will provide accessible orientation to the indicators and the diverse data that can support them (population monitoring, GBIF and national datasets, landcover and satellite data, ecological information, and genetic data). \nSecond, representatives working with Parties will share how they approached genetic diversity monitoring and reporting in practice: who was involved, how decisions were made, what information and data was available, and what they learned through the process.\nThird, the session will highlight practical, freely available resources available to support monitoring, indicator assessment, and implementation, while avoiding a one-size-fits-all approach. \nLast, moderated discussion and audience input will identify questions, data and knowledge gaps, and priorities for future guidance and capacity development. \nIn summary, Parties can begin genetic diversity monitoring with data, information and expertise that already exist, while an international community (including from UZH and GEO BON and partners) is available to help Parties move from data to reporting indicator values and action.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Thu, 22 Oct",
@@ -549,7 +549,7 @@
     "List any other organizations, collaborators or countries involved": "WWF Armenia (host-country partner); Zoological Society of London (ZSL); Re:wild; Allen Institute for AI (Ai2); with participation from SMART-EarthRanger Conservation Alliance member organizations and practitioner institutions from Armenia, Africa, Asia, and Latin America.",
     "Type of event": "Moderated panel with practitioner-led field demonstration",
     "Event description ": "Every commitment in the Kunming-Montreal Global Biodiversity Framework rests on a question the global review will now ask: can we show what is happening on the ground, consistently, at scale? Sites record data differently, baselines rarely align, and evidence rarely reaches national reporting.\nThe SMART-EarthRanger Conservation Alliance, active today across more than 2,000 sites in over 100 countries, is building a different future: one shared foundation for conservation management. One shared data model, so a patrol report from the Caucasus and a collar reading from the Congo Basin can be combined and compared. Standardized baselines, so progress toward 30x30 can be measured consistently. An open foundation that new and emerging technologies can build on. And the training, support, and shared services that turn adoption into outcomes.\nCo-hosted with WWF Armenia, this session brings rangers, protected area authorities, and government agencies from the Caucasus, Africa, Asia, and Latin America to describe what that future means on the ground: safer field personnel, human-wildlife conflict addressed before it escalates, and site-level evidence that strengthens national reporting while staying owned by those who collect it. Participants will leave knowing how their sites and agencies can start with SERCA today and collect standardized, comparable data.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Thu, 22 Oct",
@@ -573,7 +573,7 @@
     "List any other organizations, collaborators or countries involved": "",
     "Type of event": "",
     "Event description ": "",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Thu, 22 Oct",
@@ -597,7 +597,7 @@
     "List any other organizations, collaborators or countries involved": "Ministry of Science, Technology and Innovation - MCTI",
     "Type of event": "Talk/presentations",
     "Event description ": "Restricted Access Species Data (RASD) requires a clear distinction regarding the reasons for limiting access. We highlight three aspects that lead communities to restrict access: 1. preventing information on species properties and uses from fueling commercial products without free, prior, and informed consent. In this case, the proposal is to make only basic metadata publicly available, while detailed information on species and their uses remains restricted; external access would require a formal request, community approval, and an agreement on terms of use and liability; 2. knowledge related to religious or sacred practices may require total restriction, in which case data systematization would serve the sole purpose of preserving that knowledge; 3. information regarding species used for subsistence hunting can be sensitive, even when such practices are permitted under existing legal and community frameworks. However, precise taxonomic, temporal, and spatial data may be essential for population monitoring and sustainable management. Thus, access could be authorized for third parties to support management efforts. The proposed model combines FAIR and CARE principles through access classifications, community authority, purpose-based permissions, and traceability. The goal is to facilitate conservation and public policy without depriving communities of control over their knowledge, territories, and practices.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Thu, 22 Oct",
@@ -621,7 +621,7 @@
     "List any other organizations, collaborators or countries involved": "World Resources Institute (Global Nature Watch), United States; Conservation X Labs, United States",
     "Type of event": "Panel discussion with demonstration",
     "Event description ": "Around the world, hundreds of organizations track forests, fisheries, mangroves, wildlife, pollution, and ice. Each holds deep expertise the rest of the field needs. Yet putting that expertise to work takes resources most organizations don’t have: analyst time, technical staff, and the hours it takes to turn raw data into an answer someone can act on.\nAI agents are starting to change that. Skylight’s Shippy gives maritime analysts sourced intelligence in minutes, and EarthRanger’s Atlas does the same for protected areas. Each gives a small team another staff member: one that extends data fluency across the organization and surfaces insights previously out of reach. But conservation moves at the speed of trust. This session will explore lessons learned: what worked, what broke, and the ethical guardrails that keep agents honest, in check, and humans at the center of every decision. It will consider what organizations without engineering teams need, where agents still fall short in the field, and what practitioners trust an agent with and what they keep in human hands. The session will also look toward where the field is heading: agents that interoperate across organizations, so the best available expertise on any question is one conversation away, attributed to its source, and earned through trust.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Thu, 22 Oct",
@@ -645,7 +645,7 @@
     "List any other organizations, collaborators or countries involved": "",
     "Type of event": "Demonstration/technical showcase",
     "Event description ": "In CBD Decision 15/8, the Parties set up regional and subregional technical and scientific cooperation support centres. A key role of these centres is to catalyse and support technical and scientific cooperation projects and programmes that help people access and use available scientific knowledge, information and data.\nThis side event builds on the session held at COP16 and reports on progress since then. It will look at how data access and use differ across regions under the Kunming-Montreal Global Biodiversity Framework (GBF). It will also show how the regional networks of GBIF, the Global Biodiversity Information Facility, can be organised into service models that centres can hold, fund and deliver. These service models respond to new reporting requirements that call for better systems for gathering and repackaging biodiversity data.\nSince COP16, GBIF has worked with four centres one by one, starting from what each committed to in its published workplan: SPREP, SANBI, CARICOM and IUCN's Asia centre. This session brings that work back to all the centres together.\nThe presentations and discussions will focus on:\n-The centres' data and information needs, and where those needs are not yet met\n-Practical technical and capacity solutions for accessing and exchanging relevant data, such as species baselines, standards and shared infrastructure, data mobilization and in-region technical support, and what each one makes possible for centres and the Parties they serve\n-A framework for collaboration between the GBIF network and the support centres, and sustainable scaling-up of national biodiversity facilities so centres can deliver on capacity-building and on technical and scientific cooperation\nExpected outcomes:\n-A shared picture of regional data needs, prioritised by the centres\nThe centres' confirmation of which service areas matter most, tested against worked examples from the Pacific and southern Africa\n-A common set of core functions and service areas for centres to build on\n-Ways for centres to fund this work, and the partnerships needed to deliver it",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Fri, 23 Oct",
@@ -669,7 +669,7 @@
     "List any other organizations, collaborators or countries involved": "IUCN CEM, PREZODE, TNC, WOAH, Future Earth",
     "Type of event": "Panel discussion",
     "Event description ": "The implementation of the Kunming-Montreal Global Biodiversity Framework and the CBD Global Action Plan on Biodiversity and Health provides an important opportunity to better connect biodiversity monitoring with One Health decision-making. Biodiversity loss, deforestation, habitat fragmentation, land-use change, wildlife exploitation and climate change can affect human, animal, plant and ecosystem health and contribute to emerging disease risks. Yet biodiversity observations, environmental and land-use data, animal and human health surveillance, and knowledge held by Indigenous Peoples and local communities are often collected or held through separate institutions and systems. This fragmentation limits our ability to identify priorities and translate knowledge into timely preventive action.\nThis event will explore how these complementary data and knowledge systems can be better connected to generate actionable evidence for One Health action. Through practical examples and an interactive discussion, speakers will demonstrate how biodiversity, ecological, spatial and wildlife health monitoring, together with community-led surveillance, can support risk assessment, early warning and decisions for biodiversity conservation, ecosystem management and zoonotic disease prevention at source. \nKey messages are that monitoring should respond to clearly identified decision needs; evidence must be interpreted in its ecological and social context; and effective action requires collaboration, equitable data governance and community participation. The discussion will identify practical lessons for Parties implementing biodiversity and health priorities.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Fri, 23 Oct",
@@ -693,7 +693,7 @@
     "List any other organizations, collaborators or countries involved": "IBAT",
     "Type of event": "Talk/presentations",
     "Event description ": "Many types of biodiversity datasets exist, but which ones actually connect to business risk, and to the decisions finance and sustainability teams need to make? Planning for nature transition risk means connecting the dots between data and risk.\nIn this joint presentation with Dunya Analytics and IBAT, we will walk through the categories of data that make up a comprehensive biodiversity risk assessment. These are aligned with TNFD criteria for sensitive locations, and include protected and conserved areas, key biodiversity areas, and areas of high or rapidly declining ecosystem integrity. Each data category will be connected to specific transition risks, from regulatory exposure to shifting market expectations, and grounded in real business decisions and financial outcomes companies are already facing.\nAttendees will leave with a clear framework for identifying which biodiversity datasets matter for their own risk assessments, and how to translate that data into decisions their finance and sustainability teams can act on.\nTo ground this in practice, we will conduct a risk assessment using the Dunya Analytics platform with integrated IBAT data for a specific location and show in real time how the data categories discussed translate into flagged risks.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Fri, 23 Oct",
@@ -717,7 +717,7 @@
     "List any other organizations, collaborators or countries involved": "GEO, GEO BON, GBIF, Smithsonian, and all Pavilion members",
     "Type of event": "Networking/community event",
     "Event description ": "Data is never neutral — who collects it, who can access it, and how it is used all shape whose interests get protected. This event brings together five stations to examine biodiversity data through that lens: from the social and cultural values embedded in how we define \"nature,\" to new technologies expanding who can monitor biodiversity, to concrete threats — natural hazards and invasive species — that demand better data to act on. Across formats ranging from open conversation to interactive demos to art installation, the event asks not just what the data shows, but who it serves and how it can drive equitable, forward-looking action. This is an interactive session where participants interact with five stations (1) ask a scientist / tell a scientist: we will engage on exchange between participatns and scientists on examples, needs, dat sovereignty and other toics regarding living data for action and equity, (2) Why We Need Critical Social Sciences for Effective Decision-Making: What is the definition of nature and why does it matter? At this interactive station, participants will explore the many different (individual and cultural) definitions of nature and how this influences how we relate to it. Taking this a step further, the station will stimulate reflection on how and why certain definitions and relations get prioritized, for whom, and why these questions matter for a sustainable and biodiverse future..; (3) Can New Monitoring Technologies Make Biodiversity Data More Accessible? Low-cost, automated tools such as acoustic sensors can expand biodiversity monitoring across space and time while reducing some of the financial and logistical barriers to data collection. In this interactive demonstration, participants trigger an animal sound, see it captured by an AudioMoth and translated into a biodiversity observation, and follow the pathway from sound to data, evidence and action. The station also highlights that technology alone is not enough: equitable use of biodiversity data still depends on shared standards, infrastructure, analytical capacity and political alignment. (4) what about risk: A Global Map of Species at Risk of Extinction Due to Natural Hazards. This station presents new evidence showing which species and areas may be particularly vulnerable to hazards such as hurricanes and other extreme events, and how these risks may evolve under future climate change. By bringing this overlooked dimension of extinction risk into the discussion, the study provides a first approximation of where conservation attention may be most urgently needed. The findings can help policymakers and conservation practitioners better anticipate emerging threats, identify priorities, and target efforts to safeguard vulnerable species.  5. get a break and explore INVASIVA:The INVASIVA artwork expands along a projected trajectory from IPBES, GRIIS, and IvaCost data, making us feel the facts about the future global economic and ecological impacts of invasive alien species. WOVEN uses the power of art and culture as a catalyst for the science that makes our planet thrive. We make complex environmental issues accessible, understandable and personal — reaching the heads of state and the hearts of the public",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Fri, 23 Oct",
@@ -741,7 +741,7 @@
     "List any other organizations, collaborators or countries involved": "GEO BON, CBD secretariat, University of Potsdam, University of Connecticut, CREAF, UKCEH, Kingdom of the Netherlands, UNEP-WCMC",
     "Type of event": "Workshop",
     "Event description ": "Climate science has the World Climate Research Programme. What is the equivalent for biodiversity?\nThe draft Global Report on Collective Progress highlights persistent gaps in knowledge, monitoring, modelling, data access, and scientific capacity that constrain implementation of the Kunming-Montreal Global Biodiversity Framework (KM-GBF). While biodiversity science has advanced rapidly and IPBES has strengthened the science-policy interface, research remains fragmented across regions, disciplines, and institutions. Many policy-relevant knowledge gaps identified by Parties and assessments are not translated into coordinated international research priorities, and many countries still face barriers to generating and using the evidence needed for implementation and reporting.\nThis workshop will explore whether a World Biodiversity Research Programme (WBRP) could help address this gap. Inspired by the World Climate Research Programme, and complementing existing institutions, a WBRP would coordinate biodiversity research in support of policy needs by translating knowledge gaps into shared research priorities, supporting common monitoring and modelling frameworks, strengthening capacity and collaboration, and promoting leadership from the Global South and Indigenous Peoples and local communities.\nParticipants will discuss the rationale for a WBRP, consider options for a three-year pilot consultation process, and explore priorities, opportunities, risks, and governance arrangements. The discussion will test whether stronger global coordination of biodiversity research could accelerate KM-GBF implementation and deliver more effective, equitable, and policy-relevant science.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Fri, 23 Oct",
@@ -765,7 +765,7 @@
     "List any other organizations, collaborators or countries involved": "Map of Life Solutions, SFI, Mobi/Insights",
     "Type of event": "Talk/presentations",
     "Event description ": "Transforming biodiversity data into actionable decisions is essential for achieving the goals of the Kunming-Montreal Global Biodiversity Framework (GBF). GIS plays a powerful role in bringing together disparate biodiversity data, from field observations and siloed national datasets to global information resources, and transforming them into integrated, easy-to-use decision support systems that inform conservation policy, planning, and management.\nThis session explores how GIS is helping organizations turn biodiversity information into meaningful action at national, regional, and global scales. Yale's Map of Life Solutions is working with countries such as Guyana to develop holistic biodiversity information platforms that strengthen national policy, guide conservation priorities, and support progress toward global biodiversity goals. These same capabilities are helping organizations make more informed land-management decisions, including the Sustainable Forestry Initiative (SFI), which is advancing the use of biodiversity information to support sustainable forest management and healthier, more resilient ecosystems. Building on these examples, Esri's Global Biodiversity and Conservation Hexagons demonstrate how diverse biodiversity, conservation, and environmental datasets can be integrated into standardized, analysis-ready geographic units, providing a consistent foundation for understanding conditions, identifying priorities, and tracking progress toward global biodiversity targets.",
-    "Note any updates made here": "updated the session descriptipon (done)"
+    "Note any updates made here and date": "updated the session descriptipon (done)"
   },
   {
     "Date": "Fri, 23 Oct",
@@ -789,7 +789,7 @@
     "List any other organizations, collaborators or countries involved": "IUCN North America, California, Quebec, Catalonia",
     "Type of event": "Panel discussion",
     "Event description ": "Achieving the goal of 30X30 will require action at all levels, from global to local, involving policy-makers and grassroots groups, and the leadership of indigenous peoples and local communities. The goals will not be achieved by a strict top down approach, it requires a diverse collection of subnational efforts applying data driven approaches to conserve areas to preserve our natural capitol.  States and provinces have developed effective strategies for data collection and data sharing, filling critical gaps in  foundational knowledge.  In this session representatives from subnational organizations will share their progress, strategies and lessons learned.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Fri, 23 Oct",
@@ -813,7 +813,7 @@
     "List any other organizations, collaborators or countries involved": "South African National Biodiversity Institute (SANBI), Humboldt Institute, Sahara and Sahel Observatory (OSS), ASEAN Centre for Biodiversity (ACB), Regional Centre for Mapping of Resources for Development (RCMRD), Central African Forests Commission (COMIFAC), International Institute for Applied Systems Analysis (IIASA), IUCN, GEO BON, Marxan Solutions, Global Ecosystem Atlas, Secretariat of the Convention on Biological Diversity (CBD), United Nations Biodiversity Lab (UNBL), United Nations Development Programme (UNDP), United Nations Environment Programme (UNEP), United Nations Environment Programme World Conservation Monitoring Centre (UNEP-WCMC)",
     "Type of event": "Networking/community event",
     "Event description ": "To translate Target 1 into action, Parties require accessible, interoperable, and customizable decision-support tools that respond to national needs. This interactive session—Part 2 of our spatial planning series—serves as a dynamic marketplace connecting CBD delegates directly with leading platforms supporting the KMGBF planning, monitoring, and reporting cycle. Rather than traditional presentations, this session utilizes a collaborative networking format. Participants will engage directly with developers across dedicated stations to test resources tailored for national implementation. \nFeatured technologies and partners include: \nData Availability & Indicator Pipelines: BON in a Box, FAO (TBC), GBIF, the Global Ecosystem Atlas, IUCN (TBC), the regional ROCE-ESA Mapbook, and the UN Biodiversity Lab (UNBL). \nIntegrated Spatial Planning Processes: The Essential Life Support Area (ELSA) tool on UNBL, FAO (TBC), the IUCN Spatial Planning Task Force, Marxan Planning Platform, Natura Connect, Plangea, and WePlan Forests. \nBy bridging the gap between data infrastructure and national capacity-building, this hands-on session empowers Parties to identify available resources, network with technical partners, and build the capacity needed to implement national targets and streamline progress monitoring under the KMGBF.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Sat, 24 Oct",
@@ -837,7 +837,7 @@
     "List any other organizations, collaborators or countries involved": "Kew Gardens, GBIF, MOBOT, Cornell, etc. (still TBC)",
     "Type of event": "Panel discussion",
     "Event description ": "We are entering an era of unprecedented biodiversity data. Living forests generate observations through long-term plots, remote sensing, acoustic monitoring, environmental DNA, and other emerging technologies. Meanwhile, herbaria, botanical gardens, museums, genomic laboratories, and global databases hold centuries of information about species identity, distribution, traits, and evolutionary history. Yet these valuable data sources remain largely disconnected.\nThis panel will explore how GEO-TREES could help bridge that divide, linking data collected from trees in tropical forests with digitized herbarium specimens, taxonomic records, genomic information, and other biodiversity datasets. Creating these connections could improve species identification, reveal changes in forest composition, strengthen biodiversity and carbon estimates, and enable scientists to track ecological responses to climate and land-use change at unprecedented scales. The discussion will consider the scientific standards, partnerships, governance models, and technologies needed to create an interoperable system that serves researchers and tropical countries alike. Potential collaborators could include Kew Gardens, GBIF, the New York Botanical Garden, the Missouri Botanical Garden, Cornell University, and UK-based environmental DNA laboratories.\nBy connecting physical specimens, molecular evidence, field observations, and digital tools, GEO-TREES could become more than a forest-monitoring network: it could provide essential global infrastructure for understanding and protecting tropical biodiversity.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Sat, 24 Oct",
@@ -861,7 +861,7 @@
     "List any other organizations, collaborators or countries involved": "None",
     "Type of event": "Workshop",
     "Event description ": "With a growing interest from financial institutions in scenario-modelling biodiversity outcomes to inform investment decisions, there is a need/desire for cross-sector dialogue between finance and academia to understand the common needs and ensure developments in this field proceed in a way that is useful to the end-users, meeting the right requirements and establishing useful common narratives. This workshop aims to convene stakeholders across the finance sector with the leading scientific institutions developing biodiversity metrics / tools to inform such developments and ensure such tools are developed along the right path to be the most useful to those using them.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Sat, 24 Oct",
@@ -885,7 +885,7 @@
     "List any other organizations, collaborators or countries involved": "Maldives Ministry of Environment, Ai2, DEFRA",
     "Type of event": "Panel discussion",
     "Event description ": "What does it take for a country to build a trusted, nationally owned ecosystem map - and what becomes possible once it has one? This session takes a practical deep dive into the Maldives, the first National Accelerator of the Global Ecosystems Atlas, launched through a partnership between the Maldives Ministry of Environment and the Group on Earth Observations, supported by the United Kingdom through Defra. \nRepresentatives from the Maldives, the Global Ecosystems Atlas and partners will walk through how the country developed its national ecosystem map, harmonised with the IUCN Global Ecosystem Typology, combining national expertise with Earth observation data, open methods and targeted technical support. The discussion will explore what the process required in practice, the challenges encountered, and how the resulting ecosystem intelligence can support national reporting, spatial and marine planning, conservation and restoration, and better-targeted investment. \nThe session will then look beyond the Maldives at what elements of the National Accelerator can be replicated elsewhere, how national capacity can be strengthened, and what's needed to help more countries move from fragmented ecosystem information to operational, nationally owned mapping. \nWith the approach now extending to Papua New Guinea, the Maldives offers a concrete demonstration of how the Global Ecosystems Atlas can translate global methods into practical country delivery.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Sat, 24 Oct",
@@ -909,7 +909,7 @@
     "List any other organizations, collaborators or countries involved": "\tEsri, USA, Sunny Fleming– geospatial technology, visualization, story maps, and turning data into decision CONFIRMED \tKlabin, Brazil, Maurem Alves– on-the-ground implementation and lessons from monitoring in production forests, CONFIRMED\tIKEA, Sweden, Mikhail Tarasov– why biodiversity data matters for companies and supply chains, CONFIRMED \tLauri Moisander - consultant for Biodiversity Fast track focused in Sweden and Finland, TBC",
     "Type of event": "Panel discussion",
     "Event description ": "As governments, companies, and investors increase their commitments to biodiversity, a critical question remains: how can we measure outcomes in ways that are credible, practical, and useful for decision-making?\nThis session will explore real-world approaches to biodiversity monitoring, drawing on lessons from FSC's Fast-Tracking Biodiversity Impact Assessment initiative and complementary experiences from forest companies, technology providers, and biodiversity experts. Panelists will discuss how organizations are combining field inventories, remote sensing, geospatial technologies, environmental DNA (eDNA), and other innovative tools to assess biodiversity outcomes across production and conservation landscapes. The session will also showcase how Esri StoryMaps can help communicate biodiversity monitoring results in ways that make complex information more accessible and actionable.\nBeyond the technologies themselves, the discussion will focus on implementation: what has worked, what has proven difficult, and what lessons have emerged from applying biodiversity monitoring approaches in real-world settings. Speakers will share experiences balancing locally relevant data with globally consistent methodologies, meeting the needs of policymakers and market actors, and scaling monitoring efforts across diverse landscapes.\nParticipants will leave with a clearer understanding of emerging best practices for biodiversity monitoring and how technology, partnerships, and practical lessons from the field can help accelerate implementation of the Kunming-Montreal Global Biodiversity Framework.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Sat, 24 Oct",
@@ -933,7 +933,7 @@
     "List any other organizations, collaborators or countries involved": "Vale, Petrobras, Boticario Group, Itaipu Binacional, BRDE, Klabin, MMA/MRE (tbc), CBD (tbc), UNEP/WCMC (tbc)",
     "Type of event": "Panel discussion",
     "Event description ": "As biodiversity rises on the corporate and financial agenda, organizations increasingly need reliable information to understand their impacts, dependencies, risks and opportunities related to nature. Yet many still face challenges in transforming biodiversity data into meaningful decisions, effective management actions and credible disclosures.\nBringing together representatives from the LIFE Coalition, leading companies, financial institutions and biodiversity experts, this session will explore how robust, comparable and decision-relevant biodiversity data can support business strategy, risk management, target setting and reporting.\nThrough practical examples, participants will discuss how the LIFE System enables organizations to monitor biodiversity performance, generate consistent information and support decision-making across sectors. By connecting biodiversity monitoring, management and reporting through a standardized approach, the LIFE System helps bridge the gap between data collection, indicators and decision-making. The session will demonstrate how standardized biodiversity metrics provide a common language for measurement and reporting, enhancing the quality, credibility, transparency and comparability of biodiversity disclosures, while supporting companies in aligning with Target 15 and frameworks such as TNFD.\nThe event will conclude with the launch of the LIFE Coalition Statement, a collective call to action advocating for the integration of biodiversity into corporate and financial strategies and highlighting the critical role of data-driven decision-making in the transition to a nature-positive economy.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Sat, 24 Oct",
@@ -957,7 +957,7 @@
     "List any other organizations, collaborators or countries involved": "LIFE Institute, Natural Business Intelligence, LIFE Certified companies, European Comission (tbc), CBD (tbc)",
     "Type of event": "Demonstration/technical showcase",
     "Event description ": "Organizations are collecting increasing amounts of biodiversity information, yet many still struggle to translate this data into management priorities, strategic decisions and measurable outcomes.\nThis session will demonstrate how LIFE Key helps bridge this gap by connecting biodiversity monitoring, management and reporting within a single standardized environment. Through a live demonstration and practical examples from different sectors, participants will explore how organizations can collect, organize and analyze biodiversity information to better understand their impacts, dependencies, risks and opportunities related to nature.\nThe session will showcase how standardized metrics and a common assessment framework improve the consistency, comparability and usability of biodiversity information, helping organizations track performance, set targets and support decision-making. Participants will also learn how LIFE Key generates reliable and auditable information that can strengthen biodiversity disclosures and support alignment with Target 15 of the Kunming-Montreal Global Biodiversity Framework, as well as frameworks such as TNFD.\nBeyond reporting, the demonstration will highlight how company-level biodiversity information can contribute to broader biodiversity monitoring efforts and help organizations move from data collection to informed action. The key message is that effective biodiversity management depends on turning data into practical insights that enable organizations to monitor, manage and demonstrate their biodiversity performance over time.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Sat, 24 Oct",
@@ -981,7 +981,7 @@
     "List any other organizations, collaborators or countries involved": "French BON, Data Terra french research infrastructure, Data Terra European Open Science Cloud node, CCAMLR french scientific delegation, MNHN, CNRS, IRD, INRAE, Laurent Durieux, Sabrina Krief, Myriam Heuertz, Emma Inthavong, Jian-Sheng Sun, Germany, Gabon, République du Congo, New Zealand, United Kingdom, Belgium",
     "Type of event": "Talk/presentations",
     "Event description ": "Data integration in biodiversity science is complex, essentially because  framework harmonizing data and methods is lacking. Essential Biodiversity Variables (EBVs) represent a relevant framework for identifying appropriate data to be collated and for creating and implementing analytical workflows, from raw data to EBV data products.\nThe aim of the Galaxy Ecology initiative is to operationalize EBV indicators by targeting the highest levels of FAIRness (Findable, Accessible, Interoperability, Reusable) for source code implementation, so that data and tools can be widely shared and reused. \nThe French Biodiversity data hub of Data Terra research infrastructure, MNHN and IRD are proposing a workshop allowing to showcase mature open source tools and computational workflows to produce Biodiversity metrics and indicators from genes to ecosystems, in terrestrial as marine biomes.\nFirst, we will introduce the Galaxy Ecology initiative, a web platform to get, process, analyze and visualize biodiversity data and then the French BON EBV operationalization pilot based on it.\nSecond, concrete and diverse Galaxy computational workflows will be showcased starting with the One Forest Vision initiative for the forest and wetlands of the 3 tropical bassins, CCAMLR for Antarctic conservation, European Biodiversa+ GINAMO project to illustrate genetic diversity indicators production, Gaia Data and One Water for national implementation and finally MOOREV and EVALABLOC for local applications using citizen sciences.\nThird, we will show how Galaxy Ecology is more than a platform: it is a crossroads for open science communities, enabling the sharing of data, code, efforts and resources from local to global scales, while providing a sustainable foundation for itself and more recent, fragile initiatives such as Bon in a Box pipelines.\nFinally, a discussion with audience inputs will allow to identify gaps and priorities for future development.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Sun, 25 Oct",
@@ -1005,7 +1005,7 @@
     "List any other organizations, collaborators or countries involved": "VITO, IIASA, UNSD, GEO secretariat (GEO Global Ecosystem Atlas), IUCN, 3 to 4 countries to be selected from (Norway, Greece, Czech Republic, Slovakia, Colombia, South Africa, Cameroon, Uganda, Georgia, Vietnam and the Philippines)",
     "Type of event": "Talk/presentations",
     "Event description ": "The Kunming–Montreal Global Biodiversity Framework requires countries to monitor changes in natural ecosystems, notably through Headline Indicator A.2 on the Extent of Natural Ecosystems. However, many Parties face technical and capacity challenges in producing consistent ecosystem maps and reporting against the GBF monitoring framework. Advances in Earth Observation, cloud computing, artificial intelligence and open data infrastructures offer new opportunities for scalable, cost-effective and repeatable ecosystem monitoring. This Pavilion event will present the World Ecosystem Extent Dynamics (WEED) project, funded by ESA, led by VITO, and implemented in collaboration with EEA, UNSD and GEO. WEED provides an open-source, cloud-based toolbox for mapping and monitoring terrestrial, freshwater and coastal ecosystems, aligned with the IUCN Global Ecosystem Typology and supporting GBF Headline Indicator A.2 and SEEA Ecosystem Accounting. The solution has been co-developed with national authorities in Norway, Czechia, Greece, Colombia, South Africa and Vietnam, and is being extended to Slovakia, Georgia, the Philippines, Cameroon and Uganda. The event will combine an introduction to the policy context, a presentation of the WEED toolbox, and country experiences highlighting the benefits and challenges of integrating the WEED toolbox into national biodiversity monitoring and NBSAPs. An interactive panel with participating countries, ESA, IUCN, the WEED consortium and the GEO Global Ecosystem Atlas initiative will discuss how interoperable, open-source EO solutions can strengthen national capacities, reduce monitoring costs, improve production of Headline Indicator A.2 and support consistent GBF reporting.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Sun, 25 Oct",
@@ -1029,7 +1029,7 @@
     "List any other organizations, collaborators or countries involved": "University of Oxford, TNFD, DG ENV",
     "Type of event": "Panel discussion",
     "Event description ": "Scaling nature finance requires moving from modelled assumptions to verified, spatial reality. This side event explores how Earth Observation (EO) can enable a range of nature finance mechanisms. The session will discuss findings from ESA’s LEON project as a practical example on how EO data and tools can provide transparent and standardized evidence, bridge data gaps and improving decision-making. EO can also foster confidence for finance actors to participate in nature finance mechanisms, and facilitate implementation by demonstrating additionality, checking compliance, and communicating outcomes more transparently. The event will discuss EO in the context of corporate disclosure frameworks like the TNFD to assess environmental risks and dependencies. It will also explore the high-integrity data and monitoring needs to support emerging market mechanisms, aligned with policy initiatives like DG ENV’s Nature Credits Roadmap. The conversation will focus on current data gaps, practical integration challenges, and discuss future steps towards the standardized use of EO data to operationalise nature finance at scale.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Sun, 25 Oct",
@@ -1053,7 +1053,7 @@
     "List any other organizations, collaborators or countries involved": "Toha Network",
     "Type of event": "Demonstration/technical showcase",
     "Event description ": "Groundtruthing is a vital complement to earth observation data and other remote sensing technologies. It contributes scientific integrity and local nuance to high-granularity datasets. However, it also increases the cost of data and the need for community engagement, because in situ measurement interacts directly and visibly with place-based communities. This leaves a gap for intermediating infrastructure that brings together top-down and ground-up data collection at low cost, while also upholding the rights, trust and sovereignty of communities who live in the territories being measured. The 8 Billion Hour (8BH) Pledge addresses this gap by building a community-level verification layer that enables consent-based data collection and sharing. This serves the 8BH Pledge’s global campaign to register, verify and fund 8 billion hours of nature stewardship before 31 December 2030. But it also serves demand for groundtruthing data by creating an open marketplace where communities can deliver data collection and verification services. This event will introduce the 8BH Pledge and its digital infrastructure, the importance of community-level verification for FPIC and benefit-sharing, and articulate why groundtruthing is a critical complement for data reporting from NBSAPs to corporate disclosures.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Sun, 25 Oct",
@@ -1077,7 +1077,7 @@
     "List any other organizations, collaborators or countries involved": "TaiBIF, Forestry and Conservation Agency",
     "Type of event": "Demonstration/technical showcase",
     "Event description ": "Turning field observations into data that can inform policy takes far longer than collecting them: looking up species names, matching them to a checklist, confirming identifications, structuring the records, and reformatting everything to international standards. None of this is quick or easy, and much survey data never gets that far.\nWe developed Mitalivana, a mobile field app that integrates every step from collection to output. Users build species checklists, vegetation plots, animal surveys and specimen records, and export them structured in Darwin Core together with GBIF's survey and vegetation-plot vocabularies (the Humboldt and Relevé extensions). The same structured information is written into photo metadata, so images stay linked to their records. The app works fully offline for areas without signal (except map layers), and includes a framework for in-field identification keys. Country species lists downloaded from GBIF and iNaturalist, and it can also contribute back to iNaturalist. Our aim is to let citizen scientists, government agencies and professional surveyors collect more reliable data with less effort. Each field record then flows directly into species checklists, long-term monitoring, citizen-science platforms and global data infrastructure. Those sources underpin decisions and reporting under the Kunming-Montreal Global Biodiversity Framework.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Sun, 25 Oct",
@@ -1101,7 +1101,7 @@
     "List any other organizations, collaborators or countries involved": "",
     "Type of event": "Talk/presentations",
     "Event description ": "Earth observation and remote sensing are transforming our ability to monitor biodiversity and ecosystem change at scale. However, translating these observations into actionable information also requires reliable, continuous evidence from the ground.\nThis session will explore how Green Box, a field-deployed environmental monitoring infrastructure, can complement satellite and remote-sensing systems by providing real-time and near-real-time observations directly from managed ecosystems. Combining autonomous sensors, connectivity and edge computing, Green Box can create a persistent link between what is observed remotely and what is happening on the ground, while reducing operational costs.\nA key objective is to discuss how such infrastructure could support more standardized ground-truth observations, complementing initiatives led by GEO BON, GEO and other biodiversity monitoring networks and strengthening the validation and interpretation of Earth observation data.\nThe session will also examine the role of local communities as active participants in biodiversity monitoring, combining technology with local knowledge, field observations and stewardship (we can provide free internet connectivity, ...).\nThe central message is that effective biodiversity monitoring does not require choosing between satellites, field science or communities. Connecting these layers can create a more continuous, verifiable and locally relevant evidence system for biodiversity action.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Sun, 25 Oct",
@@ -1125,7 +1125,7 @@
     "List any other organizations, collaborators or countries involved": "",
     "Type of event": "Panel discussion",
     "Event description ": "The session opens with an overview of where sustainability science is currently moving: nature-related risk assessment, ecosystem condition accounting, double materiality, and the shift from carbon-only analysis toward nature-inclusive analysis. These are live methodological debates, not settled doctrine, and the presentation treats them as such.\nIt then narrows to sustainable finance, where the gap between ambition and evidence is widest. Financial institutions are being asked to assess nature-related risk across portfolios whose underlying borrowers produce no environmental data at all, and in many markets never will. The session sets out what the science says is genuinely measurable, what is not, where technology closes the gap, and, equally important, where it only appears to.\nThe closing argument is that the binding constraint on nature finance is no longer appetite or policy. It is the absence of evidence that survives an audit.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Sun, 25 Oct",
@@ -1149,7 +1149,7 @@
     "List any other organizations, collaborators or countries involved": "GBIF Estonia node",
     "Type of event": "Demonstration/technical showcase",
     "Event description ": "Environmental DNA (eDNA) offers unprecedented opportunities to monitor biodiversity across terrestrial, freshwater, marine and agricultural ecosystems. This demonstration will present the end-to-end eDNA data pipeline developed within the PlutoF biodiversity data management platform, showing how biodiversity information is transformed from field samples into FAIR, policy-relevant data products. The workflow integrates sampling metadata, laboratory processing, DNA sequencing, bioinformatic analysis, taxonomic assignment using curated reference databases such as UNITE, and quality-controlled publication of results.\nA key innovation is the conversion of eDNA-derived taxonomic detections into standardized biodiversity occurrence records that can be published through GBIF and reused in biodiversity assessments, monitoring programmes and Global Biodiversity Framework reporting. The pipeline supports interoperability through international biodiversity data standards and enables transparent data governance, provenance tracking and long-term accessibility.\nThe session will demonstrate how emerging molecular technologies can be connected with biodiversity observation infrastructures to address critical data gaps, improve biodiversity monitoring across ecosystems, and support evidence-based decision-making for conservation, business and One Health applications. By making eDNA data discoverable, accessible and reusable at global scale, PlutoF helps transform biodiversity observations into actionable knowledge for policy and society.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Sun, 25 Oct",
@@ -1173,7 +1173,7 @@
     "List any other organizations, collaborators or countries involved": "World Biodiversity Forum, University of Zurich,Business for Nature, Capitals Coalition, AI2, Conservation X-labs,  IPBES, GEO-BON",
     "Type of event": "Panel discussion",
     "Event description ": "Tropical forests hold more biodiversity than any other biome, yet they accounted for 94% of global deforestation during this century.  Therefore, building global economic and policy systems that make standing forests more valuable than cleared land is essential.  These systems must create tangible benefits for tropical countries, indigenous communities, local communities, and other forest stewards. \nThis two panel session will examine how tropical forests can be measured, valued, and incorporated into financial and policy decisions.  Its objective is to identify practical pathways from translating scientific knowledge to credible, widely adopted systems that support forest conservation and sustainable development. \nThe first panel will bring together leaders from science, policy, and business to explore which essential features of the complex forests ecosystems must be measured, monitored, and incorporated into financial systems.  Panelists will also discuss the barriers/challenges preventing shared frameworks from translating into effective action. \nThe second panel will feature science and technology leaders advancing integrated monitoring systems.  They will discuss how new tools, common standards, and broad-scale adoption can support credible biodiversity valuation across sectors, and inform more effective decisions about the future of tropical forests.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Sun, 25 Oct",
@@ -1197,7 +1197,7 @@
     "List any other organizations, collaborators or countries involved": "Biodiversa +, Syke, OFB, European Commission DG Research & Innovation, European Commission JRC, Instituto Humboldt, INRAE, OSS, UNEP-WCMC, German National Monitoring Centre for Biodiversity",
     "Type of event": "Panel discussion",
     "Event description ": "One barrier to successful implementation of the GBF2030 is the mismatch between global and national indicator reporting. With a few years left to achieve these goals and a timely half-term review, this event will discuss: How can transnational monitoring contribute to CBD reporting?\nIn this event, we are bringing together representatives from the three scales of reporting, from national, regional, and global perspectives, to share their experiences and shed light on successes, challenges, and synergies. The 1.5-hour session brings together five speakers from different institutions and roles: UNEP WCMC, Biodiversa+, the German National Monitoring Centre for Biodiversity, and three TSCC regions, including the European Commission Knowledge Centre for Biodiversity (KCBD), the Humboldt Foundation, and the Observatory of the Sahara and the Sahel (OSS).\nThe discussion will explore how monitoring systems at transnational, subregional and national levels can be better connected, how experiences and approaches can be shared across scales, and how these efforts can contribute to effective CBD reporting and implementation. \nThe session will be open to the audience, providing an opportunity for participants to share experiences, raise questions, and engage in an open exchange on opportunities and challenges for strengthening biodiversity monitoring and reporting across scales.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Sun, 25 Oct",
@@ -1221,7 +1221,7 @@
     "List any other organizations, collaborators or countries involved": "",
     "Type of event": "Panel discussion",
     "Event description ": "This is not a panel about representation. It is a showcase of working technology, presented by the women who built it.\nAn award-winning woman founders with Armenian origins present a live environmental or sustainability technology: the problem it measures, how the system works, and what it took to build in a small market with a thin capital base. A short moderated segment follows on building deep technology outside the major innovation hubs, and the session closes with open questions.\nThe emphasis throughout is on method and engineering rather than on founder narrative. Attendees should leave knowing how several environmental measurement tools actually function, and who to contact to use them.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Mon, 26 Oct",
@@ -1245,7 +1245,7 @@
     "List any other organizations, collaborators or countries involved": "GEO BON",
     "Type of event": "Discussion",
     "Event description ": "Earth observation has transformed our ability to see the planet. But what we choose to observe, and who decides what counts as evidence, remains a socially embedded question. As Parties move from global review to national implementation of the Kunming-Montreal Global Biodiversity Framework (KMGBF), this session frames the gap between data and action not only as technical, but also as a gap between knowledge systems: between satellite imagery and the place-based expertise of Indigenous Peoples and local communities; between the natural sciences that build indicators and the social sciences that explain how decisions are made; and between the institutions that hold data and the generations who will live with its consequences.\r\n\r\nThis session aims to test a simple hypothesis: new solutions for implementation emerge from new ways of observing. It aims to bring together young researchers and practitioners, Indigenous and local knowledge holders, Earth observation specialists, policymakers and social scientists for a cross-sectoral conversation on how to widen what counts as “observable,” who gets to observe it, and why.\r\n\r\nThe discussion is organised around four entry points: \r\n1.\tKnowledge systems as infrastructure. Indigenous and local knowledge is not a supplement to monitoring. It is a way of observing ecosystems in its own right, with its own methods, continuity and authority, as recognised in KMGBF Targets 21 and 22. \r\n2.\tRights of “Nature.” The KMGBF acknowledges diverse value systems, including, for countries that recognise them, the rights of nature and of Mother Earth. What would it mean for monitoring to track not only ecosystem extent and condition, but whether nature’s standing is respected? And, ultimately, define what is “nature” and what rights does it hold? \r\n3.\tYouth as a standpoint. Young people are often consulted, but unfortunately rarely heard. The session treats youth as a legitimate and credible perspective: those who will inherit the 2030 and 2050 outcomes are best placed to ask whether today’s tools are fit for them. \r\n4.\tInterdisciplinarity for implementation. Translating global targets into local action requires the social sciences inside the technical work: understanding governance, power, language, and context so that data can move decisions. \r\n\r\nThe session is designed as an open, facilitated exchange. The result of this session will prompt GEO’s next action on youth engagement and participation.\r\nKey Messages:\r\n-\tObservation is never neutral. Deciding what is “observable” is a choice about whose knowledge counts. Widening that choice is a precondition for effective monitoring.\r\n-\tPlural knowledge systems strengthen the evidence base. Indigenous and local knowledge, EO and field science answer different questions. Implementation needs all of them, on equal terms.\r\n-\tYouth hold standing, as essential stakeholders and agents of change, not a symbolic seat at the table. As the generation that will live with the outcomes of the 2050 Vision, young people bring an innovative, long-term perspective on whether current tools serve lasting outcomes, and should be engaged at every stage, from design to implementation and review.\r\n-\tThe data-to-action gap is social as much as technical. Integrating the social sciences early is how global targets become locally meaningful and politically actionable.\r\n-\tThe main challenge lies in implementation. Much of what's needed in terms of solutions already exists. The task is to connect it across sectors and generations.\r\n\r",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Mon, 26 Oct",
@@ -1269,7 +1269,7 @@
     "List any other organizations, collaborators or countries involved": "Amber Scholz, senior Access and Benefit-Sharing policy expert and microbiologist, Leibniz Institute DSMZ",
     "Type of event": "Talk/presentations",
     "Event description ": "This session will discuss the potential advantages from standardized methodologies to accomplish compliance with Nagoya Protocol Access and Benefits Sharing (ABS), and introduces a single standardized framework for prior informed consent governing Digital Sequence Information (DSI). Modeled on the concept of the Simple Agreement for Future Equity (SAFE) that transformed early-stage startup investment, the framework delivers one interoperable set of terms that a provider and a sovereign rights holder can execute quickly and predictably, replacing the need for individualized bilateral negotiations. By reducing legal and policy complexities that can delay or deter data sharing, the approach addresses core challenges of data governance and facilitates the practical implementation of DSI projects. It is designed to promote both bilateral ABS benefit flows and contributions to multilateral mechanisms such as the Cali Fund, ensuring that sequence data is shared under appropriately governed, transparent, and verifiable procedures that support the Nagoya Protocol and the broader international policy architecture of the Convention on Biological Diversity. Because a common framework must work across sectors and stakeholder groups, the session is intended for a diverse CBD audience, including academic researchers, public database and sequence-repository stewards, industry users, providers and Indigenous Peoples and local communities. Participants will be invited to test the model against their respective needs, legal and policy contexts, and practical experience. The session will bring together perspectives  from database holders, policy experts, and the private sector, and will encourage active audience participation and a robust question-and-answer discussion throughout. The goal is to critically test the proposed framework and associated tools and work toward a practical and effective approach that can serve a range of DSI governance contexts.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Mon, 26 Oct",
@@ -1293,7 +1293,7 @@
     "List any other organizations, collaborators or countries involved": "UNEP-WCMC, CDP",
     "Type of event": "Panel discussion",
     "Event description ": "COP17 will set the stage for the first, comprehensive Global Review – a critical litmus test of collective progress of action for biodiversity. The IPBES Business and Biodiversity Assessment, published in early 2026, affirmed that all businesses depend on and impact biodiversity and can be agents of positive change. This is recognized in the Target 15 of the KMGBF, and the positioning of the KMGBF as a whole-of-society framework. \nThe IPBES Business and Biodiversity Assessment also highlighted that while there already is sufficient data for businesses to start taking action on biodiversity, many data gaps remain. How can public data on biodiversity become more accessible for business use? And how does corporate information in turn help implement and monitor countries' progress on NBSAPs? \nThis event will showcase case studies of successful data collaborations between public and private sector, which are helping to accelerate progress on NBSAP implementation and support the private sector with trusted, high quality data on ecosystems and species. Global Ecosystems Atlas, GBIF and CDP will share lessons from building pioneering collaborations on data. A panel discussion on benefits of breaking the data silos between public and private sector will bring together speakers from the Government of Japan (TBC) and UK (TBC), private sector (speakers TBC) and research (speakers TBC).",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Mon, 26 Oct",
@@ -1317,7 +1317,7 @@
     "List any other organizations, collaborators or countries involved": "Deloitte Global, and the Biodiversity Credit Alliance",
     "Type of event": "Workshop",
     "Event description ": "The emerging biodiversity markets present a potential financing tool to help bridge the ~$800b annual global biodiversity financing gap through innovative private sector financing. Without consolidated demand from corporate buyers this market will stagnate. \nDemand barriers include corporate hesitancy to commit funds at scale in the face of uncertainty and potential reputational risk in an emerging market. The spectrum of potential corporate nature-related claim types, emerging corporate nature standards and associated mitigation hierarchy, data and assurance requirements adds to this uncertainty.\nThis workshop targets a) demand-side actors to share insights into their priorities, data and assurance requirements, and b) supply-side actors seeking to integrate their MRV data and assurance frameworks with these demand-side imperatives. The underlying purpose is to make a contribution to towards unlocking market deal flow at scale.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Mon, 26 Oct",
@@ -1341,7 +1341,7 @@
     "List any other organizations, collaborators or countries involved": "European Space Agency, Ramsar Convention on Wetlands Secretariat, DHI",
     "Type of event": "Talk/presentations",
     "Event description ": "Inland and coastal wetlands are vital to achieving Kunming-Montreal Global Biodiversity Framework (KMGBF) Targets 1, 2, and 3, alongside the Convention on Wetlands 5th Strategic Plan (SP5). Yet, Parties continually face fragmented baselines and technical bottlenecks when monitoring wetland extent and ecological condition.\nConvened by GEO-Wetlands and aligned with the Ramsar STRP work programme, this session delivers an operational roadmap to embed Earth Observation (EO) directly into national policy and reporting. By moving past isolated pilots to institutionalized monitoring, the session links EO capabilities to the Ramsar Secretariat’s Wetland Inventory Guidance.\nCentral to this transition are Essential Wetland Variables (EWVs). Standardizing metrics for extent, hydrology, and condition establishes credible, shared benchmarks. This harmonization bridges national inventories with international reporting under both the CBD and the Convention on Wetlands.\nGlobal Mangrove Watch (GMW) serves as a mature proof of concept for this end-to-end value chain. It demonstrates how multi-sensor satellite imagery converts into high-resolution annual extents, near-real-time disturbance alerts, and verified carbon accounting, data ministries already rely on for spatial planning, protected area enforcement, and official treaty submissions. Finally, the session highlights scaling these standardized workflows across all wetland realms via emerging platforms like Global Wetland Watch and the Wetland Atlas, equipping Parties with the unified tools needed to track conservation targets at scale.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Mon, 26 Oct",
@@ -1365,7 +1365,7 @@
     "List any other organizations, collaborators or countries involved": "Esri",
     "Type of event": "Demonstration/technical showcase",
     "Event description ": "Achieving the goals of the Kunming-Montreal Global Biodiversity Framework requires expanding access to scientific knowledge, digital tools, and capacity-building opportunities that empower learners and educators to understand and address biodiversity challenges. Aligned with Target 20, this interactive session demonstrates how freely accessible geospatial technologies can strengthen environmental education while fostering scientific and technical cooperation across educational communities. \nParticipants will explore hands-on lessons designed by Sustainable Forest Initiative’s Project Learning Tree to engage young people in investigating the interconnected relationships among forests, watersheds, biodiversity, and drinking water quality using the Forests to Faucets 2.0 GIS Data Explorer, a free tool developed on Esri ArcGIS technology and maintained by the USDA Forest Service. Through real-world geospatial inquiry, learners can identify the sources of their drinking water, analyze potential environmental threats, and develop a systems-based understanding of ecosystem services and natural resource stewardship.\n The session will provide an overview of each lesson, its learning objectives, and academic standards alignment, followed by a demonstration of the GIS platform and its classroom applications.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Mon, 26 Oct",
@@ -1389,7 +1389,7 @@
     "List any other organizations, collaborators or countries involved": "TNFD, UNEP-WCMC",
     "Type of event": "Panel discussion",
     "Event description ": "Improving the availability and accessibility of biodiversity data for business is an important catalyst to scale the number of companies monitoring, disclosing and taking action on biodiversity. Providers and aggregators of biodiversity data for private sector use need clarity on requirements that data needs to meet to effectively support business users and their disclosures. In 2025, TNFD published a first version of their Nature Data Principles for state of nature data used in corporate assessments and disclosure, building on existing data principles such as FAIR, CARE, Open Data Charter or TDWG for GBIF. This session will convene a discussion on opportunities and challenges in building a consensus on a common set of principles for biodiversity data used by the private sector, and how this could support progress on the KMGBF Target 15. Across two panel discussions, speakers will include data providers (e.g. GEO, GBIF (TBC), IUCN (TBC), UNEP-WCMC), TNFD, as well as representatives of business data users, data aggregators and custodians of biodiversity data from Indigenous Peoples and other local communities.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Mon, 26 Oct",
@@ -1413,7 +1413,7 @@
     "List any other organizations, collaborators or countries involved": "Government of Panama, Gordon and Betty Moore Foundation, European Space Agency, ETHZ.",
     "Type of event": "Panel discussion",
     "Event description ": "Tropical forests hold more biodiversity than any other biome on the planet, and yet 94% of the deforestation in this century took place in the tropics. It is vital that we build global structures that will allow all tropical countries, and tropical forest landholders to generate more value from standing forests than from cleared land.  \nDeveloped through a collaboration involving hundreds of scientific organizations worldwide, GEO-TREES is establishing large-scale calibration and validation sites across tropical forest types  and conditions.  These sites will provide the essential data to accurately value forests at scale.  Although, GEO-TREES addresses both carbon and biodiversity, its initial goal is to establish a robust, dynamic global inventory of carbon – at project relevant scales – for the world’s tropical forests.  \nThrough two panel discussions, this session will introduce GEO-TREES, – the ambition, the science, the potential impact on its capacity to value forests within traditional market structures.  \nThe first panel will introduce the project, explore the science objectives, and outline the global impacts of counting carbon, and establishing global infrastructure for forest biodiversity monitoring.  The second panel will bring together policymakers, philanthropy, and market participants to explore how trusted data and shared standards can reduce risk in biodiversity markets, improve project-level carbon accounting, and increase investment in topical forests.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Mon, 26 Oct",
@@ -1437,7 +1437,7 @@
     "List any other organizations, collaborators or countries involved": "GEO BON, GBIF, ESA, Coalition for Conservation Genetics; current test cases in Australia, Namibia, Slovenia, South Korea, South Africa, USA, Nepal, Kenya, Norway, Sweden, Zambia, Tanzania",
     "Type of event": "Demonstration/technical showcase",
     "Event description ": "Genetic diversity within and among populations is essential for species persistence, yet challenging to measure at country and regional scales. Parties to the CBD require reliable and efficient assessments of genetic diversity at the country scale (Headline Indicator A.4). We will explain how space-based Earth observation (EO) can compliment field measurements helping to monitor the GBF genetic diversity indicators at the country scale. We will showcase a stepwise, free, public and open workflow that makes EO accessible for this purpose, and show how this workflow can enable reporting on genetic diversity indicators and empower progress towards the GBF. We will then have open discussions about opportunities and challenges for this approach in light of reporting experiences with target A.4 in the first global reporting period, and implementing the presented workflow for the upcoming reporting period in 2029. The format will be a 30-minute on-stage presentation and demo followed by a 10-minute on-stage Q&A and 20-minute small-group mingle and exchange. Catering will be provided.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Tue, 27 Oct",
@@ -1461,7 +1461,7 @@
     "List any other organizations, collaborators or countries involved": "Toyota Motor Corporation",
     "Type of event": "Talk/presentations",
     "Event description ": "As the global transition towards a nature-positive future accelerates, corporate decisions regarding land-use and economic activities carry unprecedented significance for biodiversity outcomes. Translating commitments into effective action requires robust, science-based biodiversity assessments. Amid persistent global data gaps and spatial bias, the business sector—routinely generating primary observation data through its operations—represents a crucial player for enriching the global biodiversity data infrastructure. Drawing on pioneering experience in Japan, this session presents a transformative data circulation model to clean, standardize, and integrate dormant corporate data into global repositories in accordance with rigorous scientific protocols. Moving beyond one-off data consumption, this framework empowers companies to transition from passive data users into active contributors to the global knowledge base. By anchoring corporate decision-making in reliable evidence while simultaneously addressing critical knowledge gaps, speakers will outline an actionable roadmap for co-creating an inclusive biodiversity data ecosystem that advances the targets of the Kunming-Montreal Global Biodiversity Framework.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Tue, 27 Oct",
@@ -1485,7 +1485,7 @@
     "List any other organizations, collaborators or countries involved": "",
     "Type of event": "Demonstration/technical showcase",
     "Event description ": "As biodiversity loss accelerates, educators, governments, youth, and communities urgently need better tools to learn about, with, and for nature. This session will introduce three initiatives led by IUCN and showcase how they form the basis for an integrated approach to generate knowledge systems for people.\nThe NbE Learning Portal is being developed by IUCN and its Commission on Education and Communication together with Esri. It showcases geospatial tools for nature education -biodiversity, climate, water, land, and more and maps NbE activity worldwide, surfacing shared lessons, and providing ArcGIS-based tools to educators, students, and civil society.\nPANORAMA – Solutions for a Healthy Planet brings the practitioner knowledge component to this integrated approach. Through a global repository of proven conservation and sustainable development solutions, it enables peer learning by capturing lessons from the field and organising them into adaptable “building blocks” for replication.\nFinally, the IUCN Academy brings the training and capacity building component to the approach. It harnesses the Union’s expertise to build capacity around skills and tools required to protect nature and promote sustainability. It helps scale the reach and impact of lessons and recommendations from complementary knowledge systems, including PANORAMA experiences and NbE approaches.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Tue, 27 Oct",
@@ -1509,7 +1509,7 @@
     "List any other organizations, collaborators or countries involved": "IRD (France) SiB Colombia . Humboldt Institute (Colombia) ANDI (Colombia)",
     "Type of event": "Panel discussion",
     "Event description ": "Economic activities and business operations generate large biodiversity datasets, in particular through impact assessment processes. In a context where data is a key driver of ecological transformation, and where private organizations are themselves becoming data producers, it is crucial to safeguard and share this knowledge to monitor biodiversity status and trends and inform progress towards global biodiversity targets set by KMGBF. This event will present the legal frameworks established by France and Colombia which mandate to deliver such data to public information systems, as well as from the institutions that manage these dataflows, and the network of buisness that produce them. Several common challenges will be adressed : quality, attribution of authorship, processing time, compliance, the effectiveness of obligations, and other data uses such as TNFD. Other discussion topic will focus at major forest basins where massive dataflows are generated by companies for certification purposes without a clear and harmonized process for publication and accessibility. \nThe event will foster a public-private dialogue to explore how to work together, particularly by drawing on research to develop recognized methods that private organizations can use to conduct more effective impact assessments and sustainability. This will be illustrated by the DeepForestVision and DeepForestSound tools (One Forest Vision initiative), which bring new possibilities for facilitating qualitative assessments of the impact of human activities on animal biodiversity.\nSpeakers will include representatives of public institutions, business sectors, and local stakeholders and communities.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Tue, 27 Oct",
@@ -1533,7 +1533,7 @@
     "List any other organizations, collaborators or countries involved": "ESA, UNEP-WCMC, SANBI, RCMRD",
     "Type of event": "Talk/presentations",
     "Event description ": "Four years into implementation of the Kunming-Montreal Global Biodiversity Framework, countries need biodiversity monitoring systems that can turn observations into information for indicators, reporting and decision-making. GEO BON is working with its global network of national, regional and thematic Biodiversity Observation Networks (BONs), Essential Biodiversity Variable (EBV) communities, partners and technical initiatives to help build this capacity.\nThis session will provide an update on how GEO BON is translating the vision of a Global Biodiversity Observing System (GBiOS) into practical action. It will highlight progress across the network, including the development and strengthening of BONs; advances in EBVs and indicators; BON in a Box and reproducible data-to-decision workflows; emerging areas such as animal movement and One Health; and partnerships connecting Earth observation, biodiversity data, technology and national monitoring.\nWe look ahead to the next phase of implementation: how these pieces can work together as a more connected global observing system that strengthens national biodiversity monitoring while contributing to regional and global understanding of biodiversity change.\nThrough short presentations and discussion with GEO BON members and partners, the session will explore what is already working, where important gaps remain, and where collaboration and investment can accelerate the transition from biodiversity observations to sustained monitoring and action.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Tue, 27 Oct",
@@ -1557,7 +1557,7 @@
     "List any other organizations, collaborators or countries involved": "UNEP-FI, Aviva",
     "Type of event": "Panel discussion",
     "Event description ": "Financial institutions increasingly recognise that nature loss and climate change are interconnected drivers of physical risk. However, understanding where risks occur is only the first step. To make effective investment, financing and insurance decisions, organisations also need to understand the ecosystems that underpin resilience and provide critical services such as flood regulation, water security and climate adaptation. \n\nThis session will explore how ecosystem extent data can be combined to integrate nature insights into climate risk modelling to drive better decision-making across banking, insurance and investment portfolios. Bringing together leaders from finance, data platforms and nature science, the discussion will examine how improved ecosystem information can strengthen physical risk assessments, reveal the value of ecosystem services from different ecosystems, and help identify and prioritise investments in nature-based solutions. \n\nThrough practical examples, including efforts to model and then reduce flood risk through landscape-scale nature restoration, speakers will demonstrate how translating biodiversity and ecosystem data into actionable insights can help move from risk identification to real-world resilience outcomes. \n\nThe session will highlight the growing role of ecosystem data in supporting risk management, investment decisions and progress towards global biodiversity and climate goals, while addressing broader challenges around data availability, usability and decision relevance.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Tue, 27 Oct",
@@ -1581,7 +1581,7 @@
     "List any other organizations, collaborators or countries involved": "Jane Goodall Institute (confirmed) , Amazon Conservation Team (likely), Cadasta Foundation (potential)",
     "Type of event": "Talk/presentations",
     "Event description ": "Conservation succeeds through relationships: relationships between people and nature, between knowledge systems, and between communities working toward a shared future. Geography provides a common language for understanding and connecting these relationships across cultures, disciplines, and scales. Achieving the goals of the Kunming-Montreal Global Biodiversity Framework requires connecting diverse knowledge systems, empowering people with access to biodiversity information, and ensuring the meaningful participation of Indigenous Peoples and local communities in decisions affecting biodiversity. Drawing on real-world conservation initiatives from around the world, speakers will share experiences applying geographic information systems (GIS) to connect knowledge systems, strengthen participation, and support community stewardship. Attendees will learn how GIS unites traditional knowledge, local observations, and biodiversity science to empower communities to participate in decision-making and translate knowledge into action for biodiversity.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Tue, 27 Oct",
@@ -1605,7 +1605,7 @@
     "List any other organizations, collaborators or countries involved": "Wildlife Conservation Society, Frankfurt Zoological Society, others (SERCA?)",
     "Type of event": "Demonstration/technical showcase",
     "Event description ": "Geospatial technologies are rapidly changing how we understand the world—and creating new possibilities for how we protect it. Across landscapes and seascapes, we have the opportunity to transform protected areas management by equipping the people responsible for conservation with real-time data, easy-to-use tools, and powerful place-based analytics to drive informed and coordinated action. \nThis session will explore how innovation in geospatial technologies empowers field observations, Earth observation, AI, spatial analysis, and operational workflows—from daily protected area management and biodiversity monitoring to strategic planning, reporting, and measuring impact. It will showcase GIS (geographic information systems) as a unifying framework that brings together people, data, technologies, and knowledge to strengthen coordination and translate monitoring and innovation into conservation action. There will be a demonstration of the new release of ArcGIS for Protected Areas Management, real-world lessons from organizations doing this work, and pathways to access, learn, and effectively apply these technologies, building the capacity to put innovation into practice.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Wed, 28 Oct",
@@ -1629,7 +1629,7 @@
     "List any other organizations, collaborators or countries involved": "Francesca Cagnacci, Fondazione Edmund Mach,   President International Biologging Society; Thomas Müller, Senckenberg",
     "Type of event": "Talk/presentations",
     "Event description ": "Advances in animal tracking technologies now allow researchers to monitor animal movement, behavior, physiology, and survival. Yet, these data remain largely disconnected from the global frameworks guiding conservation and sustainable development. The Animal Movement Biodiversity Observation Network (Move BON) is closing this gap by engaging a global community to mobilize animal movement data and generate policy-relevant insights. This session will highlight advances in expanding data mobilization and improved metrics and indicators measuring the processes driving biodiversity change. Proposed topics include:  \nWildMoves, a new GBIF-hosted data portal featuring animal tracking data sets that meet the rigorous standards required for global-scale analysis of biodiversity datasets.   \nMoveTraits, a new database of standardized movement metrics calculated from animal tracking data. MoveTraits aims to make behavioral information contained in biologging data more accessible, supporting trait-based change detection.  \nA new Diurnality Indicator linking animal behavior with human activities, tracking behavioral responses to rapid environmental change and supporting proactive conservation under the GBF. \nThe Global Animal Mortality Project, uses tracking data to reveal the mechanisms of species loss at a global scale. As part of this project, we are developing a new mortality-based biodiversity indicator to monitoring of the processes driving population change.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Wed, 28 Oct",
@@ -1653,7 +1653,7 @@
     "List any other organizations, collaborators or countries involved": "Lead organization: RCMRD (Regional Centre for Mapping of Resources for Development), under the Regional Centre of Excellence (RCoE) Project.  Countries covered by the BOESA assessment: 24 Eastern and Southern African Countries(Angola, Botswana, Burundi, Comoros, Djibouti, Eritrea, Eswatini, Ethiopia, Kenya, Lesotho, Madagascar, Malawi, Mauritius, Mozambique, Namibia, Rwanda, Seychelles, Somalia, South Africa, South Sudan, Sudan, Tanzania, Uganda, Zambia, and Zimbabwe.)",
     "Type of event": "Talk/presentations",
     "Event description ": "This session presents key findings from the newly developed Biodiversity and Ecosystems Outlook for Eastern and Southern Africa (BOESA), a regional publication mapping the state of biodiversity, ecosystem services, and the policies that govern them across 24 countries. The talk focuses on gaps the assessment uncovered in how biodiversity data is collected, shared, and used for decision-making: data that stays siloed within institutions and often with individuals rather than the institutions themselves due to limited trust; the absence of shared standards, which makes it hard to compare data across agencies; duplicated data-collection efforts that waste resources and produce conflicting figures; delays in harmonizing scattered datasets that push national reports to the CBD past deadline; and weak or missing legal frameworks for data-sharing. Drawing on complementary work from the Regional Centre of Excellence's policy briefs on biodiversity data governance, the session will connect these findings to concrete recommendations for turning fragmented data into decisions including how countries can strengthen data-sharing frameworks, close reporting gaps, and make monitoring systems more inclusive. The goal is to give participants a clear, practical picture of where Eastern and Southern Africa stands on biodiversity data readiness, and what needs to happen next to support countries in tracking and reporting progress under the Kunming-Montreal Global Biodiversity Framework. The session closes with an open floor for questions and potential collaboration.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Wed, 28 Oct",
@@ -1677,7 +1677,7 @@
     "List any other organizations, collaborators or countries involved": "IUCN",
     "Type of event": "Demonstration/technical showcase",
     "Event description ": "The IUCN RHINO (Rapid High-Integrity Nature-positive Outcomes) approach helps companies, governments and civil society understand what to do, where to act, and how to measure progress. It offers a ready-to-implement, robust route for those with control over sites, supply chains and investments to deliver Nature Positive outcomes, and to contribute measurably to the Kunming-Montreal Global Biodiversity Framework.\nIts core metric is STAR, the Species Threat Abatement and Restoration metric, derived from the IUCN Red List of Threatened Species. Following the TNFD LEAP framework, RHINO takes a user from locating sensitive areas, to confirming which species and threats are genuinely present and defining a baseline, to prioritising threats, setting targets, delivering action, and reporting what was achieved.\nThis session walks through key steps with an illustrative case study, then focuses on the one that joins global data to local reality: calibration. The starting point is an IBAT Species Report, the species and threats expected at a site, which is then checked against what data gathered on the ground show. Attendees will try calibrating a site themselves, using the tool now available through IBAT (Integrated Biodiversity Assessment Tool).",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Wed, 28 Oct",
@@ -1701,7 +1701,7 @@
     "List any other organizations, collaborators or countries involved": "GBIF, Colombia, New Zealand",
     "Type of event": "Talk/presentations",
     "Event description ": "A growing volume of biodiversity data is available globally, but turning those data into information that countries can routinely use for monitoring, indicators, reporting and decision-making remains a major challenge.\nThis session will showcase how BON in a Box and GBIF can help bridge that gap. Through practical examples, the session will demonstrate how BON in a Box can mobilize biodiversity data available through GBIF and connect them to reproducible analytical pipelines that transform observations into monitoring and decision-ready outputs. It will highlight workflows already being developed using GBIF-mediated data, as well as emerging data standards and semantic approaches that can make biodiversity data easier to discover, integrate and reuse across systems.\nThe discussion will explore the complementary roles of data infrastructure, standards and analytical workflows in building national biodiversity monitoring capacity. Looking beyond individual tools, the session will ask how an interoperable ecosystem, from observations and standardized data to reproducible analyses and indicators, can help countries make better use of existing biodiversity information while strengthening the connection between national monitoring, the Kunming-Montreal Global Biodiversity Framework and global biodiversity knowledge.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Wed, 28 Oct",
@@ -1725,7 +1725,7 @@
     "List any other organizations, collaborators or countries involved": "",
     "Type of event": "Talk/presentations",
     "Event description ": "Biodiversity data provide an essential foundation for understanding changes in nature, but translating scientific knowledge into actionable information for businesses and financial institutions remains a key challenge. Nature Footprint is a science-based approach that connects biodiversity data and impact assessment with practical decision-making. This event will demonstrate how biodiversity knowledge can move from data to assessment and ultimately to action.\nThe session will begin with an overview of the Nature Footprint concept and its role in measuring and communicating biodiversity impacts. It will then introduce a spatially explicit approach for assessing the impacts of land-use change on biodiversity, showing how biodiversity data and differences across locations can be translated into quantitative impact information. Finally, the session will present the application of Nature Footprint to financial institutions, illustrating how biodiversity footprint information can support the assessment of financial activities and portfolios.\nBy connecting biodiversity data, scientific assessment, and practical applications, the event aims to demonstrate a pathway from biodiversity data to action. It will show how Nature Footprint can translate biodiversity knowledge into actionable information for business and financial decision-making, while contributing to the implementation of the Kunming-Montreal Global Biodiversity Framework.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Wed, 28 Oct",
@@ -1749,7 +1749,7 @@
     "List any other organizations, collaborators or countries involved": "",
     "Type of event": "",
     "Event description ": "",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Wed, 28 Oct",
@@ -1773,7 +1773,7 @@
     "List any other organizations, collaborators or countries involved": "",
     "Type of event": "Workshop",
     "Event description ": "As businesses and financial institutions increasingly take steps to understand and manage their nature dependencies, impacts, risks and opportunities, lessons are emerging on how to implement this in practice: where to begin, which tools to use, and how to interpret the outputs to inform decision-making and support implementation of the Kunming-Montreal Global Biodiversity Framework and its monitoring framework.\nThis showcase will dive into leading nature tools developed by conservation organisations - ENCORE, IBAT and the Nature Tools Compass - before highlighting actionable business insights and inviting participants to explore practical application.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Thu, 29 Oct",
@@ -1797,7 +1797,7 @@
     "List any other organizations, collaborators or countries involved": "IUCN SSC Conservation Translocation Specialist Group,   Panthera,   WWF International,   IUCN Forest and Grasslands Team,   Born Free Foundation,   VetMedUni Vienna,   Wildlife Conservation Society,   World Organisation for Animal Health,    World Federation for Animals",
     "Type of event": "Panel discussion",
     "Event description ": "Conservation translocations—including reintroductions, reinforcements, assisted colonization, and ecological replacements—are increasingly used to prevent extinctions, recover species, restore ecosystems, and support landscape connectivity under the Kunming-Montreal Global Biodiversity Framework (GBF), contributing to species recovery under Target 4, ecosystem restoration under Target 2, and broader sustainable wildlife management efforts under Target 5. \nHowever, monitoring and implementation frameworks have not evolved at the same pace. Important gaps remain in tracking the implementation and long-term outcomes of conservation translocations and associated restoration efforts across ecological, health, genetic, welfare, spatial, and socio-economic dimensions. Existing guidance provides important foundations, yet monitoring frameworks, indicators, reporting systems, and best practices remain fragmented across regions and sectors. \nBuilding on discussions initiated at COP16, this panel will bring together scientists, policymakers, conservation practitioners, wildlife health experts, intergovernmental organizations, and civil society to discuss gaps, needs, and opportunities for improving the implementation and monitoring of conservation translocations under the GBF. Discussions will explore the need for integrated monitoring frameworks, post-release monitoring, adaptive management, indicators, and best practices, alongside emerging science-policy initiatives and examples from Kenya and other regions, while considering opportunities for knowledge exchange and coordination across sectors and regions.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Thu, 29 Oct",
@@ -1821,7 +1821,7 @@
     "List any other organizations, collaborators or countries involved": "GEO BON, Secretariat of the Convention on Wetlands, Country",
     "Type of event": "Talk/presentations",
     "Event description ": "The implementation of the Kunming–Montreal Global Biodiversity Framework requires timely, consistent and scientifically robust information to support evidence-based decision-making, monitor progress towards the GBF Goals and Targets, and strengthen the implementation of NBSAPs. Satellite Earth Observation provides unprecedented capabilities to monitor ecosystems, habitats and environmental change consistently across local, national and global scales. The Committee on Earth Observation Satellites (CEOS) plays a key role in coordinating civil space-based EO programmes internationally, helping to ensure that satellite observations and derived information deliver societal benefits and support sustainable decision-making. Through its Virtual Constellations, CEOS coordinates satellite observations, data products and related systems to address specific societal challenges. In April 2026, CEOS established the Biodiversity Virtual Constellation (B-VC) to strengthen the contribution and use of space-based EO for biodiversity understanding, monitoring and decision-making. This event will introduce the new CEOS B-VC and its activities, structured around six main pillars: (1) identifying priority gaps in observations and data products and facilitating solutions to address them; (2) enhancing data processing and utilisation tools to broaden the use of EO for biodiversity applications; (3) exploring prototype monitoring systems to support the development and testing of EO products; (4) implementing capacity-building activities; (5) strengthening engagement between the biodiversity and EO communities; and (6) coordinating with GEO BON and its Global Biodiversity Observing System concept to facilitate the wider use of space-based EO. The event will combine a presentation of the CEOS B-VC with an interactive panel discussion bringing together key stakeholders from the scientific, policy, institutional and user communities, including GEO BON, the Convention on Wetlands, TNFD and country representatives. The discussion will explore priority biodiversity monitoring needs, opportunities for greater uptake of satellite EO, and how international coordination can help translate EO capabilities into actionable information supporting GBF implementation.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Thu, 29 Oct",
@@ -1845,7 +1845,7 @@
     "List any other organizations, collaborators or countries involved": "French MoE, CBD Secretariat, CO-OP4CBD, BioAgora, Biodiversa+, RESPIN, Norwegian Institute for Nature Research",
     "Type of event": "Talk/presentations",
     "Event description ": "Open-access online learning tools (courses, toolkit, factsheets) are key to make complex environmental governance processes more accessible and actionable for a wide range of stakeholders. Effective biodiversity governance, including national monitoring and data reporting by local communities and biodiversity-policies’ practitioners, implies to strengthen their ability to contribute to global environmental processes.\nA key objective of this side event is to ensure that key resources produced to engage in the CBD and in SPI processes, including IPBES and IPCC, are available not only to different categories of actors, but also across countries and regions, including those where English, Spanish and French are shared working languages for international engagement. As reflected in the agenda for COP17, capacity-building remains a key component of discussions on implementation (Item 12.a) and is structuring to achieve a whole-of-society approach.\nOur event will bring together regional initiatives developing capacity-building activities to engage with the CBD, IPBES and IPCC. It will feature engagement strategies, methods and tools to include IPLCs in Science-Policy-Practice interfaces as well as specific open access tools to bridge Science and Policy, both in the CBD and in Rio-Conventions’ related intergovernmental platforms such as IPBES and IPCC.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Thu, 29 Oct",
@@ -1869,7 +1869,7 @@
     "List any other organizations, collaborators or countries involved": "",
     "Type of event": "Talk/presentations",
     "Event description ": "Invasive alien species are a major driver of biodiversity loss worldwide, yet new incursions are often not detected until they have become widespread and difficult to manage. This event will showcase the Smart Weed Alert Tool (SWAT), an innovative system that helps identify potential new invasive plant species at the earliest stages of establishment.\nSWAT automatically scans biodiversity observations shared through the Global Biodiversity Information Facility (GBIF), including records contributed by citizen scientists through platforms such as iNaturalist. The system analyses these data and generates alerts when unusual or potentially invasive plant species are recorded in a particular area.\nThrough a live demonstration, participants will see how biodiversity observations can be transformed into practical decision-support tools that support rapid action. The session will illustrate how citizen science, open biodiversity data, and digital innovation can work together to strengthen biosecurity and biodiversity conservation.\nKey messages are that biodiversity data can generate real-world conservation outcomes, that early detection is critical for effective invasive species management, and that globally connected data infrastructures can help countries achieve the goals of the Kunming-Montreal Global Biodiversity Framework.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Thu, 29 Oct",
@@ -1893,7 +1893,7 @@
     "List any other organizations, collaborators or countries involved": "Veronika.Johansson@nrm.se; Kevin.Holston@nrm.se; Manash.Shah@nrm.se; Swedish Museum of Natural History",
     "Type of event": "Demonstration/technical showcase",
     "Event description ": "We cannot protect what we cannot see. Even in a data-rich country like Sweden, knowledge of nature has blind spots. The GBIF Gap Finder, developed by GBIF Sweden within the Global Biodiversity Information Facility (GBIF) network, tries to make those gaps visible.\nWe developed an open-source pipeline in the programming language R (https://github.com/GBIF-Sweden/gbif_gap_finder): a step-by-step recipe any country can adapt to assess what data is missing from GBIF at a national scale. It reveals gaps at taxonomic (which species groups are under-recorded), spatial (which areas are under-surveyed) and temporal (where recent records are lacking) levels. Its interactive dashboard opens with a plain-language summary.\nThis live demonstration focuses on Sweden, walking through the different tabs and highlighting the findings that lead to a clear priority list for future data mobilization plans.\nObjective: to show how GBIF national nodes and partners can use the tool to steer data mobilization (where to survey, what to digitize, whom to involve), supporting Target 21 of the Kunming-Montreal Global Biodiversity Framework.\nKey messages:\n- An open, reusable tool that lets every country map its own gaps.\n- Finding gaps can help prioritize where to act and mobilize data next.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Thu, 29 Oct",
@@ -1917,7 +1917,7 @@
     "List any other organizations, collaborators or countries involved": "FAO, WRI, FPP, Kenya, Philippines, Colombia",
     "Type of event": "Panel discussion",
     "Event description ": "This session presents progress on CBD headline indicator 22.1 — the traditional knowledge indicator on land tenure and land-use change in the traditional territories of Indigenous Peoples and local communities — one year after its adoption as a headline indicator. Convened by the technical working group supporting the indicator's development (including custodian FAO, ILC and partners), the session reviews how Parties are engaging with the indicator through their Seventh National Reports (7NRs), and shares early lessons from an emerging cohort of countries — including Kenya, Colombia and the Philippines, among others — that are pioneering whole-of-society approaches to build the data, partnerships and institutional processes needed to report on it. Panelists will discuss practical experience generating and validating land tenure and land-use data together with Indigenous Peoples' organizations, local communities and government agencies; the opportunities and challenges of applying the indicator nationally; and what these early experiences mean for other Parties preparing to report in future cycles. The session aims to connect national practitioners, CBD negotiators and the broader biodiversity data community around a shared, replicable pathway from headline indicator to national implementation.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Thu, 29 Oct",
@@ -1941,7 +1941,7 @@
     "List any other organizations, collaborators or countries involved": "GBIF",
     "Type of event": "Talk/presentations",
     "Event description ": "Established in 2015, the All-Ireland Pollinator Plan is a voluntary initiative that has empowered people to come together to tackle biodiversity loss. It works by clearly explaining what wild pollinators need, and what simple, evidence-based actions everyone across society can take to help. Sectoral resources for farmers, local authorities, businesses, communities, and others are freely available at [pollinators.ie]pollinators.ie. Currently the Plan is supported by all 42 local council's in Ireland and more than 400 businesses.  The All-Ireland Pollinator Plan is built on data. It uses species data to understand the status of pollinators; and monitoring data to track changes and the impact of the evidence-based actions. A publicly accessible GIS-based data capture system maps individual actions. Already over 15,000 actions have been logged, helping to connect individuals and transform how local areas are managed for nature. The 2026-2030 Plan is supported by 130 organisations and will help deliver the Nature Restoration Regulation targets in Ireland. Based on the distance a solitary bee will fly to find food, it has an ambitious target of pockets of nature every 200 metres in our landscape, providing food, shelter, and safety for pollinators. It aims to bring about an island that supports biodiversity, is climate resilient, and is a place where we can all experience the health benefits of connecting with nature.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Thu, 29 Oct",
@@ -1957,7 +1957,7 @@
     "Gap before (min)": "30",
     "Catering?": "Dinner (GBIF)",
     "": "contacted",
-    "Confirmation": "",
+    "Confirmation": "confirmed",
     "Submitter's name (main contact)": "Kyle Copas",
     "Submitter's Email Address": "kcopas@gbif.org",
     "Email addresses of contacts": "kcopas@gbif.org",
@@ -1965,7 +1965,7 @@
     "List any other organizations, collaborators or countries involved": "Catalogue of Life, SANBI, CBD",
     "Type of event": "Talk/presentations",
     "Event description ": "This side-event will showcase how the Global Biodiversity Information Facility (GBIF), working with the Catalogue of Life (COL), South African National Biodiversity Institute (SANBI) and partners, supports Parties through interoperable national checklists, hosted portals and shared biodiversity data infrastructure. These services enable countries to align national taxonomic concepts with globally harmonized biodiversity data while retaining national relevance and terminology.\nThe Catalogue of Life provides the most consistent and up-to-date global checklist of known species and underpins GBIF’s biodiversity occurrence record indexing and interpretation. Through jointly developed tools and infrastructure, countries can build, manage and harmonize national species lists; integrate species names used in national legislation; and improve the quality, usability and interoperability of biodiversity data used in NBSAPs, national reports and GBF indicators, particularly those related to invasive alien species, threatened species and biodiversity knowledge",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   },
   {
     "Date": "Fri, 30 Oct",
@@ -1981,7 +1981,7 @@
     "Gap before (min)": "30",
     "Catering?": "No",
     "": "contacted",
-    "Confirmation": "move at 13:15 the 30 October (replacing the one we ask to have earlier in the week)",
+    "Confirmation": "confirmed",
     "Submitter's name (main contact)": "Isabella Livertout",
     "Submitter's Email Address": "isabella.livertout@mnhn.fr",
     "Email addresses of contacts": "isabella.livertout@mnhn.fr",
@@ -1989,7 +1989,7 @@
     "List any other organizations, collaborators or countries involved": "CBD Women's Caucus, GBIF, ICCA Consortium, SANBI TSCC, ACB TSCC, CO-OP4CBD",
     "Type of event": "Panel discussion",
     "Event description ": "Achieving the objectives of the Kunming-Montreal Global Biodiversity Framework (KMGBF) requires biodiversity data systems that are scientifically robust, interoperable, inclusive, and locally grounded (in line with Targets 21 and 23). In this context, Subregional Technical and Scientific Support Centres (TSCCs) can play a strategic role in facilitating multi-stakeholder engagement and connecting governments, scientific institutions, Indigenous Peoples and local communities, women, and youth. \nOn one hand, as knowledge holders, rights holders generate valuable observations, experiences, and analyses on ecosystems and sustainable use, yet these remain insufficiently considered and used in the KMGBF monitoring framework. On the other hand, global and national infrastructures such as the Global Biodiversity Information Facility (GBIF) provide essential mechanisms to mobilise, standardise, and make biodiversity data accessible. Bridging these systems requires respectful, equitable, and effective mechanisms for knowledge exchange and data integration.\nThe side event will bring together rights-holder-responsive and community-based data platforms, notably the ICCA Registry and the CBD Women’s Caucus, the GBIF as representative of a global data infrastructure, with Asian and African TSCCs. It will explore how TSCCs and data providers can work together with locally-grounded initiatives, strengthen knowledge exchange across governments, scientific institutions, and knowledge holders, contributing to a more inclusive and context-responsive KMGBF monitoring and reporting.",
-    "Note any updates made here": ""
+    "Note any updates made here and date": "move at 13:15 the 30 October (replacing the one we ask to have earlier in the week)"
   },
   {
     "Date": "",
@@ -2013,6 +2013,6 @@
     "List any other organizations, collaborators or countries involved": "",
     "Type of event": "",
     "Event description ": "",
-    "Note any updates made here": ""
+    "Note any updates made here and date": ""
   }
 ]
