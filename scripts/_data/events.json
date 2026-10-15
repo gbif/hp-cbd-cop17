@@ -853,7 +853,7 @@
     "Gap before (min)": "30",
     "Catering?": "No",
     "": "contacted",
-    "Confirmation": "confirmed",
+    "Confirmation": "",
     "Submitter's name (main contact)": "Peter Ward",
     "Submitter's Email Address": "peter.ward@nhm.ac.uk",
     "Email addresses of contacts": "peter.ward@nhm.ac.uk",
@@ -861,7 +861,7 @@
     "List any other organizations, collaborators or countries involved": "None",
     "Type of event": "Workshop",
     "Event description ": "With a growing interest from financial institutions in scenario-modelling biodiversity outcomes to inform investment decisions, there is a need/desire for cross-sector dialogue between finance and academia to understand the common needs and ensure developments in this field proceed in a way that is useful to the end-users, meeting the right requirements and establishing useful common narratives. This workshop aims to convene stakeholders across the finance sector with the leading scientific institutions developing biodiversity metrics / tools to inform such developments and ensure such tools are developed along the right path to be the most useful to those using them.",
-    "Note any updates made here and date": ""
+    "Note any updates made here and date": "This one is note complete, I'll remove its \"conformed' status, otherwise is visible on the website"
   },
   {
     "Date": "Sat, 24 Oct",
