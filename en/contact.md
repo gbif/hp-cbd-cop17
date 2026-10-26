@@ -55,6 +55,20 @@ permalink: /contact/
     background: none; border: none;
     color: #fff; font-size: 2.5rem; cursor: pointer;
   }
+  /* Ensure mobile hamburger dropdown menu displays properly when active */
+  @media screen and (max-width: 1023px) {
+    .navbar-menu.is-active {
+      display: block !important;
+      background-color: #ffffff !important;
+      position: absolute !important;
+      top: 100% !important;
+      left: 0 !important;
+      right: 0 !important;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1) !important;
+      padding: 1rem !important;
+      z-index: 1001 !important;
+    }
+  }
 </style>
 
 ## Find us
@@ -80,6 +94,17 @@ The Data to Action Pavilion is in the Blue Zone at the Meridian Expo and Event C
   function closeMapModal() {
     document.getElementById('map-modal').style.display = 'none';
   }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    const burger = document.querySelector('.navbar-burger');
+    const menu = document.querySelector('.navbar-menu');
+    if (burger && menu) {
+      burger.addEventListener('click', function() {
+        burger.classList.toggle('is-active');
+        menu.classList.toggle('is-active');
+      });
+    }
+  });
 </script>
 
 ## Get in Touch
