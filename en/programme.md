@@ -50,6 +50,15 @@ permalink: /programme/
     display: none !important;
   }
 
+  /* Dim past events in the list */
+  .fc-past-event {
+    opacity: 0.45;
+    transition: opacity 0.2s;
+  }
+  .fc-past-event:hover {
+    opacity: 0.85;
+  }
+
   /* Interactive Filter Pills container & label */
   #calendar-legend-container {
     margin-top: 2.5rem;
@@ -372,7 +381,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const themeColors = {
     "Building Capacity for Biodiversity Action": { background: "#669941", text: "#ffffff" },
     "From Data to Decisions": { background: "#307b98", text: "#ffffff" },
-    "Monitoring, Technology & Innovation": { background: "#f6aa3c", text: "#111111" },
+    "Monitoring, Technology & Innovation": { background: "#f6aa3c", text: "#b87410" },
     "Data Gaps & Governance": { background: "#d46833", text: "#ffffff" }
   };
   const defaultColor = { background: "#6d6e71", text: "#ffffff" };
@@ -384,12 +393,17 @@ document.addEventListener('DOMContentLoaded', function() {
     if (!dayMatch) return null;
     const day = dayMatch[1].padStart(2, '0');
 
+    let month = '10';
+    if (/nov/i.test(dateStr)) {
+      month = '11';
+    }
+
     let [hours, minutes] = timeStr.trim().split(':');
     if (!hours) return null;
     hours = hours.padStart(2, '0');
     minutes = (minutes || '00').padStart(2, '0');
 
-    return `2026-10-${day}T${hours}:${minutes}:00`;
+    return `2026-${month}-${day}T${hours}:${minutes}:00`;
   }
 
   const allEvents = rawEvents
@@ -412,18 +426,30 @@ document.addEventListener('DOMContentLoaded', function() {
     .filter(e => e.start !== null);
 
   const calendar = new FullCalendar.Calendar(calendarEl, {
-    initialView: 'listWeek',
+    initialView: 'fullSchedule',
     initialDate: '2026-10-18',
-    validRange: {
-      start: '2026-10-18',
-      end: '2026-11-01'
+    views: {
+      fullSchedule: {
+        type: 'list',
+        visibleRange: {
+          start: '2026-10-18',
+          end: '2026-11-02'
+        }
+      }
     },
     headerToolbar: {
-      left: 'prev,next today',
+      left: '',
       center: 'title',
-      right: 'dayGridMonth,timeGridWeek,listWeek'
+      right: ''
     },
     events: allEvents,
+    eventDidMount: function(info) {
+      const now = new Date();
+      const eventEnd = info.event.end || info.event.start;
+      if (eventEnd < now) {
+        info.el.classList.add('fc-past-event');
+      }
+    },
     eventClick: function(info) {
       const row = info.event.extendedProps.row;
       const colors = info.event.extendedProps.colors;
