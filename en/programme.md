@@ -426,21 +426,15 @@ document.addEventListener('DOMContentLoaded', function() {
     .filter(e => e.start !== null);
 
   const calendar = new FullCalendar.Calendar(calendarEl, {
-    initialView: 'fullSchedule',
-    initialDate: '2026-10-18',
-    views: {
-      fullSchedule: {
-        type: 'list',
-        visibleRange: {
-          start: '2026-10-18',
-          end: '2026-11-02'
-        }
-      }
+    initialView: 'listWeek',
+    validRange: {
+      start: '2026-10-18',
+      end: '2026-11-02'
     },
     headerToolbar: {
-      left: '',
+      left: 'prev,next today',
       center: 'title',
-      right: ''
+      right: 'dayGridMonth,timeGridWeek,listWeek'
     },
     events: allEvents,
     eventDidMount: function(info) {
