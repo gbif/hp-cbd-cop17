@@ -116,6 +116,10 @@ permalink: /programme/
       height: 65vh !important;
       overflow-y: auto !important;
     }
+    /* Hide view switcher on mobile to keep it list-only */
+    .fc .fc-toolbar-chunk:last-child {
+      display: none !important;
+    }
     .fc .fc-toolbar {
       flex-direction: column;
       align-items: stretch;
