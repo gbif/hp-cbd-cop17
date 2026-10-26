@@ -22,6 +22,20 @@ permalink: /
     margin-left: auto !important;
     margin-right: auto !important;
   }
+  /* Ensure mobile hamburger dropdown menu displays properly when active */
+  @media screen and (max-width: 1023px) {
+    .navbar-menu.is-active {
+      display: block !important;
+      background-color: #ffffff !important;
+      position: absolute !important;
+      top: 100% !important;
+      left: 0 !important;
+      right: 0 !important;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1) !important;
+      padding: 1rem !important;
+      z-index: 1001 !important;
+    }
+  }
 </style>
 
 ## The Data to Action Pavilion @ CBD COP17
@@ -32,4 +46,17 @@ The **Data to Action Pavilion** brings together organizations working across the
 
 ## Engaging at the Pavilion
 
-*   **Daily Sessions:** Browse the complete schedule of panel discussions and side events from October 19–30 via the [Programme](/programme/) page.
+* **Daily Sessions:** Browse the complete schedule of panel discussions and side events from October 19–30 via the [Programme](/programme/) page.
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const burger = document.querySelector('.navbar-burger');
+    const menu = document.querySelector('.navbar-menu');
+    if (burger && menu) {
+      burger.addEventListener('click', function() {
+        burger.classList.toggle('is-active');
+        menu.classList.toggle('is-active');
+      });
+    }
+  });
+</script>
