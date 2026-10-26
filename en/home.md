@@ -49,14 +49,16 @@ The **Data to Action Pavilion** brings together organizations working across the
 * **Daily Sessions:** Browse the complete schedule of panel discussions and side events from October 19–30 via the [Programme](/programme/) page.
 
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const burger = document.querySelector('.navbar-burger');
-    const menu = document.querySelector('.navbar-menu');
-    if (burger && menu) {
-      burger.addEventListener('click', function() {
-        burger.classList.toggle('is-active');
-        menu.classList.toggle('is-active');
-      });
+  document.addEventListener('click', function(event) {
+    const burger = event.target.closest('.navbar-burger');
+    if (burger) {
+      const targetId = burger.dataset.target;
+      const target = targetId ? document.getElementById(targetId) : burger.nextElementSibling;
+
+      burger.classList.toggle('is-active');
+      if (target && target.classList.contains('navbar-menu')) {
+        target.classList.toggle('is-active');
+      }
     }
   });
 </script>
