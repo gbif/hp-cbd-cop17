@@ -167,6 +167,21 @@ permalink: /programme/
     }
   }
 
+  /* Ensure mobile hamburger dropdown menu displays properly when active */
+  @media screen and (max-width: 1023px) {
+    .navbar-menu.is-active {
+      display: block !important;
+      background-color: #ffffff !important;
+      position: absolute !important;
+      top: 100% !important;
+      left: 0 !important;
+      right: 0 !important;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1) !important;
+      padding: 1rem !important;
+      z-index: 1001 !important;
+    }
+  }
+
   /* Modal styling overlay */
   #modal-backdrop {
     display: none;
@@ -351,6 +366,16 @@ function downloadIcs(title, description, location, startStr, endStr) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
+  // Mobile hamburger menu toggle handler
+  const burger = document.querySelector('.navbar-burger');
+  const menu = document.querySelector('.navbar-menu');
+  if (burger && menu) {
+    burger.addEventListener('click', function() {
+      burger.classList.toggle('is-active');
+      menu.classList.toggle('is-active');
+    });
+  }
+
   const calendarEl = document.getElementById('calendar');
 
   const rawEvents = [
