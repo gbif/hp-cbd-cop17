@@ -50,7 +50,7 @@ permalink: /programme/
     display: none !important;
   }
 
-  /* Dim past events in the list */
+  /* Dim past events for archival purposes */
   .fc-past-event {
     opacity: 0.45;
     transition: opacity 0.2s;
@@ -116,7 +116,6 @@ permalink: /programme/
       height: 65vh !important;
       overflow-y: auto !important;
     }
-    /* Hide view switcher on mobile to keep it list-only */
     .fc .fc-toolbar-chunk:last-child {
       display: none !important;
     }
@@ -370,7 +369,6 @@ function downloadIcs(title, description, location, startStr, endStr) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-  // Mobile hamburger menu toggle handler
   const burger = document.querySelector('.navbar-burger');
   const menu = document.querySelector('.navbar-menu');
   if (burger && menu) {
@@ -453,6 +451,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   const calendar = new FullCalendar.Calendar(calendarEl, {
     initialView: 'listWeek',
+    initialDate: '2026-10-18',
     validRange: {
       start: '2026-10-18',
       end: '2026-11-02'
@@ -464,11 +463,7 @@ document.addEventListener('DOMContentLoaded', function() {
     },
     events: allEvents,
     eventDidMount: function(info) {
-      const now = new Date();
-      const eventEnd = info.event.end || info.event.start;
-      if (eventEnd < now) {
-        info.el.classList.add('fc-past-event');
-      }
+      info.el.classList.add('fc-past-event');
     },
     eventClick: function(info) {
       const row = info.event.extendedProps.row;
